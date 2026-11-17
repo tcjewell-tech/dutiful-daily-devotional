@@ -1,0 +1,22 @@
+{
+  "work": "John",
+  "divisions": [
+    {
+      "number": 14,
+      "verses": [
+        {
+          "number": 26,
+          "text": "But the Counselor, the Holy Spirit, whom the Father will send in my name, will teach you all things, and will remind you of all that I said to you."
+        },
+        {
+          "number": 27,
+          "text": "Peace I leave with you. My peace I give to you; not as the world gives, I give to you. Don’t let your heart be troubled, neither let it be fearful."
+        },
+        {
+          "number": 28,
+          "text": "You heard how I told you, ‘I am going away, and I will come back to you.’ If you loved me, you would have rejoiced because I said ‘I am going to my Father;’ for the Father is greater than I."
+        }
+      ]
+    }
+  ]
+}

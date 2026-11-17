@@ -1,0 +1,33 @@
+name: iOS
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: No-network guard
+        run: |
+          if grep -rnE 'URLSession|WKWebView|https?://' --include='*.swift' Shared DutifulDailyDevotional DutifulDailyDevotionalWidget; then
+            echo "Networking APIs or web URLs found in Swift sources (spec section 7)." && exit 1
+          fi
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate project
+        run: xcodegen generate
+
+      - name: Build and test
+        run: |
+          DEVICE=$(xcrun simctl list devices available | grep -m1 -oE 'iPhone [^(]+' | sed 's/ *$//')
+          echo "Using simulator: $DEVICE"
+          xcodebuild test \
+            -project DutifulDailyDevotional.xcodeproj \
+            -scheme DutifulDailyDevotional \
+            -destination "platform=iOS Simulator,name=$DEVICE" \
+            CODE_SIGNING_ALLOWED=NO
