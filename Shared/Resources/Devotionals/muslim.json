@@ -121,6 +121,426 @@
         "What would you like to say to Allah tonight?",
         "How can you stay connected to your faith community while far from home?"
       ]
+    },
+    {
+      "day": 11,
+      "theme": "Grief",
+      "reference": "Qur'an 2:155-156",
+      "passageText": "And surely We shall try you with something of fear and hunger, and loss of wealth and lives and crops; but give glad tidings to the steadfast, Who say, when a misfortune striketh them: Lo! we are Allah's and lo! unto Him we are returning.",
+      "reflection": "The Qur'an names loss of lives among the trials of this world and gives the steadfast a phrase for it: we belong to Allah and to Him we return. Many Muslims say these words on hearing of a death. They hold grief within a larger trust.",
+      "studyPrompts": [
+        "What loss are you carrying right now?",
+        "What does it mean to you that we belong to Allah?",
+        "Who could you share your grief with?"
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "Duty",
+      "reference": "Qur'an 4:58",
+      "passageText": "Lo! Allah commandeth you that ye restore deposits to their owners, and, if ye judge between mankind, that ye judge justly. Lo! comely is this which Allah admonisheth you. Lo! Allah is ever Hearer, Seer.",
+      "reflection": "This verse commands returning trusts to their owners and judging justly. Duty includes the things placed in your care: equipment, information, people. Keeping a trust well is an act of faith.",
+      "studyPrompts": [
+        "What has been entrusted to your care?",
+        "How do you keep trusts when no one is checking?",
+        "Where do you need to act more justly?"
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "Separation from family",
+      "reference": "Qur'an 12:86",
+      "passageText": "He said: I expose my distress and anguish only unto Allah, and I know from Allah that which ye know not.",
+      "reflection": "Jacob, separated from his son Joseph for years, takes his sorrow to Allah alone, while holding to what he knows of Allah. Separation from family is a real pain. Like Jacob, you can bring it honestly to Allah without losing hope.",
+      "studyPrompts": [
+        "Who are you separated from right now?",
+        "What sorrow do you need to bring to Allah?",
+        "What helps you hold on to hope during separation?"
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "Humility",
+      "reference": "Qur'an 25:63",
+      "passageText": "The (faithful) slaves of the Beneficent are they who walk upon the earth modestly, and when the foolish ones address them answer: Peace;",
+      "reflection": "The servants of the Beneficent walk on the earth modestly and answer the foolish with peace. Humility shows in how we carry ourselves and how we respond to provocation. It is a quiet strength.",
+      "studyPrompts": [
+        "How do you carry yourself among others?",
+        "How do you respond when someone is rude or foolish?",
+        "Who models humility for you?"
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "Patience",
+      "reference": "Qur'an 103:1-3",
+      "passageText": "By the declining day, Lo! man is a state of loss, Save those who believe and do good works, and exhort one another to truth and exhort one another to endurance.",
+      "reflection": "Surah al-Asr says people are in loss except those who believe, do good, and urge one another to truth and to endurance. Patience is not only personal; we encourage it in each other. Endurance is a shared effort.",
+      "studyPrompts": [
+        "Who encourages you to endure?",
+        "Who could you encourage today?",
+        "What helps you stay patient in hard times?"
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "Kindness",
+      "reference": "Qur'an 2:263",
+      "passageText": "A kind word with forgiveness is better than almsgiving followed by injury. Allah is Absolute, Clement.",
+      "reflection": "A kind word with forgiveness is better than charity that is followed by hurt. Kindness is not only giving things; it is how we treat people. Words can heal or wound.",
+      "studyPrompts": [
+        "What kind word could you offer today?",
+        "When has a kind word stayed with you?",
+        "Have you ever given help in a way that hurt?"
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "Purpose",
+      "reference": "Qur'an 67:2",
+      "passageText": "Who hath created life and death that He may try you which of you is best in conduct; and He is the Mighty, the Forgiving,",
+      "reflection": "Allah created life and death to test which of us is best in conduct. Purpose, in this verse, is about how we live, not what we achieve. Every day is a chance to do good.",
+      "studyPrompts": [
+        "What does being best in conduct mean to you?",
+        "How does seeing life as a test change your choices?",
+        "What good deed can you do today?"
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "Homecoming",
+      "reference": "Qur'an 28:85",
+      "passageText": "Lo! He Who hath given thee the Qur'an for a law will surely bring thee home again. Say: My Lord is Best Aware of him who bringeth guidance and him who is in error manifest.",
+      "reflection": "Many commentators read this verse as Allah's promise to the Prophet that he would return home to Mecca. It speaks to everyone who is far from home and longs to return. The One who sent you out can bring you back.",
+      "studyPrompts": [
+        "What do you miss most about home?",
+        "What are you looking forward to on your return?",
+        "How can you keep faith while you wait?"
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "Anger",
+      "reference": "Qur'an 3:134",
+      "passageText": "Those who spend (of that which Allah hath given them) in ease and in adversity, those who control their wrath and are forgiving toward mankind; Allah loveth the good;",
+      "reflection": "Among the qualities of the righteous are controlling anger and forgiving people. Anger may arise, but the believer holds it back. That restraint is loved by Allah.",
+      "studyPrompts": [
+        "What has made you angry recently?",
+        "What helps you control your anger?",
+        "Who do you need to forgive?"
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "Trust",
+      "reference": "Qur'an 33:3",
+      "passageText": "And put thy trust in Allah, for Allah is sufficient as Trustee.",
+      "reflection": "Put your trust in Allah; He is enough as a Trustee. Tawakkul does not mean doing nothing; it means doing your part and leaving the outcome with Him. It lifts a weight you were not meant to carry.",
+      "studyPrompts": [
+        "What outcome are you trying hardest to control?",
+        "What is your part, and what is Allah's?",
+        "How does trusting Allah bring you peace?"
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "Comradeship",
+      "reference": "Qur'an 49:10",
+      "passageText": "The believers are naught else than brothers. Therefore make peace between your brethren and observe your duty to Allah that haply ye may obtain mercy.",
+      "reflection": "The believers are brothers, so make peace between them. Brotherhood in faith brings duties: to reconcile, to support, to keep peace. A unit can be like this too.",
+      "studyPrompts": [
+        "Is there a conflict between people near you that you could help resolve?",
+        "Who do you consider a brother or sister in faith?",
+        "How can you strengthen bonds in your unit?"
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "Self-control",
+      "reference": "Qur'an 79:40-41",
+      "passageText": "But as for him who feared to stand before his Lord and restrained his soul from lust, Lo! the Garden will be his home.",
+      "reflection": "This verse speaks of the one who restrained the soul from its desires out of awe of standing before Allah. Self-control is shaped by remembering Allah. Small acts of restraint build that habit.",
+      "studyPrompts": [
+        "What desire do you most need to restrain?",
+        "How does remembering Allah help you hold back?",
+        "What small act of self-control can you practise today?"
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "Contentment",
+      "reference": "Qur'an 20:131",
+      "passageText": "And strain not thine eyes toward that which We cause some wedded pairs among them to enjoy, the flower of the life of the world, that We may try them thereby. The provision of thy Lord is better and more lasting.",
+      "reflection": "Do not strain your eyes toward what others have been given to enjoy, for the provision of your Lord is better and more lasting. Comparison breeds discontent. Contentment comes from looking at what Allah has given you.",
+      "studyPrompts": [
+        "Whose life do you find yourself comparing to your own?",
+        "What provision from Allah are you grateful for?",
+        "What lasts longer than what you are tempted to envy?"
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "Mercy",
+      "reference": "Qur'an 39:53",
+      "passageText": "Say: O My slaves who have been prodigal to their own hurt! Despair not of the mercy of Allah, Who forgiveth all sins. Lo! He is the Forgiving, the Merciful.",
+      "reflection": "Despair not of the mercy of Allah, who forgives all sins. This verse is offered to those who feel they have gone too far. No one is beyond His mercy.",
+      "studyPrompts": [
+        "Is there something you feel cannot be forgiven?",
+        "How does this verse speak to you?",
+        "How can you show mercy to others as you have received it?"
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "Honesty",
+      "reference": "Qur'an 33:70-71",
+      "passageText": "O ye who believe! Guard your duty to Allah, and speak words straight to the point; He will adjust your works for you and will forgive you your sins. Whosoever obeyeth Allah and His messenger, he verily hath gained a signal victory.",
+      "reflection": "Believers are asked to speak words that are straight, direct and true. Honest speech is tied to having one's deeds set right. Truthfulness is part of taqwa.",
+      "studyPrompts": [
+        "Is there something you need to say plainly?",
+        "When is honesty hardest for you?",
+        "How has honesty helped you or others?"
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "Uncertainty",
+      "reference": "Qur'an 6:59",
+      "passageText": "And with Him are the keys of the Invisible. None but He knoweth them. And He knoweth what is in the land and the sea. Not a leaf falleth but He knoweth it, not a grain amid the darkness of the earth, naught of wet or dry but (it is noted) in a clear record.",
+      "reflection": "The keys of the unseen are with Allah alone; not a leaf falls without His knowledge. When the future is unclear, this reminds you that nothing is hidden from Him. You do not have to know everything.",
+      "studyPrompts": [
+        "What is uncertain for you right now?",
+        "How does knowing Allah sees all affect your worry?",
+        "What can you leave in His hands?"
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "Generosity",
+      "reference": "Qur'an 2:261",
+      "passageText": "The likeness of those who spend their wealth in Allah's way is as the likeness of a grain which groweth seven ears, in every ear a hundred grains. Allah giveth increase manifold to whom He will. Allah is All-Embracing, All-Knowing.",
+      "reflection": "Spending in Allah's way is like a seed that grows into seven ears with a hundred grains each. Generosity multiplies beyond what we give. Even small giving bears fruit.",
+      "studyPrompts": [
+        "What could you give this week?",
+        "When have you seen a small kindness grow?",
+        "What holds you back from giving?"
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "Leadership",
+      "reference": "Qur'an 3:159",
+      "passageText": "It was by the mercy of Allah that thou wast lenient with them (O Muhammad), for if thou hadst been stern and fierce of heart they would have dispersed from round about thee. So pardon them and ask forgiveness for them and consult with them upon the conduct of affairs. And when thou art resolved, then put thy trust in Allah. Lo! Allah loveth those who put their trust (in Him).",
+      "reflection": "This verse tells the Prophet that it was by Allah's mercy that he was gentle with people, and that harshness would have driven them away. It then tells him to pardon, to consult, and then to decide and trust Allah. That is a model of leadership: gentle, consultative and decisive.",
+      "studyPrompts": [
+        "How do you consult others before deciding?",
+        "Where could you lead more gently?",
+        "How do you balance consultation and decision?"
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "Service",
+      "reference": "Qur'an 76:8-9",
+      "passageText": "And feed with food the needy wretch, the orphan and the prisoner, for love of Him, (Saying): We feed you, for the sake of Allah only. We wish for no reward nor thanks from you;",
+      "reflection": "The righteous feed the needy, the orphan and the captive, wanting no reward or thanks, only Allah's pleasure. Service without seeking credit is pure. It frees you from needing recognition.",
+      "studyPrompts": [
+        "Who could you serve this week without being noticed?",
+        "Do you look for thanks when you help?",
+        "What does serving for Allah's sake mean to you?"
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "Wisdom",
+      "reference": "Qur'an 2:269",
+      "passageText": "He giveth wisdom unto whom He will, and he unto whom wisdom is given, he truly hath received abundant good. But none remember except men of understanding.",
+      "reflection": "Whoever is given wisdom has been given much good. Wisdom is a gift from Allah, and those of understanding take heed. Ask for it, and learn from those who have it.",
+      "studyPrompts": [
+        "What decision needs wisdom from you now?",
+        "Who do you turn to for wise counsel?",
+        "How do you ask Allah for wisdom?"
+      ]
+    },
+    {
+      "day": 31,
+      "theme": "Justice",
+      "reference": "Qur'an 5:8",
+      "passageText": "O ye who believe! Be steadfast witnesses for Allah in equity, and let not hatred of any people seduce you that ye deal not justly. Deal justly, that is nearer to your duty. Observe your duty to Allah. Lo! Allah is Informed of what ye do.",
+      "reflection": "Do not let hatred of any people lead you to be unjust. Be just, for that is nearer to piety. This is a demanding standard, especially in conflict: justice applies even to those you dislike.",
+      "studyPrompts": [
+        "Is there someone you find it hard to treat fairly?",
+        "How does this verse challenge you?",
+        "What fair action can you take today?"
+      ]
+    },
+    {
+      "day": 32,
+      "theme": "Mortality",
+      "reference": "Qur'an 3:185",
+      "passageText": "Every soul will taste of death. And ye will be paid on the Day of Resurrection only that which ye have fairly earned. Whoso is removed from the Fire and is made to enter paradise, he indeed is triumphant. The life of this world is but comfort of illusion.",
+      "reflection": "Every soul will taste death. The verse also says the life of this world is the comfort of illusion, and true success is beyond it. Remembering death puts daily concerns in proportion.",
+      "studyPrompts": [
+        "How do you feel when you think about death?",
+        "What matters most in light of it?",
+        "What would you want to have done before you meet Allah?"
+      ]
+    },
+    {
+      "day": 33,
+      "theme": "Renewal",
+      "reference": "Qur'an 57:17",
+      "passageText": "Know that Allah quickeneth the earth after its death. We have made clear Our revelations for you, that haply ye may understand.",
+      "reflection": "Allah gives life to the earth after its death. Rain on dry ground is a sign of renewal. Hearts can be revived in the same way.",
+      "studyPrompts": [
+        "Where do you feel dry or worn out?",
+        "What revives your heart?",
+        "How have you seen renewal in your life before?"
+      ]
+    },
+    {
+      "day": 34,
+      "theme": "Stillness",
+      "reference": "Qur'an 7:205",
+      "passageText": "And do thou (O Muhammad) remember thy Lord within thyself humbly and with awe, below thy breath, at morn and evening. And be not thou of the neglectful.",
+      "reflection": "Remember your Lord within yourself, humbly, quietly, morning and evening. Dhikr does not need to be loud. Stillness and remembrance go together.",
+      "studyPrompts": [
+        "When could you remember Allah quietly today?",
+        "What helps you find stillness?",
+        "How does quiet remembrance affect you?"
+      ]
+    },
+    {
+      "day": 35,
+      "theme": "Steadfastness",
+      "reference": "Qur'an 41:30",
+      "passageText": "Lo! those who say: Our Lord is Allah, and afterward are upright, the angels descend upon them, saying: Fear not nor grieve, but hear good tidings of the paradise which ye are promised.",
+      "reflection": "Those who say our Lord is Allah and then stay upright receive the angels' message: do not fear, do not grieve. Steadfastness is staying upright after the first commitment. It brings peace.",
+      "studyPrompts": [
+        "What commitment do you need to stay steady in?",
+        "What makes steadfastness hard?",
+        "How have you seen Allah strengthen your resolve?"
+      ]
+    },
+    {
+      "day": 36,
+      "theme": "Compassion",
+      "reference": "Qur'an 93:9-10",
+      "passageText": "Therefor the orphan oppress not, Therefor the beggar drive not away,",
+      "reflection": "Do not oppress the orphan, and do not turn away the one who asks. These verses come after Allah reminds the Prophet of his own care when he was an orphan. Compassion grows from remembering what we were given.",
+      "studyPrompts": [
+        "When were you cared for when you needed it?",
+        "Who around you is vulnerable?",
+        "How can you show compassion today?"
+      ]
+    },
+    {
+      "day": 37,
+      "theme": "Reflection",
+      "reference": "Qur'an 59:18",
+      "passageText": "O ye who believe! Observe your duty to Allah. And let every soul look to that which it sendeth on before for the morrow. And observe your duty to Allah. Lo! Allah is Informed of what ye do.",
+      "reflection": "Let every soul look to what it has sent ahead for tomorrow. Reflection here means considering your deeds in light of the Hereafter. It is honest self-accounting.",
+      "studyPrompts": [
+        "What have you sent ahead today?",
+        "What would you change if you looked at your deeds honestly?",
+        "When do you set aside time for self-accounting?"
+      ]
+    },
+    {
+      "day": 38,
+      "theme": "Joy",
+      "reference": "Qur'an 10:58",
+      "passageText": "Say: In the bounty of Allah and in His mercy: therein let them rejoice. It is better than what they hoard.",
+      "reflection": "Rejoice in Allah's bounty and mercy, which are better than whatever people hoard. Real joy comes from gifts that cannot be stored or lost. It is available even when other things are scarce.",
+      "studyPrompts": [
+        "What bounty from Allah can you rejoice in today?",
+        "What do you hoard that cannot bring you joy?",
+        "How can you share joy with others?"
+      ]
+    },
+    {
+      "day": 39,
+      "theme": "Responsibility",
+      "reference": "Qur'an 74:38",
+      "passageText": "Every soul is a pledge for its own deeds;",
+      "reflection": "Every soul is a pledge for its own deeds. We are responsible for our own deeds. No one else can carry that for us, and no one else can take it away.",
+      "studyPrompts": [
+        "What deeds are you responsible for today?",
+        "How do you take ownership of your mistakes?",
+        "What does this verse ask of you?"
+      ]
+    },
+    {
+      "day": 40,
+      "theme": "Change",
+      "reference": "Qur'an 55:26-27",
+      "passageText": "Everyone that is thereon will pass away; There remaineth but the Countenance of thy Lord of Might and Glory.",
+      "reflection": "All that is on the earth will pass away; only the Face of your Lord remains. Service life is full of change. These verses point to the one thing that never changes.",
+      "studyPrompts": [
+        "What change are you facing right now?",
+        "What gives you stability in change?",
+        "How does Allah's permanence comfort you?"
+      ]
+    },
+    {
+      "day": 41,
+      "theme": "Asking for help",
+      "reference": "Qur'an 20:29-32",
+      "passageText": "Appoint for me a henchman from my folk, Aaron, my brother. Confirm my strength with him And let him share my task,",
+      "reflection": "Moses asks Allah to give him a helper, his brother Aaron, to strengthen him and share his task. Even a prophet asked for help. There is no shame in needing others.",
+      "studyPrompts": [
+        "What task do you need help with?",
+        "Who could be an Aaron for you?",
+        "Who might need you to be an Aaron for them?"
+      ]
+    },
+    {
+      "day": 42,
+      "theme": "Loyalty",
+      "reference": "Qur'an 23:8",
+      "passageText": "And who are shepherds of their pledge and their covenant,",
+      "reflection": "The believers are those who keep their trusts and their covenants. Loyalty means keeping your word. In service, promises to comrades and commitments made carry weight.",
+      "studyPrompts": [
+        "What promises have you made that you need to keep?",
+        "Who relies on your word?",
+        "What makes keeping your word hard?"
+      ]
+    },
+    {
+      "day": 43,
+      "theme": "Discipline",
+      "reference": "Qur'an 2:183",
+      "passageText": "O ye who believe! Fasting is prescribed for you, even as it was prescribed for those before you, that ye may ward off (evil);",
+      "reflection": "Fasting is prescribed so that you may attain taqwa. Discipline of the body serves growth of the soul. Training in one area strengthens the whole person.",
+      "studyPrompts": [
+        "What discipline helps you grow?",
+        "How has fasting or self-denial affected you?",
+        "What habit could you build this week?"
+      ]
+    },
+    {
+      "day": 44,
+      "theme": "Listening",
+      "reference": "Qur'an 39:18",
+      "passageText": "Who hear advice and follow the best thereof. Such are those whom Allah guideth, and such are men of understanding.",
+      "reflection": "Those who listen to what is said and follow the best of it are guided. Listening well means taking in what you hear and choosing the best. It is a mark of understanding.",
+      "studyPrompts": [
+        "Who do you need to listen to more carefully?",
+        "How do you choose what advice to follow?",
+        "What gets in the way of listening?"
+      ]
+    },
+    {
+      "day": 45,
+      "theme": "Gentleness",
+      "reference": "Qur'an 41:34",
+      "passageText": "The good deed and the evil deed are not alike. Repel the evil deed with one which is better, then lo! he, between whom and thee there was enmity (will become) as though he was a bosom friend.",
+      "reflection": "Repel evil with what is better, and an enemy may become a close friend. Gentleness can transform a relationship. It takes strength to answer harm with good.",
+      "studyPrompts": [
+        "Is there someone you are in conflict with?",
+        "What would answering with good look like?",
+        "When has gentleness changed a situation?"
+      ]
     }
   ]
 }
