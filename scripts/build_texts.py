@@ -194,9 +194,10 @@ def build_meditations():
         sections, current = {}, 1  # the first section of each book is not numbered in Long's text
         in_note = False
         for para in paragraphs(body[head.end(): nxt.start() if nxt else len(body)]):
-            # Footnotes are indented runs opening with "[A]"; other indented blocks are quoted verse.
+            # A footnote opens with "[A] " (indented or not, e.g. after 7.45) and may run on in
+            # indented paragraphs; other indented blocks are quoted verse.
             indented = para.startswith((" ", "\t"))
-            in_note = indented and (in_note or bool(re.match(r"\s+\[[A-Z]\]", para)))
+            in_note = bool(re.match(r"\s*\[[A-Z]\] ", para)) or (indented and in_note)
             if in_note:
                 continue
             para = re.sub(r"\[[A-Z]\]", "", para)  # footnote markers like "Verus[A]"
