@@ -14,9 +14,9 @@ Every entry is **DRAFT** until a qualified reviewer from its tradition signs it 
 | Muslim | Pickthall, *The Meaning of the Glorious Koran* (1930) | quran.com translation resource 19 (M. Pickthall) |
 | Humanist | Marcus Aurelius, *Meditations*, tr. George Long; Epictetus, *Enchiridion*, tr. George Long; Seneca, *Moral Letters*, tr. R. M. Gummere | Project Gutenberg #15877 and #10661; Wikisource "Moral letters to Lucilius" |
 
-Days 1–45 were fetched from the sites above. Days 46–90 were read by script from the bundled full texts in `DutifulDailyDevotional/Resources/Texts/`, which `scripts/build_texts.py` builds from the same sources. `python -I scripts/check_texts.py` confirms every passage matches the bundled text (360/360).
+Days 1–45 were fetched from the sites above. Days 46–180 were read by script from the bundled full texts in `DutifulDailyDevotional/Resources/Texts/`, which `scripts/build_texts.py` builds from the same sources. `python -I scripts/check_texts.py` confirms every passage matches the bundled text (720/720).
 
-## Days 1–90 (all draft)
+## Days 1–180 (all draft)
 
 | Day | Theme | Christian | Jewish | Muslim | Humanist |
 |---|---|---|---|---|---|
@@ -110,6 +110,96 @@ Days 1–45 were fetched from the sites above. Days 46–90 were read by script 
 | 88 | Remembrance | Hebrews 13:7 | Psalms 112:6 | Qur'an 59:10 | Seneca, Letters 63.7 |
 | 89 | Mentoring | 2 Timothy 2:2 | Numbers 27:18-20 | Qur'an 18:66 | Seneca, Letters 7.8 |
 | 90 | The road ahead | Philippians 3:13-14 | Psalms 121:8 | Qur'an 94:7-8 | Seneca, Letters 4.1 |
+| 91 | Beginnings | 2 Corinthians 5:17 | Genesis 1:1 | Qur'an 1:1-5 | Enchiridion 22 |
+| 92 | Preparation | Luke 14:28 | Proverbs 24:27 | Qur'an 2:197 | Enchiridion 4 |
+| 93 | Teamwork | 1 Corinthians 12:26 | Ecclesiastes 4:12 | Qur'an 18:95 | Meditations 7.5 |
+| 94 | Doubt | Mark 9:24 | Habakkuk 1:2 | Qur'an 2:260 | Meditations 4.27 |
+| 95 | Wonder | Psalms 139:14 | Psalms 104:24 | Qur'an 67:3-4 | Seneca, Letters 41.3 |
+| 96 | Vigilance | Mark 14:38 | Proverbs 4:23 | Qur'an 3:200 | Enchiridion 38 |
+| 97 | Marriage | Mark 10:8-9 | Ecclesiastes 9:9 | Qur'an 25:74 | Seneca, Letters 104.5 |
+| 98 | Failure | John 21:17 | Proverbs 24:16 | Qur'an 20:121-122 | Meditations 12.6 |
+| 99 | Laughter | Luke 6:21 | Psalms 126:2 | Qur'an 53:43 | Seneca, Letters 23.5 |
+| 100 | Prudence | Matthew 10:16 | Proverbs 22:3 | Qur'an 17:36 | Meditations 12.20 |
+| 101 | Homesickness | John 14:2 | Psalms 84:3 | Qur'an 29:56 | Seneca, Letters 55.10 |
+| 102 | Obedience | John 14:15 | Deuteronomy 10:12 | Qur'an 24:51 | Meditations 11.29 |
+| 103 | Beauty | Matthew 6:28-29 | Ecclesiastes 3:11 | Qur'an 32:7 | Seneca, Letters 115.3 |
+| 104 | Shame | Psalms 34:5 | Isaiah 54:4 | Qur'an 4:110 | Enchiridion 28 |
+| 105 | Parents | Proverbs 1:8-9 | Proverbs 23:22 | Qur'an 17:23 | Meditations 6.12 |
+| 106 | Success | Proverbs 16:3 | Psalms 1:3 | Qur'an 23:1-2 | Enchiridion 6 |
+| 107 | Night watch | Psalms 63:6 | Psalms 121:4 | Qur'an 73:6 | Seneca, Letters 11.8 |
+| 108 | Sincerity | Romans 12:9 | Psalms 15:1-2 | Qur'an 6:162 | Seneca, Letters 75.1 |
+| 109 | Enemies | Matthew 5:44 | Proverbs 25:21 | Qur'an 60:7 | Meditations 6.6 |
+| 110 | Stress | Isaiah 26:3 | Psalms 4:2 | Qur'an 20:2-3 | Meditations 9.13 |
+| 111 | Daily bread | Matthew 6:11 | Exodus 16:4 | Qur'an 11:6 | Seneca, Letters 123.2 |
+| 112 | Children | Mark 10:14 | Psalms 127:3 | Qur'an 14:40 | Meditations 1.13 |
+| 113 | Pride | James 4:6 | Proverbs 16:18 | Qur'an 17:37 | Enchiridion 44 |
+| 114 | Courtesy | Colossians 4:6 | Proverbs 25:11 | Qur'an 4:86 | Meditations 1.10 |
+| 115 | Regret | Luke 15:18 | Psalms 51:12 | Qur'an 25:71 | Meditations 8.53 |
+| 116 | Journeys | Matthew 28:20 | Exodus 13:21 | Qur'an 43:13-14 | Seneca, Letters 33.11 |
+| 117 | Fairness | Matthew 7:12 | Leviticus 19:15 | Qur'an 17:35 | Meditations 1.5 |
+| 118 | Discouragement | Hebrews 12:3 | Isaiah 41:10 | Qur'an 93:4-5 | Meditations 6.19 |
+| 119 | Brothers and sisters | 1 John 4:21 | Genesis 45:14-15 | Qur'an 12:92 | Meditations 2.1 |
+| 120 | Excellence | Proverbs 22:29 | Daniel 6:4 | Qur'an 18:30 | Meditations 4.2 |
+| 121 | Sleepless nights | Psalms 127:2 | Psalms 4:5 | Qur'an 2:255 | Seneca, Letters 56.6 |
+| 122 | Strangers | Matthew 25:35 | Exodus 23:9 | Qur'an 59:9 | Meditations 11.24 |
+| 123 | Calm under pressure | Proverbs 17:27 | Psalms 37:7 | Qur'an 48:4 | Meditations 5.2 |
+| 124 | Gossip | James 3:5 | Leviticus 19:16 | Qur'an 49:12 | Enchiridion 45 |
+| 125 | Storms | Mark 4:39-40 | Psalms 107:29-30 | Qur'an 10:22 | Seneca, Letters 28.7 |
+| 126 | Advice | Proverbs 12:15 | Proverbs 15:22 | Qur'an 42:38 | Meditations 4.12 |
+| 127 | Apology | Matthew 5:23-24 | Numbers 5:6-7 | Qur'an 7:23 | Seneca, Letters 28.9 |
+| 128 | Seasons | Genesis 8:22 | Song of Songs 2:11-12 | Qur'an 36:38-40 | Meditations 9.10 |
+| 129 | Self-denial | Luke 9:23 | Isaiah 58:6 | Qur'an 92:17-18 | Seneca, Letters 18.5 |
+| 130 | Difficult people | Romans 12:18 | Exodus 23:5 | Qur'an 7:199 | Enchiridion 42 |
+| 131 | Cheerfulness | Proverbs 15:13 | Proverbs 15:15 | Qur'an 80:38-39 | Seneca, Letters 59.16 |
+| 132 | Solitude | Matthew 14:23 | Lamentations 3:26-28 | Qur'an 73:8 | Meditations 7.28 |
+| 133 | Reconciliation | 2 Corinthians 5:18 | Genesis 33:4 | Qur'an 4:128 | Meditations 6.20 |
+| 134 | Facing danger | Psalms 91:1-2 | Psalms 23:4 | Qur'an 27:62 | Meditations 10.12 |
+| 135 | Criticism | Proverbs 9:8 | Proverbs 27:6 | Qur'an 25:73 | Meditations 8.16 |
+| 136 | Study | 2 Timothy 2:15 | Joshua 1:8 | Qur'an 20:114 | Seneca, Letters 16.3 |
+| 137 | Dry seasons | Psalms 63:1 | Isaiah 58:11 | Qur'an 41:39 | Seneca, Letters 27.4 |
+| 138 | Initiative | James 4:17 | Ecclesiastes 11:4 | Qur'an 13:11 | Meditations 2.4 |
+| 139 | Pain | Revelation 21:4 | Psalms 30:3 | Qur'an 2:214 | Enchiridion 9 |
+| 140 | Community | Acts 2:46 | Psalms 122:1 | Qur'an 3:104 | Meditations 9.23 |
+| 141 | Reverence | Hebrews 12:28 | Exodus 3:5 | Qur'an 23:57-58 | Seneca, Letters 41.2 |
+| 142 | Bitterness | Ephesians 4:31 | Ruth 1:20 | Qur'an 15:47 | Meditations 6.57 |
+| 143 | Correcting others | Galatians 6:1 | Leviticus 19:17 | Qur'an 16:125 | Meditations 10.30 |
+| 144 | Routine | Luke 4:16 | Daniel 6:11 | Qur'an 17:78 | Seneca, Letters 6.7 |
+| 145 | Sorrow | John 11:35 | Psalms 56:9 | Qur'an 12:84 | Seneca, Letters 63.1 |
+| 146 | Adaptability | 1 Corinthians 9:22 | Jeremiah 29:5 | Qur'an 2:239 | Meditations 8.32 |
+| 147 | The night sky | Psalms 147:4 | Genesis 15:5 | Qur'an 6:97 | Meditations 7.47 |
+| 148 | Conscience | Acts 24:16 | Proverbs 20:27 | Qur'an 75:14-15 | Enchiridion 35 |
+| 149 | Self-pity | John 5:6 | Exodus 14:15 | Qur'an 70:19-22 | Meditations 4.7 |
+| 150 | Thanking others | 2 Timothy 1:16 | Ruth 2:12 | Qur'an 55:60 | Seneca, Letters 81.30 |
+| 151 | Aging | Isaiah 46:4 | Psalms 92:15 | Qur'an 46:15 | Seneca, Letters 83.3 |
+| 152 | Truth | John 8:32 | Proverbs 12:19 | Qur'an 17:81 | Meditations 4.11 |
+| 153 | Boredom | Romans 12:11 | Ecclesiastes 1:9 | Qur'an 3:191 | Meditations 6.46 |
+| 154 | Celebration | Luke 15:23-24 | Nehemiah 8:10 | Qur'an 2:185 | Seneca, Letters 18.4 |
+| 155 | Tolerance | Romans 15:7 | Proverbs 19:11 | Qur'an 6:108 | Meditations 6.27 |
+| 156 | Despair | Psalms 42:11 | Psalms 42:6 | Qur'an 21:83-84 | Seneca, Letters 52.2 |
+| 157 | Modesty | Matthew 6:3-4 | Proverbs 27:2 | Qur'an 31:19 | Enchiridion 47 |
+| 158 | Departures | Acts 20:36-38 | Genesis 28:15 | Qur'an 28:22 | Seneca, Letters 49.1 |
+| 159 | Using power well | 1 Peter 5:2-3 | Deuteronomy 17:20 | Qur'an 38:26 | Meditations 7.36 |
+| 160 | Frustration | Romans 7:19 | Ecclesiastes 7:8 | Qur'an 21:87 | Meditations 8.17 |
+| 161 | Acceptance | Philippians 4:11 | Job 1:21 | Qur'an 64:11 | Meditations 7.54 |
+| 162 | Habits | 1 Timothy 4:7-8 | Psalms 1:1-2 | Qur'an 29:45 | Meditations 11.26 |
+| 163 | Disappointment | Luke 24:21 | Proverbs 13:12 | Qur'an 18:23-24 | Meditations 7.57 |
+| 164 | Legacy | 2 Timothy 4:7 | Proverbs 13:22 | Qur'an 26:84 | Seneca, Letters 86.15 |
+| 165 | Wholeheartedness | Mark 12:30 | Deuteronomy 6:5 | Qur'an 2:208 | Meditations 3.12 |
+| 166 | Restlessness | Hebrews 4:9-10 | Psalms 62:2 | Qur'an 20:130 | Seneca, Letters 2.1 |
+| 167 | Overwhelm | Psalms 61:2 | Psalms 69:2 | Qur'an 65:7 | Meditations 8.49 |
+| 168 | Those in authority | 1 Timothy 2:1-2 | Jeremiah 29:7 | Qur'an 4:59 | Seneca, Letters 73.10 |
+| 169 | Leisure | Mark 6:31 | Ecclesiastes 3:13 | Qur'an 7:32 | Seneca, Letters 3.5 |
+| 170 | Sacrifice | Romans 12:1 | Psalms 51:19 | Qur'an 22:37 | Seneca, Letters 6.2 |
+| 171 | Attention | Hebrews 2:1 | Proverbs 4:20-21 | Qur'an 50:37 | Meditations 7.4 |
+| 172 | Balance | Mark 2:27 | Exodus 23:12 | Qur'an 28:77 | Enchiridion 39 |
+| 173 | Ambition | 1 Thessalonians 4:11 | Proverbs 16:9 | Qur'an 2:201 | Enchiridion 37 |
+| 174 | Protection | 2 Thessalonians 3:3 | Psalms 91:11 | Qur'an 113:1-5 | Meditations 4.8 |
+| 175 | Goodwill | Luke 2:14 | Psalms 122:8 | Qur'an 10:10 | Meditations 4.25 |
+| 176 | Letting go | Hebrews 12:1 | Isaiah 43:18 | Qur'an 24:22 | Meditations 12.25 |
+| 177 | Being alive | John 10:10 | Deuteronomy 30:19 | Qur'an 76:1-3 | Meditations 12.29 |
+| 178 | Holidays away from home | Luke 2:7 | Leviticus 23:42-43 | Qur'an 108:1-2 | Seneca, Letters 18.1 |
+| 179 | Transitions | Psalms 16:11 | Deuteronomy 31:8 | Qur'an 84:19 | Meditations 4.42 |
+| 180 | Together | Matthew 18:20 | Psalms 34:4 | Qur'an 4:1 | Meditations 7.9 |
 
 ## Points for reviewers
 
@@ -143,6 +233,17 @@ Days 1–45 were fetched from the sites above. Days 46–90 were read by script 
 - **Humanist, Meditations 1.1-2 and 12.15** include Long's bracketed insertions ("[I learned]", "[before thy death]"). Kept as printed.
 - **Humanist, length (days 46–90):** ten sections are 500–658 characters (Meditations 10.3 is the longest) and will be truncated in the medium widget.
 - **Day 57 (Healing), 66 (Worry) and 86 (Health):** check that every tradition's reflection encourages getting help and does not read as a substitute for it.
+- **Self-harm screening (days 91–180):** every new passage was screened by script for words about death, killing, blood and suicide, and read in full. Dropped for this reason: 2 Corinthians 7:10 ("the sorrow of the world produces death"), Meditations 7.24 (ends "what reason is there for living any longer?"), Meditations 6.10, 7.33 and 8.2, Seneca 23.4, Enchiridion 7, and all of Seneca letters 12, 14 and 107 (12 ends on no one being forced to stay alive, 14.5 describes torture, 107 has "O for Death!"). Every Seneca letter used was scanned in full, because the Study view shows the whole letter. Still worth a look: Seneca, Letters 6.2 (day 170, Sacrifice) speaks of friends who "meet death" for each other; Meditations 6.46 (day 153, Boredom) ends "How long then?"; Qur'an 6:162 (day 108) mentions "my dying".
+- **Day 156 (Despair):** every tradition's reflection names the app's Need to talk? screen and a chaplain. Days 121 (Sleepless nights), 139 (Pain), 167 (Overwhelm) and 177 (Being alive) also point to help. Check the wording of each.
+- **Endings mid-sentence (days 91–180):** Christian Matthew 5:44, 2 Corinthians 5:18, Acts 2:46, Hebrews 12:28, 2 Timothy 1:16, Romans 12:11, 1 Thessalonians 4:11, Hebrews 12:1; Jewish Deuteronomy 10:12, Psalms 15:1-2, Proverbs 25:21, Exodus 13:21, Song of Songs 2:11-12, Psalms 30:3, Jeremiah 29:5, Psalms 92:15, Deuteronomy 30:19; Muslim Qur'an 53:43, 32:7, 23:1-2, 20:2-3, 25:71, 48:4, 42:38, 80:38-39, 73:8, 23:57-58, 21:83-84, 28:77. Starting mid-sentence (lowercase): Christian Mark 10:8-9, Psalms 63:6, Matthew 28:20, Matthew 25:35, Romans 12:11, 1 Peter 5:2-3, 1 Thessalonians 4:11; Jewish Deuteronomy 17:20. Kept as printed.
+- **Source typos kept as printed (days 91–180):** Jewish Psalms 56:9 reads "Thou has counted"; Muslim Qur'an 29:56 reads "Therefor"; Jewish Psalms 1:1 starts "HAPPY IS" in capitals. Two passages were not used because of source errors: Qur'an 31:14 reads "concerning his partners" (for "parents") and Qur'an 36:12 has an unclosed bracket; Psalms 78:4 ends with a stray " .".
+- **Jewish, Psalms numbering (days 91–180):** Hebrew numbering throughout, e.g. 4:2, 4:5, 42:6, 51:12, 51:19, 56:9, 62:2, 69:2, 84:3, 92:15 are one higher than English. Psalms 15:1-2 and 122:1 include their headings.
+- **Muslim claims to confirm (days 91–180):** day 116 says Qur'an 43:13-14 is recited when setting out on a journey; day 121 says many recite Ayat al-Kursi (2:255) before sleep; day 154 links 2:185 to Eid; day 178 says many commentators connect surah 108 with Eid al-Adha; day 122 identifies the people of 59:9 as the people of Medina.
+- **Muslim, Qur'an 6:108 (day 155, Tolerance)** and **4:59 (day 168, Those in authority):** check the reflections frame these carefully; 4:59 is often discussed in debates about obeying rulers.
+- **Christian, Psalms 91:1-2 (day 134)** and **Jewish, Psalms 23:4 (day 134)**: the reflections say many service members pray these psalms. Psalm 91 is called a refuge, not a guarantee against harm.
+- **Humanist, themes with weak matches:** Stoic texts say little directly about parents, laughter or celebration. Meditations 6.12 (day 105, Parents) uses mother and step-mother as an image for philosophy and the court; Seneca 23.5 (day 99, Laughter) contrasts shallow pleasure with deep joy; Seneca 73.10 (day 168) quotes Vergil calling a ruler "my god". A humanist reviewer may prefer other sections.
+- **Humanist, Meditations 1.13 and 6.6** include Long's bracketed words. Kept as printed.
+- **Length (days 91–180):** Muslim Qur'an 46:15 (562) and 2:185 (516); Humanist Seneca 49.1 (967), Meditations 2.1 (871), Seneca 41.3 (869), Seneca 115.3 (808), Enchiridion 4 (714) and ten more over 500 characters. These will be truncated in the medium widget.
 - **Themes 3 (Fear) and 10 (Loneliness):** check that reflections encourage people to reach out, and do not read as a substitute for getting help.
 
 ## Per-tradition checklist

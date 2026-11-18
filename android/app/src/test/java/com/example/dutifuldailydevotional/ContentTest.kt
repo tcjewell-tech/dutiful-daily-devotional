@@ -42,7 +42,7 @@ class ContentTest {
             val e = entries(t)
             assertEquals("$t days", (1..christian.size).toList(), e.map { it.day })
             assertEquals("$t themes", christian.map { it.theme }, e.map { it.theme })
-            assertTrue(e.size <= 90)
+            assertTrue(e.size <= 180)
             for (d in e) {
                 assertEquals(d.id, 3, d.studyPrompts.size)
                 assertTrue(d.id, (d.studyPrompts + listOf(d.theme, d.reference, d.passageText, d.reflection)).all { it.isNotBlank() })
