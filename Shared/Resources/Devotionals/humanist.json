@@ -541,6 +541,546 @@
         "What might they not understand?",
         "How has understanding someone made you gentler?"
       ]
+    },
+    {
+      "day": 46,
+      "theme": "Strength",
+      "reference": "Seneca, Letters 13.3",
+      "passageText": "So then, to keep up my figure, Fortune has often in the past got the upper hand of you, and yet you have not surrendered, but have leaped up and stood your ground still more eagerly. For manliness gains much strength by being challenged; nevertheless, if you approve, allow me to offer some additional safeguards by which you may fortify yourself.",
+      "reflection": "Seneca tells Lucilius that fortune has often knocked him down, yet he got up and stood his ground more eagerly. Strength grows by being challenged. Each recovery makes the next one easier.",
+      "studyPrompts": [
+        "When have you gotten back up after being knocked down?",
+        "What strengthened you?",
+        "What challenge in front of you might build strength?"
+      ]
+    },
+    {
+      "day": 47,
+      "theme": "Friendship",
+      "reference": "Seneca, Letters 3.3",
+      "passageText": "As to yourself, although you should live in such a way that you trust your own self with nothing which you could not entrust even to your enemy, yet, since certain matters occur which convention keeps secret, you should share with a friend at least all your worries and reflections. Regard him as loyal, and you will make him loyal. Some, for example, fearing to be deceived, have taught men to deceive; by their suspicions they have given their friend the right to do wrong. Why need I keep back any words in the presence of my friend? Why should I not regard myself as alone when in his company?",
+      "reflection": "Seneca says to share all your worries and reflections with a friend, and to regard him as loyal so that he becomes loyal. Trust is part of how friendship grows. Suspicion can make it fail.",
+      "studyPrompts": [
+        "Whom do you share your worries with?",
+        "Whom could you trust more?",
+        "How do you show a friend you trust them?"
+      ]
+    },
+    {
+      "day": 48,
+      "theme": "Waiting",
+      "reference": "Seneca, Letters 13.10",
+      "passageText": "Let us, then, look carefully into the matter. It is likely that some troubles will befall us; but it is not a present fact. How often has the unexpected happened! How often has the expected never come to pass! And even though it is ordained to be, what does it avail to run out to meet your suffering? You will suffer soon enough, when it arrives; so look forward meanwhile to better things.",
+      "reflection": "Seneca notes how often the expected never happens and the unexpected does. You will suffer soon enough if trouble arrives; meanwhile, look forward to better things. Waiting does not have to mean dreading.",
+      "studyPrompts": [
+        "What outcome are you waiting on?",
+        "Are you suffering it in advance?",
+        "What better thing could you look forward to?"
+      ]
+    },
+    {
+      "day": 49,
+      "theme": "Words",
+      "reference": "Meditations 8.30",
+      "passageText": "Speak both in the senate and to every man, whoever he may be, appropriately, not with any affectation: use plain discourse.",
+      "reflection": "Marcus advises speaking to everyone appropriately, without affectation, in plain language. Plain words are honest and respectful. They do not try to impress.",
+      "studyPrompts": [
+        "Do you speak plainly?",
+        "When do you use words to impress rather than inform?",
+        "Whom could you speak to more simply and kindly?"
+      ]
+    },
+    {
+      "day": 50,
+      "theme": "Weariness",
+      "reference": "Meditations 7.74",
+      "passageText": "No man is tired of receiving what is useful. But it is useful to act according to nature. Do not then be tired of receiving what is useful by doing it to others.",
+      "reflection": "No one tires of receiving what is useful, says Marcus, and acting according to nature is useful, so do not tire of doing it for others. Helping others can renew you. Weariness can be eased by purpose.",
+      "studyPrompts": [
+        "Where are you weary?",
+        "How might helping others refresh you?",
+        "What useful thing could you do today?"
+      ]
+    },
+    {
+      "day": 51,
+      "theme": "Second chances",
+      "reference": "Meditations 7.2",
+      "passageText": "How can our principles become dead, unless the impressions [thoughts] which correspond to them are extinguished? But it is in thy power continuously to fan these thoughts into a flame. I can have that opinion about anything which I ought to have. If I can, why am I disturbed? The things which are external to my mind have no relation at all to my mind.--Let this be the state of thy affects, and thou standest erect. To recover thy life is in thy power. Look at things again as thou didst use to look at them; for in this consists the recovery of thy life.",
+      "reflection": "Marcus says it is in your power to recover your life: look at things again as you once did. Principles can be rekindled. A new start is always available.",
+      "studyPrompts": [
+        "What principle have you let fade?",
+        "How could you see things fresh?",
+        "What would recovering your life look like?"
+      ]
+    },
+    {
+      "day": 52,
+      "theme": "Simplicity",
+      "reference": "Meditations 1.3",
+      "passageText": "From my mother, piety and beneficence, and abstinence, not only from evil deeds, but even from evil thoughts; and further, simplicity in my way of living, far removed from the habits of the rich.",
+      "reflection": "Marcus thanks his mother for teaching him simplicity in living, far from the habits of the rich. Simplicity is learned at home and kept by choice.",
+      "studyPrompts": [
+        "What did your family teach you about simplicity?",
+        "What extra could you let go of?",
+        "What simple pleasure do you value?"
+      ]
+    },
+    {
+      "day": 53,
+      "theme": "Hard work",
+      "reference": "Seneca, Letters 76.6",
+      "passageText": "Why do you wait? Wisdom comes haphazard to no man. Money will come of its own accord; titles will be given to you; influence and authority will perhaps be thrust upon you; but virtue will not fall upon you by chance. Neither is knowledge thereof to be won by light effort or small toil; but toiling is worth while when one is about to win all goods at a single stroke.",
+      "reflection": "Seneca says money or titles may come by chance, but virtue never will. It takes real effort and is worth the toil. Some things can only be earned.",
+      "studyPrompts": [
+        "What are you waiting to fall into your lap?",
+        "What is worth real effort?",
+        "What could you work at today?"
+      ]
+    },
+    {
+      "day": 54,
+      "theme": "Respect",
+      "reference": "Meditations 8.59",
+      "passageText": "Men exist for the sake of one another. Teach them then, or bear with them.",
+      "reflection": "Marcus says people exist for the sake of one another: teach them, or bear with them. Respect means helping or tolerating, not despising. Both are choices.",
+      "studyPrompts": [
+        "Whom do you find hard to bear?",
+        "Whom could you teach?",
+        "How could you show respect to someone who frustrates you?"
+      ]
+    },
+    {
+      "day": 55,
+      "theme": "Morning",
+      "reference": "Meditations 11.27",
+      "passageText": "The Pythagoreans bid us in the morning look to the heavens that we may be reminded of those bodies which continually do the same things and in the same manner perform their work, and also be reminded of their purity and nudity. For there is no veil over a star.",
+      "reflection": "The Pythagoreans looked to the heavens in the morning to remember the steady order of the stars. Starting the day with a look at something larger steadies the mind.",
+      "studyPrompts": [
+        "How do you start your day?",
+        "What reminds you of order and purpose?",
+        "What could you look at tomorrow morning?"
+      ]
+    },
+    {
+      "day": 56,
+      "theme": "Evening",
+      "reference": "Seneca, Letters 83.2",
+      "passageText": "I shall therefore do as you bid, and shall gladly inform you by letter what I am doing, and in what sequence. I shall keep watching myself continually, and—a most useful habit—shall review each day. For this is what makes us wicked: that no one of us looks back over his own life. Our thoughts are devoted only to what we are about to do. And yet our plans for the future always depend on the past.",
+      "reflection": "Seneca resolves to review each day, because no one looks back over his own life. An evening review helps you learn from the day. The future depends on the past.",
+      "studyPrompts": [
+        "What went well today?",
+        "What would you do differently?",
+        "What will you carry into tomorrow?"
+      ]
+    },
+    {
+      "day": 57,
+      "theme": "Healing",
+      "reference": "Seneca, Letters 50.9",
+      "passageText": "But although virtues, when admitted, cannot depart and are easy to guard, yet the first steps in the approach to them are toilsome, because it is characteristic of a weak and diseased mind to fear that which is unfamiliar. The mind must, therefore, be forced to make a beginning; from then on, the medicine is not bitter; for just as soon as it is curing us it begins to give pleasure. One enjoys other cures only after health is restored, but a draught of philosophy is at the same moment wholesome and pleasant. Farewell.",
+      "reflection": "Seneca says the first steps toward a healthier mind are hard, but once the cure begins it becomes pleasant. Healing takes a start. The hardest part is beginning.",
+      "studyPrompts": [
+        "What healing do you need?",
+        "What first step could you take?",
+        "Who could help you begin?"
+      ]
+    },
+    {
+      "day": 58,
+      "theme": "Guilt",
+      "reference": "Meditations 9.4",
+      "passageText": "He who does wrong does wrong against himself. He who acts unjustly acts unjustly to himself, because he makes himself bad.",
+      "reflection": "Marcus says that one who does wrong wrongs himself, because he makes himself bad. Guilt is a signal that we have harmed ourselves as well as others. It points back to who we want to be.",
+      "studyPrompts": [
+        "What wrong are you carrying?",
+        "How has it affected you?",
+        "What could you do to set it right?"
+      ]
+    },
+    {
+      "day": 59,
+      "theme": "Encouragement",
+      "reference": "Seneca, Letters 34.2",
+      "passageText": "I claim you for myself; you are my handiwork. When I saw your abilities, I laid my hand upon you, I exhorted you, I applied the goad and did not permit you to march lazily, but roused you continually. And now I do the same; but by this time I am cheering on one who is in the race and so in turn cheers me on.",
+      "reflection": "Seneca tells Lucilius he once urged him on, and now cheers him as he runs, while Lucilius cheers him in return. Encouragement goes both ways. Those we encourage can encourage us.",
+      "studyPrompts": [
+        "Who cheered you on?",
+        "Whom do you cheer on now?",
+        "How could you encourage someone today?"
+      ]
+    },
+    {
+      "day": 60,
+      "theme": "Unity",
+      "reference": "Seneca, Letters 95.52",
+      "passageText": "all that you behold, that which comprises both god and man, is one—we are the parts of one great body. Nature produced us related to one another, since she created us from the same source and to the same end. She engendered in us mutual affection, and made us prone to friendships. She established fairness and justice; according to her ruling, it is more wretched to commit than to suffer injury. Through her orders, let our hands be ready for all that needs to be helped.",
+      "reflection": "Seneca says we are parts of one great body, born related to each other and made for friendship and mutual help. Unity is natural. Let your hands be ready to help.",
+      "studyPrompts": [
+        "Where do you feel part of something larger?",
+        "Whom could you help today?",
+        "What breaks unity around you?"
+      ]
+    },
+    {
+      "day": 61,
+      "theme": "Peacemaking",
+      "reference": "Enchiridion 43",
+      "passageText": "Everything has two handles, the one by which it may be borne, the other by which it may not. If your brother acts unjustly, do not lay hold of the act by that handle wherein he acts unjustly, for this is the handle which cannot be borne; but lay hold of the other, that he is your brother, that he was nurtured with you, and you will lay hold of the thing by that handle by which it can be borne.",
+      "reflection": "Epictetus says everything has two handles. If your brother wrongs you, take hold of the handle that he is your brother, not the one that he wronged you. Peace begins with which handle you choose.",
+      "studyPrompts": [
+        "Whom are you in conflict with?",
+        "What other handle could you take?",
+        "How would that change the situation?"
+      ]
+    },
+    {
+      "day": 62,
+      "theme": "Hospitality",
+      "reference": "Seneca, Letters 95.51",
+      "passageText": "Then comes the second problem,—how to deal with men. What is our purpose? What precepts do we offer? Should we bid them refrain from bloodshed? What a little thing it is not to harm one whom you ought to help! It is indeed worthy of great praise, when man treats man with kindness! Shall we advise stretching forth the hand to the shipwrecked sailor, or pointing out the way to the wanderer, or sharing a crust with the starving? Yes, if I can only tell you first everything which ought to be afforded or withheld; meantime, I can lay down for mankind a rule, in short compass, for our duties in human relationships:",
+      "reflection": "Seneca asks whether we should advise helping the shipwrecked, guiding the lost, and sharing bread with the hungry. Kindness to strangers is a basic human duty.",
+      "studyPrompts": [
+        "Who is lost or hungry around you?",
+        "What could you share?",
+        "When has a stranger helped you?"
+      ]
+    },
+    {
+      "day": 63,
+      "theme": "Family",
+      "reference": "Meditations 1.1-2",
+      "passageText": "From my grandfather Verus [I learned] good morals and the government of my temper. From the reputation and remembrance of my father, modesty and a manly character.",
+      "reflection": "Marcus begins his Meditations by thanking his grandfather for good morals and his father for modesty. We carry our families' lessons. Gratitude for them is a good place to start.",
+      "studyPrompts": [
+        "What did your family teach you?",
+        "Whom in your family are you grateful for?",
+        "What lesson would you like to pass on?"
+      ]
+    },
+    {
+      "day": 64,
+      "theme": "Love",
+      "reference": "Seneca, Letters 9.6",
+      "passageText": "If you ask how one can make oneself a friend quickly, I will tell you, provided we are agreed that I may pay my debt at once and square the account, so far as this letter is concerned. Hecato, says: “I can show you a philtre, compounded without drugs, herbs, or any witch’s incantation: ‘If you would be loved, love.’” Now there is great pleasure, not only in maintaining old and established friendships, but also in beginning and acquiring new ones.",
+      "reflection": "Seneca quotes Hecato: if you want to be loved, love. Love is not something to wait for. It begins with giving it.",
+      "studyPrompts": [
+        "Whom do you love?",
+        "How do you show it?",
+        "Whom could you love better?"
+      ]
+    },
+    {
+      "day": 65,
+      "theme": "Envy",
+      "reference": "Seneca, Letters 15.10",
+      "passageText": "Therefore continually remind yourself, Lucilius, how many ambitions you have attained. When you see many ahead of you, think how many are behind! If you would thank the gods, and be grateful for your past life, you should contemplate how many men you have outstripped. But what have you to do with the others? You have outstripped yourself.",
+      "reflection": "Seneca advises: when you see many ahead of you, think how many are behind. Comparison breeds envy. Better to see how far you have come.",
+      "studyPrompts": [
+        "Whom do you compare yourself to?",
+        "How far have you come?",
+        "What are you grateful for in your progress?"
+      ]
+    },
+    {
+      "day": 66,
+      "theme": "Worry",
+      "reference": "Seneca, Letters 5.9",
+      "passageText": "Beasts avoid the dangers which they see, and when they have escaped them are free from care; but we men torment ourselves over that which is to come as well as over that which is past. Many of our blessings bring bane to us; for memory recalls the tortures of fear, while foresight anticipates them. The present alone can make no man wretched. Farewell.",
+      "reflection": "Seneca observes that animals avoid the danger in front of them and then are free from care, but we torment ourselves over both future and past. The present alone does not make us wretched.",
+      "studyPrompts": [
+        "What are you worrying about in the future?",
+        "What from the past still torments you?",
+        "What is good in this present moment?"
+      ]
+    },
+    {
+      "day": 67,
+      "theme": "Hardship",
+      "reference": "Meditations 10.3",
+      "passageText": "Everything which happens either happens in such wise as thou art formed by nature to bear it, or as thou art not formed by nature to bear it. If, then, it happens to thee in such way as thou art formed by nature to bear it, do not complain, but bear it as thou art formed by nature to bear it. But if it happens in such wise as thou art not formed by nature to bear it, do not complain, for it will perish after it has consumed thee. Remember, however, that thou art formed by nature to bear everything, with respect to which it depends on thy own opinion to make it endurable and tolerable, by thinking that it is either thy interest or thy duty to do this.",
+      "reflection": "Marcus says not to complain about what happens, and that you are formed to bear anything your own judgment can make tolerable, by seeing it as your interest or your duty. Opinion makes much of the difference.",
+      "studyPrompts": [
+        "What hardship are you facing?",
+        "How might you see it differently?",
+        "What helps you bear things?"
+      ]
+    },
+    {
+      "day": 68,
+      "theme": "Temptation",
+      "reference": "Seneca, Letters 51.5",
+      "passageText": "We ought to see to it that we flee to the greatest possible distance from provocations to vice. We should toughen our minds, and remove them far from the allurements of pleasure. A single winter relaxed Hannibal’s fibre; his pampering in Campania took the vigour out of that hero who had triumphed over Alpine snows. He conquered with his weapons, but was conquered by his vices.",
+      "reflection": "Seneca says one soft winter undid Hannibal, who conquered with weapons but was conquered by vice. Discipline can be lost in comfort. Guard against allurements.",
+      "studyPrompts": [
+        "What comfort or pleasure might weaken you?",
+        "What helps you stay disciplined?",
+        "Where do you need to toughen your mind?"
+      ]
+    },
+    {
+      "day": 69,
+      "theme": "Freedom",
+      "reference": "Seneca, Letters 37.3",
+      "passageText": "“Then how can I free myself?” you ask. You cannot escape necessities, but you can overcome them. By force a way is made. And this way will be afforded you by philosophy. Betake yourself therefore to philosophy if you would be safe, untroubled, happy, in fine, if you wish to be,—and that is most important,—free. There is no other way to attain this end.",
+      "reflection": "Seneca says you cannot escape necessities, but you can overcome them, and philosophy is the way to be free. Freedom is an inner state. It can be practiced anywhere.",
+      "studyPrompts": [
+        "What necessity constrains you?",
+        "How could you overcome it inwardly?",
+        "What does inner freedom mean to you?"
+      ]
+    },
+    {
+      "day": 70,
+      "theme": "Honor",
+      "reference": "Seneca, Letters 43.5",
+      "passageText": "A good conscience welcomes the crowd, but a bad conscience, even in solitude, is disturbed and troubled. If your deeds are honourable, let everybody know them; if base, what matters it that no one knows them, as long as you yourself know them? How wretched you are if you despise such a witness! Farewell.",
+      "reflection": "Seneca says a good conscience welcomes witnesses, while a bad one is troubled even in solitude. If your deeds are honorable, let everyone know; if not, you still know.",
+      "studyPrompts": [
+        "Would your actions welcome witnesses?",
+        "What does your conscience tell you?",
+        "What honorable thing could you do today?"
+      ]
+    },
+    {
+      "day": 71,
+      "theme": "Keeping promises",
+      "reference": "Seneca, Letters 75.4",
+      "passageText": "Let this be the kernel of my idea: let us say what we feel, and feel what we say; let speech harmonize with life. That man has fulfilled his promise who is the same person both when you see him and when you hear him.",
+      "reflection": "Seneca says we should say what we feel and feel what we say, letting speech match life. A person keeps their promise when they are the same whether seen or heard.",
+      "studyPrompts": [
+        "Does your speech match your life?",
+        "What promise do you need to keep?",
+        "Where is there a gap between what you say and do?"
+      ]
+    },
+    {
+      "day": 72,
+      "theme": "Good deeds",
+      "reference": "Meditations 8.26",
+      "passageText": "It is satisfaction to a man to do the proper works of a man. Now it is a proper work of a man to be benevolent to his own kind, to despise the movements of the senses, to form a just judgment of plausible appearances, and to take a survey of the nature of the universe and of the things which happen in it.",
+      "reflection": "Marcus says it is satisfying to do the proper work of a human being, which includes being kind to others. Good deeds are natural and fulfilling.",
+      "studyPrompts": [
+        "What is the proper work of a human being for you?",
+        "What kindness could you do today?",
+        "What satisfies you most?"
+      ]
+    },
+    {
+      "day": 73,
+      "theme": "Selflessness",
+      "reference": "Meditations 6.7",
+      "passageText": "Take pleasure in one thing and rest in it, in passing from one social act to another social act, thinking of God.",
+      "reflection": "Marcus finds rest in passing from one act for others to the next. A life of service can be a source of peace, not just effort.",
+      "studyPrompts": [
+        "What act for others could you do today?",
+        "Where do you find rest?",
+        "How could service bring you peace?"
+      ]
+    },
+    {
+      "day": 74,
+      "theme": "Faithfulness",
+      "reference": "Seneca, Letters 71.35",
+      "passageText": "That which is short of perfection must necessarily be unsteady, at one time progressing, at another slipping or growing faint; and it will surely slip back unless it keeps struggling ahead; for if a man slackens at all in zeal and faithful application, he must retrograde. No one can resume his progress at the point where he left off.",
+      "reflection": "Seneca warns that anyone who slackens in faithful effort slips back. Faithfulness is steady effort over time. Progress needs to be kept up.",
+      "studyPrompts": [
+        "Where have you slackened?",
+        "What would faithful effort look like?",
+        "What progress do you want to keep?"
+      ]
+    },
+    {
+      "day": 75,
+      "theme": "Character",
+      "reference": "Meditations 7.15",
+      "passageText": "Whatever any one does or says, I must be good; just as if the gold, or the emerald, or the purple, were always saying this. Whatever any one does or says, I must be emerald and keep my color.",
+      "reflection": "Marcus says whatever anyone does or says, he must be good, like an emerald that keeps its color. Character does not depend on others' behavior.",
+      "studyPrompts": [
+        "Whose behavior tempts you to change your own?",
+        "What is your color?",
+        "How could you keep it today?"
+      ]
+    },
+    {
+      "day": 76,
+      "theme": "Time",
+      "reference": "Seneca, Letters 1.3",
+      "passageText": "Nothing, Lucilius, is ours, except time. We were entrusted by nature with the ownership of this single thing, so fleeting and slippery that anyone who will can oust us from possession. What fools these mortals be! They allow the cheapest and most useless things, which can easily be replaced, to be charged in the reckoning, after they have acquired them; but they never regard themselves as in debt when they have received some of that precious commodity,—time! And yet time is the one loan which even a grateful recipient cannot repay.",
+      "reflection": "Seneca says nothing is ours except time, yet we let it slip and never count its cost. Time is the one loan we cannot repay. Use it well.",
+      "studyPrompts": [
+        "Where does your time go?",
+        "What would you do with more time?",
+        "How could you spend today's time well?"
+      ]
+    },
+    {
+      "day": 77,
+      "theme": "Learning",
+      "reference": "Seneca, Letters 76.3",
+      "passageText": "You should keep learning as long as you are ignorant,—even to the end of your life, if there is anything in the proverb. And the proverb suits the present case as well as any: “As long as you live, keep learning how to live.” For all that, there is also something which I can teach in that school. You ask, do you, what I can teach? That even an old man should keep learning.",
+      "reflection": "Seneca says to keep learning as long as you are ignorant, even to the end of life: as long as you live, keep learning how to live. Learning has no finish line.",
+      "studyPrompts": [
+        "What are you learning now?",
+        "What do you want to learn?",
+        "Who could teach you?"
+      ]
+    },
+    {
+      "day": 78,
+      "theme": "Creation",
+      "reference": "Meditations 4.23",
+      "passageText": "Everything harmonizes with me, which is harmonious to thee, O Universe. Nothing for me is too early nor too late, which is in due time for thee. Everything is fruit to me which thy seasons bring, O Nature: from thee are all things, in thee are all things, to thee all things return. The poet says, Dear city of Cecrops; and wilt not thou say, Dear city of Zeus?",
+      "reflection": "Marcus says everything that fits the universe fits him; all things come from nature and return to it. The Stoics saw themselves as part of a larger whole.",
+      "studyPrompts": [
+        "Where do you feel part of nature?",
+        "What does belonging to a larger whole mean to you?",
+        "Where could you notice nature today?"
+      ]
+    },
+    {
+      "day": 79,
+      "theme": "Light in darkness",
+      "reference": "Meditations 12.15",
+      "passageText": "Does the light of the lamp shine without losing its splendor until it is extinguished? and shall the truth which is in thee and justice and temperance be extinguished [before thy death]?",
+      "reflection": "Marcus asks whether a lamp's light shines until it goes out, and whether your truth, justice and self-control should go out before you do. Keep your light burning.",
+      "studyPrompts": [
+        "What light do you carry?",
+        "What threatens to dim it?",
+        "How could you keep it burning?"
+      ]
+    },
+    {
+      "day": 80,
+      "theme": "Burdens",
+      "reference": "Seneca, Letters 28.2",
+      "passageText": "Socrates made the same remark to one who complained; he said: “Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you? The reason which set you wandering is ever at your heels.” What pleasure is there in seeing new lands? Or in surveying cities and spots of interest? All your bustle is useless. Do you ask why such flight does not help you? It is because you flee along with yourself. You must lay aside the burdens of the mind; until you do this, no place will satisfy you.",
+      "reflection": "Seneca quotes Socrates: travel does not help because you take yourself with you. Lay aside the burdens of the mind first. Then any place can satisfy you.",
+      "studyPrompts": [
+        "What burden of the mind are you carrying?",
+        "What would laying it aside look like?",
+        "Who could help you with it?"
+      ]
+    },
+    {
+      "day": 81,
+      "theme": "Perspective",
+      "reference": "Meditations 7.48",
+      "passageText": "This is a fine saying of Plato: That he who is discoursing about men should look also at earthly things as if he viewed them from some higher place; should look at them in their assemblies, armies, agricultural labors, marriages, treaties, births, deaths, noise of the courts of justice, desert places, various nations of barbarians, feasts, lamentations, markets, a mixture of all things and an orderly combination of contraries.",
+      "reflection": "Marcus repeats Plato's advice to look at human affairs as if from above: the assemblies, farms, marriages, births and deaths together. Seen from a height, our worries take their place in a larger picture.",
+      "studyPrompts": [
+        "What would your current problem look like from above?",
+        "What else is part of the picture?",
+        "How does that change your view?"
+      ]
+    },
+    {
+      "day": 82,
+      "theme": "Small things",
+      "reference": "Seneca, Letters 2.4",
+      "passageText": "“But,” you reply, “I wish to dip first into one book and then into another.” I tell you that it is the sign of an overnice appetite to toy with many dishes; for when they are manifold and varied, they cloy but do not nourish. So you should always read standard authors; and when you crave a change, fall back upon those whom you read before. Each day acquire something that will fortify you against poverty, against death, indeed against other misfortunes as well; and after you have run over many thoughts, select one to be thoroughly digested that day.",
+      "reflection": "Seneca advises acquiring one useful thought each day and digesting it well. Small daily gains add up. You do not need to learn everything at once.",
+      "studyPrompts": [
+        "What one thought could you take from today?",
+        "What small daily habit could you build?",
+        "What have small steps achieved for you?"
+      ]
+    },
+    {
+      "day": 83,
+      "theme": "Belonging",
+      "reference": "Seneca, Letters 28.4",
+      "passageText": "That trouble once removed, all change of scene will become pleasant; though you may be driven to the uttermost ends of the earth, in whatever corner of a savage land you may find yourself, that place, however forbidding, will be to you a hospitable abode. The person you are matters more than the place to which you go; for that reason we should not make the mind a bondsman to any one place. Live in this belief: “I am not born for any one corner of the universe; this whole world is my country.”",
+      "reflection": "Seneca says: I am not born for any one corner of the universe; this whole world is my country. The person you are matters more than the place you go.",
+      "studyPrompts": [
+        "Where do you feel you belong?",
+        "How do you carry belonging with you?",
+        "How could you help someone feel at home?"
+      ]
+    },
+    {
+      "day": 84,
+      "theme": "Moral courage",
+      "reference": "Seneca, Letters 7.6",
+      "passageText": "The young character, which cannot hold fast to righteousness, must be rescued from the mob; it is too easy to side with the majority. Even Socrates, Cato, and Laelius might have been shaken in their moral strength by a crowd that was unlike them; so true it is that none of us, no matter how much he cultivates his abilities, can withstand the shock of faults that approach, as it were, with so great a retinue.",
+      "reflection": "Seneca warns that even Socrates, Cato and Laelius could have been shaken by a crowd unlike them. It is easy to side with the majority. Moral courage means holding to what is right anyway.",
+      "studyPrompts": [
+        "When have you felt pressure to go along with the crowd?",
+        "What helps you hold firm?",
+        "Who supports your values?"
+      ]
+    },
+    {
+      "day": 85,
+      "theme": "Neighbors",
+      "reference": "Seneca, Letters 48.2",
+      "passageText": "But the fact is, the same thing is advantageous to me which is advantageous to you; for I am not your friend unless whatever is at issue concerning you is my concern also. Friendship produces between us a partnership in all our interests. There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbour, if you would live for yourself.",
+      "reflection": "Seneca says no one lives happily who considers only himself: you must live for your neighbor if you would live for yourself. Our lives are bound together.",
+      "studyPrompts": [
+        "Who are your neighbors?",
+        "How do you live for them?",
+        "What could you do for them this week?"
+      ]
+    },
+    {
+      "day": 86,
+      "theme": "Health",
+      "reference": "Seneca, Letters 15.5",
+      "passageText": "But whatever you do, come back soon from body to mind. The mind must be exercised both day and night, for it is nourished by moderate labour; and this form of exercise need not be hampered by cold or hot weather, or even by old age. Cultivate that good which improves with the years.",
+      "reflection": "Seneca says to return quickly from body to mind; the mind must be exercised day and night. Physical training matters, but so does mental training.",
+      "studyPrompts": [
+        "How do you exercise your mind?",
+        "How is your mental health?",
+        "What could you do for your mind today?"
+      ]
+    },
+    {
+      "day": 87,
+      "theme": "Money",
+      "reference": "Seneca, Letters 2.6",
+      "passageText": "He says: “Contented poverty is an honourable estate.” Indeed, if it be contented, it is not poverty at all. It is not the man who has too little, but the man who craves more, that is poor. What does it matter how much a man has laid up in his safe, or in his warehouse, how large are his flocks and how fat his dividends, if he covets his neighbour’s property, and reckons, not his past gains, but his hopes of gains to come? Do you ask what is the proper limit to wealth? It is, first, to have what is necessary, and, second, to have what is enough. Farewell.",
+      "reflection": "Seneca says it is not the person who has too little, but the one who craves more, who is poor. The proper limit to wealth is what is necessary, then what is enough.",
+      "studyPrompts": [
+        "What is enough for you?",
+        "What do you crave?",
+        "How could you be content with less?"
+      ]
+    },
+    {
+      "day": 88,
+      "theme": "Remembrance",
+      "reference": "Seneca, Letters 63.7",
+      "passageText": "For my part, I do not agree with him. To me, the thought of my dead friends is sweet and appealing. For I have had them as if I should one day lose them; I have lost them as if I have them still. Therefore, Lucilius, act as befits your own serenity of mind, and cease to put a wrong interpretation on the gifts of Fortune. Fortune has taken away, but Fortune has given.",
+      "reflection": "Seneca says the thought of his dead friends is sweet: he had them as one who would lose them, and lost them as one who has them still. Remembering can bring warmth as well as pain.",
+      "studyPrompts": [
+        "Whom do you remember?",
+        "What sweet memories do you have of them?",
+        "How do you still have them?"
+      ]
+    },
+    {
+      "day": 89,
+      "theme": "Mentoring",
+      "reference": "Seneca, Letters 7.8",
+      "passageText": "But both courses are to be avoided; you should not copy the bad simply because they are many, nor should you hate the many because they are unlike you. Withdraw into yourself, as far as you can. Associate with those who will make a better man of you. Welcome those whom you yourself can improve. The process is mutual; for men learn while they teach.",
+      "reflection": "Seneca says to keep company with people who will improve you, and welcome those you can improve, because people learn while they teach. Mentoring benefits both sides.",
+      "studyPrompts": [
+        "Who improves you?",
+        "Whom could you improve?",
+        "What have you learned while teaching?"
+      ]
+    },
+    {
+      "day": 90,
+      "theme": "The road ahead",
+      "reference": "Seneca, Letters 4.1",
+      "passageText": "Keep on as you have begun, and make all possible haste, so that you may have longer enjoyment of an improved mind, one that is at peace with itself. Doubtless you will derive enjoyment during the time when you are improving your mind and setting it at peace with itself; but quite different is the pleasure which comes from contemplation when one’s mind is so cleansed from every stain that it shines.",
+      "reflection": "Seneca urges Lucilius to keep on as he has begun and to hurry, so he may enjoy a mind at peace with itself. The road ahead is about continuing what you have started.",
+      "studyPrompts": [
+        "What have you begun?",
+        "What would it mean to keep going?",
+        "What kind of mind do you want to have at the end of the road?"
+      ]
     }
   ]
 }

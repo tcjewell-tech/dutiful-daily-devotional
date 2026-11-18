@@ -541,6 +541,546 @@
         "Where do you tend to answer harshly?",
         "How could you soften one conversation this week?"
       ]
+    },
+    {
+      "day": 46,
+      "theme": "Strength",
+      "reference": "Isaiah 40:29",
+      "passageText": "He giveth power to the faint; And to him that hath no might He increaseth strength.",
+      "reflection": "The prophet says God gives power to the faint and increases the strength of those who have none. Strength does not only belong to the strong. It can be given to anyone who is running low.",
+      "studyPrompts": [
+        "Where do you feel faint right now?",
+        "Where do you look for strength?",
+        "When have you been given strength you did not have?"
+      ]
+    },
+    {
+      "day": 47,
+      "theme": "Friendship",
+      "reference": "Proverbs 18:24",
+      "passageText": "There are friends that one hath to his own hurt; But there is a friend that sticketh closer than a brother.",
+      "reflection": "Proverbs notes that some companions do harm, but there is a friend who sticks closer than a brother. Not every acquaintance is a friend. A true friend is worth more than many companions.",
+      "studyPrompts": [
+        "Who is a friend who sticks close to you?",
+        "Are there companions who bring you harm?",
+        "How can you be that kind of friend?"
+      ]
+    },
+    {
+      "day": 48,
+      "theme": "Waiting",
+      "reference": "Psalms 130:5-6",
+      "passageText": "I wait for the LORD, my soul doth wait, and in His word do I hope. My soul waiteth for the Lord, more than watchmen for the morning; yea, more than watchmen for the morning.",
+      "reflection": "The psalmist waits for God more than watchmen wait for the morning. Anyone who has stood night watch knows how long that wait can feel. Hope keeps you watching until the light comes.",
+      "studyPrompts": [
+        "What are you waiting for?",
+        "What keeps your hope alive during long waits?",
+        "What does your night watch look like right now?"
+      ]
+    },
+    {
+      "day": 49,
+      "theme": "Words",
+      "reference": "Proverbs 16:24",
+      "passageText": "Pleasant words are as a honeycomb, Sweet to the soul, and health to the bones.",
+      "reflection": "Proverbs compares pleasant words to a honeycomb, sweet to the soul and healing to the body. Kind words do real good. They cost nothing and can heal.",
+      "studyPrompts": [
+        "What kind words have stayed with you?",
+        "Whom could your words heal today?",
+        "What words do you need to stop saying?"
+      ]
+    },
+    {
+      "day": 50,
+      "theme": "Weariness",
+      "reference": "Jeremiah 31:25",
+      "passageText": "For I have satiated the weary soul, And every pining soul have I replenished.",
+      "reflection": "God promises, through Jeremiah, to refresh the weary soul and replenish every languishing one. Weariness is not the end. Rest and renewal are promised.",
+      "studyPrompts": [
+        "What has worn you out lately?",
+        "What refreshes you?",
+        "How could you make room for rest this week?"
+      ]
+    },
+    {
+      "day": 51,
+      "theme": "Second chances",
+      "reference": "Psalms 103:12",
+      "passageText": "As far as the east is from the west, So far hath He removed our transgressions from us.",
+      "reflection": "The psalmist says God removes our transgressions as far as the east is from the west. That is a distance that never closes. Teshuvah, returning, is always possible.",
+      "studyPrompts": [
+        "What do you need to leave behind?",
+        "What makes it hard to accept forgiveness?",
+        "Who might you need to forgive?"
+      ]
+    },
+    {
+      "day": 52,
+      "theme": "Simplicity",
+      "reference": "Psalms 131:1-2",
+      "passageText": "A Song of Ascents; of David. LORD, my heart is not haughty, nor mine eyes lofty; Neither do I exercise myself in things too great, or in things too wonderful for me. Surely I have stilled and quieted my soul; Like a weaned child with his mother; My soul is with me like a weaned child.",
+      "reflection": "The psalmist says he does not reach for things too great for him; he has calmed and quieted his soul like a weaned child. Simplicity is a kind of peace. It does not need to hold everything.",
+      "studyPrompts": [
+        "What are you reaching for that may be too great?",
+        "What helps quiet your soul?",
+        "What could you let go of?"
+      ]
+    },
+    {
+      "day": 53,
+      "theme": "Hard work",
+      "reference": "Proverbs 6:6",
+      "passageText": "Go to the ant, thou sluggard; Consider her ways, and be wise;",
+      "reflection": "Proverbs sends the sluggard to learn from the ant. The ant works steadily, without being driven, and is ready when the season turns. There is wisdom in diligence.",
+      "studyPrompts": [
+        "What could you learn from the ant?",
+        "Where are you tempted to put things off?",
+        "What steady work would prepare you for what is ahead?"
+      ]
+    },
+    {
+      "day": 54,
+      "theme": "Respect",
+      "reference": "Leviticus 19:32",
+      "passageText": "Thou shalt rise up before the hoary head, and honour the face of the old man, and thou shalt fear thy God: I am the LORD.",
+      "reflection": "The Torah commands rising before the aged and honoring the elderly, and ties it to reverence for God. Respect for elders is part of holiness. Experience deserves honor.",
+      "studyPrompts": [
+        "Who are the elders in your life?",
+        "What have you learned from them?",
+        "How could you show them respect?"
+      ]
+    },
+    {
+      "day": 55,
+      "theme": "Morning",
+      "reference": "Psalms 143:8",
+      "passageText": "Cause me to hear Thy lovingkindness in the morning, For in Thee do I trust; Cause me to know the way wherein I should walk, For unto Thee have I lifted up my soul.",
+      "reflection": "The psalmist asks to hear God's lovingkindness in the morning and to be shown the way to walk. Each morning is a chance to start again with trust. Ask for direction before the day begins.",
+      "studyPrompts": [
+        "How do you start your mornings?",
+        "What direction do you need today?",
+        "What would hearing kindness in the morning mean to you?"
+      ]
+    },
+    {
+      "day": 56,
+      "theme": "Evening",
+      "reference": "Psalms 3:6",
+      "passageText": "I lay me down, and I sleep; I awake, for the LORD sustaineth me.",
+      "reflection": "The psalmist lies down, sleeps and wakes again because God sustains him. Sleep is an act of trust. The tradition's bedtime prayer, Shema al hamitah, offers a similar handing over at the end of the day.",
+      "studyPrompts": [
+        "What makes it hard to lie down in peace?",
+        "What would you hand over to God tonight?",
+        "What helps you sleep well?"
+      ]
+    },
+    {
+      "day": 57,
+      "theme": "Healing",
+      "reference": "Jeremiah 17:14",
+      "passageText": "Heal me, O LORD, and I shall be healed; Save me, and I shall be saved; For Thou art my praise.",
+      "reflection": "Jeremiah prays, heal me and I shall be healed. Asking for healing is part of prayer; the Amidah's blessing for healing echoes these words. Seeking help from healers is part of that too.",
+      "studyPrompts": [
+        "What healing do you need?",
+        "Whom could you ask for help?",
+        "Whom could you pray for today?"
+      ]
+    },
+    {
+      "day": 58,
+      "theme": "Guilt",
+      "reference": "Psalms 32:5",
+      "passageText": "I acknowledged my sin unto Thee, and mine iniquity have I not hid; I said: 'I will make confession concerning my transgressions unto the LORD' — And Thou, Thou forgavest the iniquity of my sin. Selah",
+      "reflection": "The psalmist acknowledged his sin, stopped hiding it, and found forgiveness. Hiding guilt makes it heavier. Confession, vidui, opens the way to relief.",
+      "studyPrompts": [
+        "What are you hiding?",
+        "What would it mean to acknowledge it?",
+        "Whom might you need to make amends to?"
+      ]
+    },
+    {
+      "day": 59,
+      "theme": "Encouragement",
+      "reference": "Psalms 31:25",
+      "passageText": "Be strong, and let your heart take courage, All ye that wait for the LORD.",
+      "reflection": "The psalmist tells all who wait for God to be strong and let their hearts take courage. Encouragement is something we can say to each other, and to ourselves.",
+      "studyPrompts": [
+        "Who needs to hear be strong from you?",
+        "What gives your heart courage?",
+        "When has someone's encouragement made a difference?"
+      ]
+    },
+    {
+      "day": 60,
+      "theme": "Unity",
+      "reference": "Psalms 133:1",
+      "passageText": "A Song of Ascents; of David. Behold, how good and how pleasant it is For brethren to dwell together in unity!",
+      "reflection": "How good and pleasant it is for brothers to dwell together in unity. Unity is not just useful; the psalmist calls it good and pleasant. It is worth working for.",
+      "studyPrompts": [
+        "Where do you experience unity?",
+        "What threatens unity around you?",
+        "What could you do to build it?"
+      ]
+    },
+    {
+      "day": 61,
+      "theme": "Peacemaking",
+      "reference": "Psalms 34:15",
+      "passageText": "Depart from evil, and do good; Seek peace, and pursue it.",
+      "reflection": "The psalmist says to seek peace and pursue it. Peace does not happen on its own; it has to be pursued. The sages held up Aaron as one who loved and pursued peace.",
+      "studyPrompts": [
+        "Where is peace needed around you?",
+        "What would it mean to pursue it?",
+        "What gets in the way of peace for you?"
+      ]
+    },
+    {
+      "day": 62,
+      "theme": "Hospitality",
+      "reference": "Deuteronomy 10:19",
+      "passageText": "Love ye therefore the stranger; for ye were strangers in the land of Egypt.",
+      "reflection": "The Torah commands loving the stranger, because you were strangers in Egypt. Memory of being an outsider shapes how we treat outsiders. Welcome is a duty.",
+      "studyPrompts": [
+        "When have you felt like a stranger?",
+        "Who is a stranger around you now?",
+        "How could you welcome them?"
+      ]
+    },
+    {
+      "day": 63,
+      "theme": "Family",
+      "reference": "Exodus 20:12",
+      "passageText": "Honour thy father and thy mother, that thy days may be long upon the land which the LORD thy God giveth thee.",
+      "reflection": "Honor your father and your mother is one of the Ten Commandments. Honoring parents continues even when we are far from home. It can look like a call, a letter, or living in a way that honors them.",
+      "studyPrompts": [
+        "How do you honor your parents or those who raised you?",
+        "What is hard about it?",
+        "What could you do this week to honor your family?"
+      ]
+    },
+    {
+      "day": 64,
+      "theme": "Love",
+      "reference": "Song of Songs 8:7",
+      "passageText": "Many waters cannot quench love, Neither can the floods drown it; If a man would give all the substance of his house for love, He would utterly be contemned.",
+      "reflection": "Song of Songs says many waters cannot quench love, nor floods drown it. Real love is not for sale. It survives distance and hardship.",
+      "studyPrompts": [
+        "What love has survived distance in your life?",
+        "What threatens the love you have?",
+        "How could you nurture it today?"
+      ]
+    },
+    {
+      "day": 65,
+      "theme": "Envy",
+      "reference": "Proverbs 14:30",
+      "passageText": "A tranquil heart is the life of the flesh; But envy is the rottenness of the bones.",
+      "reflection": "Proverbs says a tranquil heart gives life, but envy rots the bones. Envy harms the one who carries it. Contentment is healthier.",
+      "studyPrompts": [
+        "Whom do you envy?",
+        "What would a tranquil heart look like for you?",
+        "What are you thankful for that you already have?"
+      ]
+    },
+    {
+      "day": 66,
+      "theme": "Worry",
+      "reference": "Psalms 94:19",
+      "passageText": "When my cares are many within me, Thy comforts delight my soul.",
+      "reflection": "When cares multiply within the psalmist, God's comforts delight his soul. Worry is real, but it is not the only thing in the heart. Comfort can come alongside it.",
+      "studyPrompts": [
+        "What cares are multiplying for you?",
+        "Where do you find comfort?",
+        "What comforts could you take time for today?"
+      ]
+    },
+    {
+      "day": 67,
+      "theme": "Hardship",
+      "reference": "Isaiah 43:2",
+      "passageText": "When thou passest through the waters, I will be with thee, And through the rivers, they shall not overflow thee; When thou walkest through the fire, thou shalt not be burned, Neither shall the flame kindle upon thee.",
+      "reflection": "God promises to be with Israel through waters and fire. The promise is not that hardship will not come, but that God will be present in it.",
+      "studyPrompts": [
+        "What waters or fire are you passing through?",
+        "Where have you felt God's presence in hard times?",
+        "Who walks through hardship with you?"
+      ]
+    },
+    {
+      "day": 68,
+      "theme": "Temptation",
+      "reference": "Genesis 4:7",
+      "passageText": "If thou doest well, shall it not be lifted up? and if thou doest not well, sin coucheth at the door; and unto thee is its desire, but thou mayest rule over it.’",
+      "reflection": "God tells Cain that sin crouches at the door and desires him, but he can rule over it. Temptation is real, but it can be mastered. The choice remains yours.",
+      "studyPrompts": [
+        "What crouches at your door?",
+        "What helps you master it?",
+        "Who could help you?"
+      ]
+    },
+    {
+      "day": 69,
+      "theme": "Freedom",
+      "reference": "Leviticus 25:10",
+      "passageText": "And ye shall hallow the fiftieth year, and proclaim liberty throughout the land unto all the inhabitants thereof; it shall be a jubilee unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family.",
+      "reflection": "Proclaim liberty throughout the land; these words of the Torah are inscribed on the Liberty Bell. Freedom in the Torah is tied to a return to family and home. Service members know freedom is worth guarding.",
+      "studyPrompts": [
+        "What does freedom mean to you?",
+        "What freedom are you serving to protect?",
+        "Who is waiting for your return home?"
+      ]
+    },
+    {
+      "day": 70,
+      "theme": "Honor",
+      "reference": "Proverbs 22:1",
+      "passageText": "A good name is rather to be chosen than great riches, And loving favour rather than silver and gold.",
+      "reflection": "Proverbs says a good name is better than great riches. Reputation is built over years and can be lost in a moment. Honor is worth more than gain.",
+      "studyPrompts": [
+        "What kind of name are you building?",
+        "What might tempt you to trade it?",
+        "Whose good name do you admire?"
+      ]
+    },
+    {
+      "day": 71,
+      "theme": "Keeping promises",
+      "reference": "Numbers 30:3",
+      "passageText": "When a man voweth a vow unto the LORD, or sweareth an oath to bind his soul with a bond, he shall not break his word; he shall do according to all that proceedeth out of his mouth.",
+      "reflection": "The Torah says that one who makes a vow must not break his word, but do all that he said. Words are binding. Speak carefully and keep what you say.",
+      "studyPrompts": [
+        "Is there a promise you need to keep?",
+        "Do you promise too quickly?",
+        "What does keeping your word say about you?"
+      ]
+    },
+    {
+      "day": 72,
+      "theme": "Good deeds",
+      "reference": "Isaiah 1:17",
+      "passageText": "Learn to do well; Seek justice, relieve the oppressed, Judge the fatherless, plead for the widow.",
+      "reflection": "Isaiah says learn to do good: seek justice, relieve the oppressed, defend the orphan and the widow. Doing good is learned and practiced. It reaches toward the vulnerable.",
+      "studyPrompts": [
+        "What good could you learn to do?",
+        "Who is vulnerable around you?",
+        "What act of justice is within your reach?"
+      ]
+    },
+    {
+      "day": 73,
+      "theme": "Selflessness",
+      "reference": "Isaiah 58:10",
+      "passageText": "And if thou draw out thy soul to the hungry, And satisfy the afflicted soul; Then shall thy light rise in darkness, And thy gloom be as the noon-day;",
+      "reflection": "Isaiah says that if you draw out your soul to the hungry, your light will rise in darkness. Giving yourself to others brings light, to them and to you.",
+      "studyPrompts": [
+        "Who is hungry, in any sense, around you?",
+        "What could you give of yourself?",
+        "When has giving brought light to you?"
+      ]
+    },
+    {
+      "day": 74,
+      "theme": "Faithfulness",
+      "reference": "Psalms 36:6",
+      "passageText": "Thy lovingkindness, O LORD, is in the heavens; Thy faithfulness reacheth unto the skies.",
+      "reflection": "The psalmist says God's lovingkindness reaches the heavens and his faithfulness the skies. God's faithfulness is vast. We can try to reflect it in our own steadiness.",
+      "studyPrompts": [
+        "Where have you seen God's faithfulness?",
+        "Where can you be more faithful?",
+        "Who has been faithful to you?"
+      ]
+    },
+    {
+      "day": 75,
+      "theme": "Character",
+      "reference": "Proverbs 20:11",
+      "passageText": "Even a child is known by his doings, whether his work be pure, and whether it be right.",
+      "reflection": "Proverbs says even a child is known by his doings. Character shows in actions, not in claims. What you do reveals who you are.",
+      "studyPrompts": [
+        "What do your actions say about you?",
+        "What would you like them to say?",
+        "What action could you take today that reflects your values?"
+      ]
+    },
+    {
+      "day": 76,
+      "theme": "Time",
+      "reference": "Psalms 118:24",
+      "passageText": "This is the day which the LORD hath made; We will rejoice and be glad in it.",
+      "reflection": "This is the day the LORD has made; let us rejoice and be glad in it. Today is the day you have. It is a gift, not just a stretch to get through.",
+      "studyPrompts": [
+        "What could you rejoice in today?",
+        "How do you want to use this day?",
+        "What day are you waiting for, and what about today?"
+      ]
+    },
+    {
+      "day": 77,
+      "theme": "Learning",
+      "reference": "Proverbs 4:13",
+      "passageText": "Take fast hold of instruction, let her not go; Keep her, for she is thy life.",
+      "reflection": "Proverbs says hold on to instruction and do not let go, for it is your life. Learning is not a phase but a lifelong commitment. Torah study is a lifelong practice in Jewish life.",
+      "studyPrompts": [
+        "What instruction are you holding on to?",
+        "What do you want to learn next?",
+        "Who teaches you?"
+      ]
+    },
+    {
+      "day": 78,
+      "theme": "Creation",
+      "reference": "Psalms 8:4-5",
+      "passageText": "When I behold Thy heavens, the work of Thy fingers, The moon and the stars, which Thou hast established; What is man, that Thou art mindful of him? And the son of man, that Thou thinkest of him?",
+      "reflection": "Looking at the heavens, the moon and the stars, the psalmist asks: what is man, that You are mindful of him? Creation makes us feel small and also cared for.",
+      "studyPrompts": [
+        "When have you felt small looking at the sky?",
+        "What does it mean to you that God is mindful of you?",
+        "Where could you notice creation today?"
+      ]
+    },
+    {
+      "day": 79,
+      "theme": "Light in darkness",
+      "reference": "Micah 7:8",
+      "passageText": "Rejoice not against me, O mine enemy; Though I am fallen, I shall arise; Though I sit in darkness, the LORD is a light unto me.",
+      "reflection": "Micah says: though I have fallen, I shall rise; though I sit in darkness, the LORD is a light to me. Falling is not the end. There is light even in darkness.",
+      "studyPrompts": [
+        "Where do you feel you have fallen?",
+        "What would rising look like?",
+        "What light do you see in your darkness?"
+      ]
+    },
+    {
+      "day": 80,
+      "theme": "Burdens",
+      "reference": "Psalms 68:20",
+      "passageText": "Blessed be the Lord, day by day He beareth our burden, Even the God who is our salvation. Selah",
+      "reflection": "The psalmist blesses God who bears our burden day by day. Burdens are carried daily, and so is help. You do not carry everything alone.",
+      "studyPrompts": [
+        "What burden are you carrying today?",
+        "Who helps carry it?",
+        "Whose burden could you help with?"
+      ]
+    },
+    {
+      "day": 81,
+      "theme": "Perspective",
+      "reference": "Isaiah 55:8-9",
+      "passageText": "For My thoughts are not your thoughts, Neither are your ways My ways, saith the LORD. For as the heavens are higher than the earth, So are My ways higher than your ways, And My thoughts than your thoughts.",
+      "reflection": "God says, through Isaiah, my thoughts are not your thoughts, nor my ways your ways. Our view is limited. Humility about what we cannot see is a kind of perspective.",
+      "studyPrompts": [
+        "What are you trying to understand right now?",
+        "What might you be missing?",
+        "How does a larger view change things?"
+      ]
+    },
+    {
+      "day": 82,
+      "theme": "Small things",
+      "reference": "1 Kings 19:12",
+      "passageText": "and after the earthquake a fire; but the LORD was not in the fire; and after the fire a still small voice.",
+      "reflection": "Elijah found God not in the wind, the earthquake or the fire, but in a still small voice. The most important things can be quiet. Listen for the small.",
+      "studyPrompts": [
+        "What still small voice might you be missing?",
+        "Where do you find quiet?",
+        "What small thing deserves more attention?"
+      ]
+    },
+    {
+      "day": 83,
+      "theme": "Belonging",
+      "reference": "Psalms 68:7",
+      "passageText": "God maketh the solitary to dwell in a house; He bringeth out the prisoners into prosperity; The rebellious dwell but in a parched land.",
+      "reflection": "The psalmist says God sets the solitary in a home. Loneliness is not meant to be permanent. Belonging is part of what God gives.",
+      "studyPrompts": [
+        "When have you felt solitary?",
+        "Where have you found a home among people?",
+        "Whom could you help belong?"
+      ]
+    },
+    {
+      "day": 84,
+      "theme": "Moral courage",
+      "reference": "Esther 4:14",
+      "passageText": "For if thou altogether holdest thy peace at this time, then will relief and deliverance arise to the Jews from another place, but thou and thy father’s house will perish; and who knoweth whether thou art not come to royal estate for such a time as this?’",
+      "reflection": "Mordecai tells Esther that silence is not neutral, and asks: who knows whether you came to your position for such a time as this? Moral courage means speaking when it matters, even at risk.",
+      "studyPrompts": [
+        "Where might you be called to speak up?",
+        "What makes silence tempting?",
+        "What position have you been given, and why might it matter?"
+      ]
+    },
+    {
+      "day": 85,
+      "theme": "Neighbors",
+      "reference": "Proverbs 27:10",
+      "passageText": "Thine own friend, and thy father’s friend, forsake not; Neither go into thy brother’s house in the day of thy calamity; Better is a neighbour that is near than a brother far off.",
+      "reflection": "Proverbs says a neighbor who is near is better than a brother far away. For service members far from home, the people nearby become family. Be that neighbor.",
+      "studyPrompts": [
+        "Who is your near neighbor right now?",
+        "How have neighbors helped you?",
+        "How could you be a good neighbor this week?"
+      ]
+    },
+    {
+      "day": 86,
+      "theme": "Health",
+      "reference": "Proverbs 17:22",
+      "passageText": "A merry heart is a good medicine; But a broken spirit drieth the bones.",
+      "reflection": "Proverbs says a merry heart is good medicine, but a broken spirit dries the bones. Mood and health are linked. Caring for your spirit helps your body.",
+      "studyPrompts": [
+        "What lifts your heart?",
+        "Is your spirit feeling broken right now?",
+        "Who could you reach out to for support?"
+      ]
+    },
+    {
+      "day": 87,
+      "theme": "Money",
+      "reference": "Proverbs 30:8-9",
+      "passageText": "Remove far from me falsehood and lies; Give me neither poverty nor riches; feed me with mine allotted bread; Lest I be full, and deny, and say: ‘Who is the LORD?’ Or lest I be poor, and steal, And profane the name of my God.",
+      "reflection": "Proverbs asks for neither poverty nor riches, just enough. Too much can make us forget God; too little can tempt us to wrong. Enough is a gift.",
+      "studyPrompts": [
+        "What is enough for you?",
+        "How does money affect your choices?",
+        "What would contentment with enough look like?"
+      ]
+    },
+    {
+      "day": 88,
+      "theme": "Remembrance",
+      "reference": "Psalms 112:6",
+      "passageText": "For he shall never be moved; The righteous shall be had in everlasting remembrance.",
+      "reflection": "The psalmist says the righteous will be remembered forever. Jewish tradition keeps memory alive through Yizkor and the yahrzeit. Remembering the good is a way of honoring them.",
+      "studyPrompts": [
+        "Whom do you remember?",
+        "How do you keep their memory alive?",
+        "What good from their life do you carry?"
+      ]
+    },
+    {
+      "day": 89,
+      "theme": "Mentoring",
+      "reference": "Numbers 27:18-20",
+      "passageText": "And the LORD said unto Moses: ‘Take thee Joshua the son of Nun, a man in whom is spirit, and lay thy hand upon him; and set him before Eleazar the priest, and before all the congregation; and give him a charge in their sight. And thou shalt put of thy honour upon him, that all the congregation of the children of Israel may hearken.",
+      "reflection": "God tells Moses to lay his hand on Joshua and give him some of his authority before the people. Good leaders prepare the next leaders. Passing on responsibility is part of leadership.",
+      "studyPrompts": [
+        "Who prepared you for your role?",
+        "Whom are you preparing?",
+        "What authority or knowledge could you share?"
+      ]
+    },
+    {
+      "day": 90,
+      "theme": "The road ahead",
+      "reference": "Psalms 121:8",
+      "passageText": "The LORD shall guard thy going out and thy coming in, From this time forth and for ever.",
+      "reflection": "The LORD shall guard your going out and your coming in, from this time and forever. Wherever the road leads, you are not unguarded. Go out with this blessing.",
+      "studyPrompts": [
+        "Where is your road taking you next?",
+        "What blessing do you need for the journey?",
+        "Whom would you give this blessing to?"
+      ]
     }
   ]
 }
