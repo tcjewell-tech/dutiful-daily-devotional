@@ -1,0 +1,546 @@
+{
+  "_reviewNote": "DRAFT. Reflections and study prompts are AI-drafted and await review by a qualified reviewer from this tradition before release (see docs/CONTENT_REVIEW.md). passageText is copied verbatim from the named public-domain source.",
+  "tradition": "humanist",
+  "entries": [
+    {
+      "day": 1,
+      "theme": "Peace",
+      "reference": "Enchiridion 8",
+      "passageText": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+      "reflection": "Much distress comes from insisting that events match our wishes. Epictetus suggests the reverse: accept what happens and act well within it. This is not passivity; it frees your energy for the things you can actually do.",
+      "studyPrompts": [
+        "What are you wishing were different right now?",
+        "What part of the situation is within your control?",
+        "How might accepting what has happened free you to act better?"
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Courage",
+      "reference": "Meditations 7.61",
+      "passageText": "The art of life is more like the wrestler's art than the dancer's, in respect of this, that it should stand ready and firm to meet onsets which are sudden and unexpected.",
+      "reflection": "Marcus compares life to wrestling rather than dancing: it is less about a graceful routine and more about being ready when you are suddenly grabbed. Courage, in this sense, is readiness. What you practise on quiet days is what holds when things change fast.",
+      "studyPrompts": [
+        "What sudden challenge have you faced recently?",
+        "What habits help you stay ready for the unexpected?",
+        "What could you practise now that would help you on a hard day?"
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Fear",
+      "reference": "Seneca, Letters 13.4",
+      "passageText": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality. I am not speaking with you in the Stoic strain but in my milder style. For it is our Stoic fashion to speak of all those things, which provoke cries and groans, as unimportant and beneath notice; but you and I must drop such great-sounding words, although, Heaven knows, they are true enough. What I advise you to do is, not to be unhappy before the crisis comes; since it may be that the dangers before which you paled as if they were threatening you, will never come upon you; they certainly have not yet come.",
+      "reflection": "Seneca notices how much suffering happens in anticipation. Many feared things never arrive, and those that do are rarely as large as imagined. Deal with today's real problems, and let tomorrow's arrive before you meet them.",
+      "studyPrompts": [
+        "What are you dreading that has not happened yet?",
+        "How much of your stress today is about real events and how much is about imagined ones?",
+        "What would it look like to meet today's problems only?"
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Rest",
+      "reference": "Meditations 2.7",
+      "passageText": "Do the things external which fall upon thee distract thee? Give thyself time to learn something new and good, and cease to be whirled around. But then thou must also avoid being carried about the other way; for those too are triflers who have wearied themselves in life by their activity, and yet have no object to which to direct every movement, and, in a word, all their thoughts.",
+      "reflection": "Marcus warns against two kinds of restlessness: being pulled around by outside events, and frantic busyness without purpose. Real rest comes from having a clear aim. Pause long enough to ask what today's effort is actually for.",
+      "studyPrompts": [
+        "What is pulling your attention in too many directions?",
+        "What is the clear aim behind your work today?",
+        "When could you take time to 'learn something new and good'?"
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "Gratitude",
+      "reference": "Meditations 6.48",
+      "passageText": "When thou wishest to delight thyself, think of the virtues of those who live with thee; for instance, the activity of one, and the modesty of another, and the liberality of a third, and some other good quality of a fourth. For nothing delights so much as the examples of the virtues, when they are exhibited in the morals of those who live with us and present themselves in abundance, as far as is possible. Wherefore we must keep them before us.",
+      "reflection": "Marcus recommends a simple practice: when you need cheering up, think of the good qualities of the people around you. In a unit, those people are close at hand. Noticing their strengths is both gratitude and encouragement.",
+      "studyPrompts": [
+        "Name a strength you see in three people around you.",
+        "Have you told any of them what you appreciate?",
+        "How does noticing others' virtues change your own mood?"
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Hope",
+      "reference": "Meditations 7.8",
+      "passageText": "Let not future things disturb thee, for thou wilt come to them, if it shall be necessary, having with thee the same reason which now thou usest for present things.",
+      "reflection": "Anxiety about the future assumes we will face it unequipped. Marcus points out that we will bring to it the same reason and judgment we use today. You have handled hard things before, and you will bring that ability with you.",
+      "studyPrompts": [
+        "What future event worries you most?",
+        "What abilities have helped you through past difficulties?",
+        "How can you strengthen your judgment today for whatever comes?"
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Endurance",
+      "reference": "Meditations 5.18",
+      "passageText": "Nothing happens to any man which he is not formed by nature to bear. The same things happen to another, and either because he does not see that they have happened, or because he would show a great spirit, he is firm and remains unharmed. It is a shame then that ignorance and conceit should be stronger than wisdom.",
+      "reflection": "Marcus holds that nothing happens to a person that they are not formed by nature to bear. He notes that others endure the same things, sometimes out of pride or simply not noticing. If they can, reasoned resolve can as well.",
+      "studyPrompts": [
+        "What are you enduring right now that feels like too much?",
+        "Who have you seen carry something similar?",
+        "What would 'remaining unharmed' look like for you in this situation?"
+      ]
+    },
+    {
+      "day": 8,
+      "theme": "Forgiveness",
+      "reference": "Meditations 7.26",
+      "passageText": "When a man has done thee any wrong, immediately consider with what opinion about good or evil he has done wrong. For when thou hast seen this, thou wilt pity him, and wilt neither wonder nor be angry. For either thou thyself thinkest the same thing to be good that he does, or another thing of the same kind. It is thy duty then to pardon him. But if thou dost not think such things to be good or evil, thou wilt more readily be well disposed to him who is in error.",
+      "reflection": "When wronged, Marcus asks first: what did this person think was good? Understanding the mistake turns anger into something closer to pity, and pardon follows. This does not excuse harm, but it keeps someone else's error from ruling your mind.",
+      "studyPrompts": [
+        "Who has wronged you recently?",
+        "What might they have believed was good or right when they acted?",
+        "How would pardoning them change your own state of mind?"
+      ]
+    },
+    {
+      "day": 9,
+      "theme": "Integrity",
+      "reference": "Meditations 10.16",
+      "passageText": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+      "reflection": "Marcus is impatient with endless talk about virtue. The point is to be good, not to describe goodness. One honest action today says more than any discussion of character.",
+      "studyPrompts": [
+        "Where is there a gap between what you say you value and what you do?",
+        "What is one concrete good action you can take today?",
+        "Who in your life models integrity without talking about it?"
+      ]
+    },
+    {
+      "day": 10,
+      "theme": "Loneliness",
+      "reference": "Seneca, Letters 40.1",
+      "passageText": "I thank you for writing to me so often; for you are revealing your real self to me in the only way you can. I never receive a letter from you without being in your company forthwith. If the pictures of our absent friends are pleasing to us, though they only refresh the memory and lighten our longing by a solace that is unreal and unsubstantial, how much more pleasant is a letter, which brings us real traces, real evidences, of an absent friend! For that which is sweetest when we meet face to face is afforded by the impress of a friend’s hand upon his letter,—recognition.",
+      "reflection": "Separated from his friend, Seneca finds that letters bring the friend near, carrying real traces of the person. For anyone far from home, a message is more than information; it is a kind of presence. Write to someone today, or reread something from someone you miss.",
+      "studyPrompts": [
+        "Who do you miss most right now?",
+        "What message or letter from someone has meant a lot to you?",
+        "Who could you write to today?"
+      ]
+    },
+    {
+      "day": 11,
+      "theme": "Grief",
+      "reference": "Seneca, Letters 63.4",
+      "passageText": "Let us see to it that the recollection of those whom we have lost becomes a pleasant memory to us. No man reverts with pleasure to any subject which he will not be able to reflect upon without pain. So too it cannot but be that the names of those whom we have loved and lost come back to us with a sort of sting; but there is a pleasure even in this sting.",
+      "reflection": "Seneca writes to a friend grieving a loss. He hopes that memory of the dead will become pleasant in time, while admitting it still stings. Grief and gratitude for a life can sit together.",
+      "studyPrompts": [
+        "Who are you missing right now?",
+        "What memory of them brings you comfort?",
+        "How might the sting of grief become something you can carry?"
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "Duty",
+      "reference": "Enchiridion 17",
+      "passageText": "Remember that thou art an actor in a play, of such a kind as the teacher (author) may choose; if short, of a short one; if long, of a long one: if he wishes you to act the part of a poor man, see that you act the part naturally; if the part of a lame man, of a magistrate, of a private person, (do the same). For this is your duty, to act well the part that is given to you; but to select the part, belongs to another.",
+      "reflection": "Epictetus compares life to a play: you do not choose your role, but you can play it well. Duty is doing the part you have been given as fully as you can. Choosing the role is not always in your power; playing it is.",
+      "studyPrompts": [
+        "What role are you playing right now?",
+        "What would playing it well look like today?",
+        "What part of your situation is not yours to choose?"
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "Separation from family",
+      "reference": "Seneca, Letters 55.9",
+      "passageText": "You may hold converse with your friends when they are absent, and indeed as often as you wish and for as long as you wish. For we enjoy this, the greatest of pleasures, all the more when we are absent from one another. For the presence of friends makes us fastidious; and because we can at any time talk or sit together, when once we have parted we give not a thought to those whom we have just beheld.",
+      "reflection": "Seneca suggests that friends can be present in thought when apart, and that absence can even sharpen how we value them. This does not erase the ache of distance. It does mean the connection is not lost.",
+      "studyPrompts": [
+        "Who are you apart from right now?",
+        "How do you keep them present in your thoughts?",
+        "What could you write or say to them?"
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "Humility",
+      "reference": "Meditations 8.33",
+      "passageText": "Receive [wealth or prosperity] without arrogance; and be ready to let it go.",
+      "reflection": "Marcus advises receiving good fortune without arrogance and being ready to let it go. Humility here is holding success lightly. What comes can go, and our worth is not in it.",
+      "studyPrompts": [
+        "What success or advantage do you currently enjoy?",
+        "Could you let it go if you had to?",
+        "What does holding things lightly look like for you?"
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "Patience",
+      "reference": "Enchiridion 10",
+      "passageText": "On the occasion of every accident (event) that befalls you, remember to turn to yourself and inquire what power you have for turning it to use. If you see a fair man or a fair woman, you will find that the power to resist is temperance (continence). If labor (pain) be presented to you, you will find that it is endurance. If it be abusive words, you will find it to be patience. And if you have been thus formed to the (proper) habit, the appearances will not carry you along with them.",
+      "reflection": "Epictetus says every difficulty is a chance to use a power you already have: endurance for pain, patience for insults. Hard moments become training. You are better equipped than you think.",
+      "studyPrompts": [
+        "What difficulty are you facing right now?",
+        "What power do you have to meet it?",
+        "How could you turn this into practice?"
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "Kindness",
+      "reference": "Meditations 10.4",
+      "passageText": "If a man is mistaken, instruct him kindly and show him his error. But if thou art not able, blame thyself, or blame not even thyself.",
+      "reflection": "Marcus suggests that when someone is mistaken, we should show them kindly. And if we cannot, we should not make it worse with blame. Kindness keeps the door open.",
+      "studyPrompts": [
+        "Who around you is mistaken about something?",
+        "How could you correct them kindly?",
+        "When has someone corrected you kindly?"
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "Purpose",
+      "reference": "Meditations 8.19",
+      "passageText": "Everything exists for some end,--a horse, a vine. Why dost thou wonder? Even the sun will say, I am for some purpose, and the rest of the gods will say the same. For what purpose then art thou,--to enjoy pleasure? See if common sense allows this.",
+      "reflection": "Marcus notes that everything exists for some purpose, and asks what his own is. It is not merely to enjoy pleasure. Asking the question honestly is a start.",
+      "studyPrompts": [
+        "What do you believe your purpose is?",
+        "What gives your days meaning?",
+        "How does your current work connect to your purpose?"
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "Homecoming",
+      "reference": "Meditations 6.11",
+      "passageText": "When thou hast been compelled by circumstances to be disturbed in a manner, quickly return to thyself, and do not continue out of tune longer than the compulsion lasts; for thou wilt have more mastery over the harmony by continually recurring to it.",
+      "reflection": "Marcus advises that when you are thrown off balance, you should return to yourself as soon as you can. Homecoming, and the adjustment it can bring, may unsettle you. Return to your steady self, again and again.",
+      "studyPrompts": [
+        "What has thrown you off balance recently?",
+        "What helps you return to yourself?",
+        "What will help you adjust when you come home?"
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "Anger",
+      "reference": "Enchiridion 20",
+      "passageText": "Remember that it is not he who reviles you or strikes you, who insults you, but it is your opinion about these things as being insulting. When then a man irritates you, you must know that it is your own opinion which has irritated you. Therefore especially try not to be carried away by the appearance. For if you once gain time and delay, you will more easily master yourself.",
+      "reflection": "Epictetus says it is not the insult that harms you but your judgement about it. He also gives practical advice: take time before reacting. Delay gives reason a chance to catch up.",
+      "studyPrompts": [
+        "What has irritated you recently?",
+        "What judgement did you make about it?",
+        "How could you build in a pause before reacting?"
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "Trust",
+      "reference": "Seneca, Letters 3.2",
+      "passageText": "But if you consider any man a friend whom you do not trust as you trust yourself, you are mightily mistaken and you do not sufficiently understand what true friendship means. Indeed, I would have you discuss everything with a friend; but first of all discuss the man himself. When friendship is settled, you must trust; before friendship is formed, you must pass judgment. Those persons indeed put last first and confound their duties, who, violating the rules of Theophrastus, judge a man after they have made him their friend, instead of making him their friend after they have judged him. Ponder for a long time whether you shall admit a given person to your friendship; but when you have decided to admit him, welcome him with all your heart and soul. Speak as boldly with him as with yourself.",
+      "reflection": "Seneca says to judge carefully before you call someone a friend, but once you do, trust them fully. Trust is built on judgement, then given without reservation. That is how close teams work.",
+      "studyPrompts": [
+        "Who do you trust fully, and why?",
+        "How do you decide who to trust?",
+        "Is there someone you hold back from trusting?"
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "Comradeship",
+      "reference": "Meditations 6.39",
+      "passageText": "Adapt thyself to the things with which thy lot has been cast: and the men among whom thou hast received thy portion, love them, but do it truly [sincerely].",
+      "reflection": "Marcus urges you to accept the circumstances you have been given, and to love the people you share them with, sincerely. You did not choose your unit, but you can choose how you treat them.",
+      "studyPrompts": [
+        "Who are the people you have been placed among?",
+        "How could you show them genuine care?",
+        "What makes it hard to love those around you?"
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "Self-control",
+      "reference": "Meditations 8.48",
+      "passageText": "Remember that the ruling faculty is invincible, when self-collected it is satisfied with itself, if it does nothing which it does not choose to do, even if it resist from mere obstinacy. What then will it be when it forms a judgment about anything aided by reason and deliberately? Therefore the mind which is free from passions is a citadel, for man has nothing more secure to which he can fly for refuge and for the future be inexpugnable. He then who has not seen this is an ignorant man; but he who has seen it and does not fly to this refuge is unhappy.",
+      "reflection": "Marcus calls the mind free of passions a citadel, a secure place to which we can retreat. Self-control is not suppression; it is having somewhere steady to stand. It can be built over time.",
+      "studyPrompts": [
+        "What disturbs your inner calm most?",
+        "What helps you return to your citadel?",
+        "How can you practise self-control today?"
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "Contentment",
+      "reference": "Meditations 4.31",
+      "passageText": "Love the art, poor as it may be, which thou hast learned, and be content with it; and pass through the rest of life like one who has intrusted to the gods with his whole soul all that he has, making thyself neither the tyrant nor the slave of any man.",
+      "reflection": "Marcus advises loving and being content with the craft you have learned, however modest. Contentment comes from valuing your own skill and work. It frees you from envy.",
+      "studyPrompts": [
+        "What skill or craft have you learned?",
+        "How do you feel about your work?",
+        "What would being content with it look like?"
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "Mercy",
+      "reference": "Meditations 9.11",
+      "passageText": "If thou art able, correct by teaching those who do wrong; but if thou canst not, remember that indulgence is given to thee for this purpose. And the gods, too, are indulgent to such persons; and for some purposes they even help them to get health, wealth, reputation; so kind they are. And it is in thy power also; or say, who hinders thee?",
+      "reflection": "Marcus says that if you cannot correct someone who does wrong, remember that forbearance is given to you for this. Mercy is a power we can choose to use. It is always within reach.",
+      "studyPrompts": [
+        "Who has wronged you recently?",
+        "Could you correct them, or is forbearance better?",
+        "When has someone shown you forbearance?"
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "Honesty",
+      "reference": "Meditations 6.21",
+      "passageText": "If any man is able to convince me and show me that I do not think or act right, I will gladly change; for I seek the truth, by which no man was ever injured. But he is injured who abides in his error and ignorance.",
+      "reflection": "Marcus says he would gladly change if shown he is wrong, because no one was ever harmed by the truth. Honesty starts with being honest with yourself. Being open to correction is part of it.",
+      "studyPrompts": [
+        "When were you last shown you were wrong?",
+        "How did you respond?",
+        "Is there a truth you have been avoiding?"
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "Uncertainty",
+      "reference": "Meditations 8.36",
+      "passageText": "Do not disturb thyself by thinking of the whole of thy life. Let not thy thoughts at once embrace all the various troubles which thou mayest expect to befall thee: but on every occasion ask thyself, What is there in this which is intolerable and past bearing? for thou wilt be ashamed to confess. In the next place remember that neither the future nor the past pains thee, but only the present. But this is reduced to a very little, if thou only circumscribest it, and chidest thy mind if it is unable to hold out against even this.",
+      "reflection": "Marcus advises not to picture all your future troubles at once, but to deal with the present, which is small and bearable. Uncertainty grows when we imagine everything together. Take it one piece at a time.",
+      "studyPrompts": [
+        "What future troubles are you picturing?",
+        "What is in front of you right now?",
+        "Is this present moment bearable?"
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "Generosity",
+      "reference": "Meditations 7.73",
+      "passageText": "When thou hast done a good act and another has received it, why dost thou still look for a third thing besides these, as fools do, either to have the reputation of having done a good act or to obtain a return?",
+      "reflection": "Marcus asks why, after doing good, we look for a third thing: recognition or a return. Generosity is complete in the act. Looking for thanks spoils it.",
+      "studyPrompts": [
+        "When have you helped someone and wanted recognition?",
+        "What would giving without expecting look like?",
+        "What good act can you do today?"
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "Leadership",
+      "reference": "Seneca, Letters 47.11",
+      "passageText": "I do not wish to involve myself in too large a question, and to discuss the treatment of slaves, towards whom we Romans are excessively haughty, cruel, and insulting. But this is the kernel of my advice: Treat your inferiors as you would be treated by your betters. And as often as you reflect how much power you have over a slave, remember that your master has just as much power over you.",
+      "reflection": "Seneca's advice about the treatment of slaves applies to anyone with power over others: treat those under you as you would want to be treated by those above you. He spoke within a society built on slavery, which his words criticise only in part. The principle still holds for leaders today.",
+      "studyPrompts": [
+        "Who do you have authority over?",
+        "How do you want those above you to treat you?",
+        "What would it look like to treat your people that way?"
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "Service",
+      "reference": "Meditations 11.4",
+      "passageText": "Have I done something for the general interest? Well then, I have had my reward. Let this always be present to thy mind, and never stop [doing such good].",
+      "reflection": "Marcus says that doing something for the common good is its own reward. Service does not need a payment. Remembering this keeps service from becoming a transaction.",
+      "studyPrompts": [
+        "What have you done for the common good recently?",
+        "How does it feel to serve without reward?",
+        "What can you do for others today?"
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "Wisdom",
+      "reference": "Meditations 12.22",
+      "passageText": "Consider that everything is opinion, and opinion is in thy power. Take away then, when thou choosest, thy opinion, and like a mariner who has doubled the promontory, thou wilt find calm, everything stable, and a waveless bay.",
+      "reflection": "Marcus says everything is opinion, and opinion is in your power. Change your opinion and you find calm, like a sailor rounding a headland into a still bay. Wisdom begins in how we see things.",
+      "studyPrompts": [
+        "What opinion is causing you distress?",
+        "Could you see it another way?",
+        "Who helps you see things clearly?"
+      ]
+    },
+    {
+      "day": 31,
+      "theme": "Justice",
+      "reference": "Meditations 9.5",
+      "passageText": "He often acts unjustly who does not do a certain thing; not only he who does a certain thing.",
+      "reflection": "Marcus notes that injustice can come from not acting, not only from acting. Failing to do what is right is also a wrong. Justice sometimes requires stepping in.",
+      "studyPrompts": [
+        "Where have you stayed silent when you should have spoken?",
+        "What action does fairness ask of you?",
+        "What makes stepping in hard?"
+      ]
+    },
+    {
+      "day": 32,
+      "theme": "Mortality",
+      "reference": "Meditations 4.17",
+      "passageText": "Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good.",
+      "reflection": "Marcus reminds himself that death is near, so be good while you can. This is not meant to frighten but to focus. The time to do good is now.",
+      "studyPrompts": [
+        "How does thinking about death affect you?",
+        "What good do you want to do while you can?",
+        "What are you putting off?"
+      ]
+    },
+    {
+      "day": 33,
+      "theme": "Renewal",
+      "reference": "Seneca, Letters 6.1",
+      "passageText": "I feel, my dear Lucilius, that I am being not only reformed, but transformed. I do not yet, however, assure myself, or indulge the hope, that there are no elements left in me which need to be changed. Of course there are many that should be made more compact, or made thinner, or be brought into greater prominence. And indeed this very fact is proof that my spirit is altered into something better,—that it can see its own faults, of which it was previously ignorant. In certain cases sick men are congratulated because they themselves have perceived that they are sick.",
+      "reflection": "Seneca writes that he is being not only reformed but transformed, and that seeing your own faults is a sign of progress. Renewal starts with honest awareness. Noticing your faults is not failure; it is growth.",
+      "studyPrompts": [
+        "What fault have you recently noticed in yourself?",
+        "How might that awareness be a sign of growth?",
+        "What would you like to be transformed in you?"
+      ]
+    },
+    {
+      "day": 34,
+      "theme": "Stillness",
+      "reference": "Meditations 4.24",
+      "passageText": "Occupy thyself with few things, says the philosopher, if thou wouldst be tranquil.--But consider if it would not be better to say, Do what is necessary, and whatever the reason of the animal which is naturally social requires, and as it requires. For this brings not only the tranquillity which comes from doing well, but also that which comes from doing few things. For the greatest part of what we say and do being unnecessary, if a man takes this away, he will have more leisure and less uneasiness. Accordingly, on every occasion a man should ask himself, Is this one of the unnecessary things? Now a man should take away not only unnecessary acts, but also unnecessary thoughts, for thus superfluous acts will not follow after.",
+      "reflection": "Marcus suggests doing only what is necessary, both in actions and in thoughts. Stillness comes from cutting the unnecessary. Ask: is this one of the unnecessary things?",
+      "studyPrompts": [
+        "What unnecessary things fill your day?",
+        "What unnecessary thoughts could you let go?",
+        "Where could you find more stillness?"
+      ]
+    },
+    {
+      "day": 35,
+      "theme": "Steadfastness",
+      "reference": "Meditations 7.45",
+      "passageText": "For thus it is, men of Athens, in truth: wherever a man has placed himself thinking it the best place for him, or has been placed by a commander, there in my opinion he ought to stay and to abide the hazard, taking nothing into the reckoning, either death or anything else, before the baseness [of deserting his post].",
+      "reflection": "Marcus quotes Socrates: wherever a man has been placed by a commander, there he should stay and face the danger. Steadfastness means holding your position when it is hard. Many in service know exactly what that asks.",
+      "studyPrompts": [
+        "Where are you being asked to hold your position?",
+        "What helps you stay steady under pressure?",
+        "What does steadfastness cost you?"
+      ]
+    },
+    {
+      "day": 36,
+      "theme": "Compassion",
+      "reference": "Meditations 7.22",
+      "passageText": "It is peculiar to man to love even those who do wrong. And this happens, if when they do wrong it occurs to thee that they are kinsmen, and that they do wrong through ignorance and unintentionally, and that soon both of you will die; and above all, that the wrong-doer has done thee no harm, for he has not made thy ruling faculty worse than it was before.",
+      "reflection": "Marcus says it is human to love even those who do wrong, remembering they are kin, act from ignorance, and will die as we will. Compassion grows when we see our shared humanity.",
+      "studyPrompts": [
+        "Who is hard for you to feel compassion for?",
+        "What do you share with them?",
+        "How could you show compassion today?"
+      ]
+    },
+    {
+      "day": 37,
+      "theme": "Reflection",
+      "reference": "Meditations 7.59",
+      "passageText": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+      "reflection": "Look within, Marcus writes; there is a spring of good there, if you keep digging. Reflection is not only finding faults; it is finding the good in yourself to draw on.",
+      "studyPrompts": [
+        "What good do you find when you look within?",
+        "How do you make time for reflection?",
+        "What would you like to dig deeper into?"
+      ]
+    },
+    {
+      "day": 38,
+      "theme": "Joy",
+      "reference": "Seneca, Letters 23.3",
+      "passageText": "Above all, my dear Lucilius, make this your business: learn how to feel joy. Do you think that I am now robbing you of many pleasures when I try to do away with the gifts of chance, when I counsel the avoidance of hope, the sweetest thing that gladdens our hearts? Quite the contrary; I do not wish you ever to be deprived of gladness. I would have it born in your house; and it is born there, if only it be inside of you. Other objects of cheer do not fill a man’s bosom; they merely smooth his brow and are inconstant,—unless perhaps you believe that he who laughs has joy. The very soul must be happy and confident, lifted above every circumstance.",
+      "reflection": "Seneca urges his friend to learn how to feel joy, real joy that comes from inside rather than from external things. That kind of joy is steady. It does not vanish when circumstances change.",
+      "studyPrompts": [
+        "Where does your joy come from?",
+        "What external joys do you rely on?",
+        "How could you build a more lasting joy?"
+      ]
+    },
+    {
+      "day": 39,
+      "theme": "Responsibility",
+      "reference": "Enchiridion 5",
+      "passageText": "Men are disturbed not by the things which happen, but by the opinions about the things; for example, death is nothing terrible, for if it were it would have seemed so to Socrates; for the opinion about death that it is terrible, is the terrible thing. When then we are impeded, or disturbed, or grieved, let us never blame others, but ourselves—that is, our opinions. It is the act of an ill-instructed man to blame others for his own bad condition; it is the act of one who has begun to be instructed, to lay the blame on himself; and of one whose instruction is completed, neither to blame another, nor himself.",
+      "reflection": "Epictetus says we are disturbed by our judgements, not by events. The educated person stops blaming others. Responsibility starts with owning how you respond.",
+      "studyPrompts": [
+        "What disturbed you recently?",
+        "What judgement did you make about it?",
+        "Who do you tend to blame?"
+      ]
+    },
+    {
+      "day": 40,
+      "theme": "Change",
+      "reference": "Meditations 7.18",
+      "passageText": "Is any man afraid of change? Why, what can take place without change? What then is more pleasing or more suitable to the universal nature? And canst thou take a bath unless the wood undergoes a change? and canst thou be nourished, unless the food undergoes a change? And can anything else that is useful be accomplished without change? Dost thou not see then that for thyself also to change is just the same, and equally necessary for the universal nature?",
+      "reflection": "Marcus asks whether anyone is afraid of change, since nothing useful happens without it. Change is the way of nature, and of ourselves. Fearing it is like fearing breathing.",
+      "studyPrompts": [
+        "What change are you facing or fearing?",
+        "What good has come from past changes?",
+        "How could you approach this change differently?"
+      ]
+    },
+    {
+      "day": 41,
+      "theme": "Asking for help",
+      "reference": "Meditations 7.7",
+      "passageText": "Be not ashamed to be helped; for it is thy business to do thy duty like a soldier in the assault on a town. How then, if being lame thou canst not mount up on the battlements alone, but with the help of another it is possible?",
+      "reflection": "Marcus says not to be ashamed to be helped. A soldier who cannot climb the wall alone still does his duty with help from another. Needing help is not failure; refusing it can be.",
+      "studyPrompts": [
+        "Where do you need help right now?",
+        "What stops you from asking?",
+        "Who could you help today?"
+      ]
+    },
+    {
+      "day": 42,
+      "theme": "Loyalty",
+      "reference": "Seneca, Letters 9.10",
+      "passageText": "For what purpose, then, do I make a man my friend? In order to have someone for whom I may die, whom I may follow into exile, against whose death I may stake my own life, and pay the pledge, too. The friendship which you portray is a bargain and not a friendship; it regards convenience only, and looks to the results.",
+      "reflection": "Seneca says a true friend is someone you would follow into exile or die for, not someone you keep for convenience. Loyalty is the heart of real friendship. It is tested when things get hard.",
+      "studyPrompts": [
+        "Who would you follow into hardship?",
+        "Who has been loyal to you?",
+        "Is any friendship of yours based only on convenience?"
+      ]
+    },
+    {
+      "day": 43,
+      "theme": "Discipline",
+      "reference": "Seneca, Letters 18.6",
+      "passageText": "It is precisely in times of immunity from care that the soul should toughen itself beforehand for occasions of greater stress, and it is while Fortune is kind that it should fortify itself against her violence. In days of peace the soldier performs manœuvres, throws up earthworks with no enemy in sight, and wearies himself by gratuitous toil, in order that he may be equal to unavoidable toil. If you would not have a man flinch when the crisis comes, train him before it comes. Such is the course which those men have followed who, in their imitation of poverty, have every month come almost to want, that they might never recoil from what they had so often rehearsed.",
+      "reflection": "Seneca uses the soldier who drills in peacetime to make his point: train before the crisis. Discipline in easy times prepares you for hard ones. That is the purpose of drills and exercises.",
+      "studyPrompts": [
+        "What are you training for?",
+        "What discipline could you practise now?",
+        "How has past training prepared you?"
+      ]
+    },
+    {
+      "day": 44,
+      "theme": "Listening",
+      "reference": "Meditations 6.53",
+      "passageText": "Accustom thyself to attend carefully to what is said by another, and as much as it is possible, be in the speaker's mind.",
+      "reflection": "Marcus advises paying close attention to what others say and trying to enter the speaker's mind. Listening is understanding, not just hearing. It is a skill that can be practised.",
+      "studyPrompts": [
+        "Who did you last really listen to?",
+        "What gets in the way of your listening?",
+        "How could you practise listening today?"
+      ]
+    },
+    {
+      "day": 45,
+      "theme": "Gentleness",
+      "reference": "Meditations 7.63",
+      "passageText": "Every soul, the philosopher says, is involuntarily deprived of truth; consequently in the same way it is deprived of justice and temperance and benevolence and everything of the kind. It is most necessary to bear this constantly in mind, for thus thou wilt be more gentle towards all.",
+      "reflection": "Marcus notes that people go wrong unwillingly, through ignorance, and that keeping this in mind makes us gentler with everyone. Gentleness comes from understanding. It is a choice to see others clearly.",
+      "studyPrompts": [
+        "Who could you be gentler with?",
+        "What might they not understand?",
+        "How has understanding someone made you gentler?"
+      ]
+    }
+  ]
+}
