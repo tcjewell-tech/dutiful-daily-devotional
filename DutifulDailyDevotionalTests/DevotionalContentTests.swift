@@ -10,7 +10,7 @@ final class DevotionalContentTests: XCTestCase {
             let entries = store.devotionals(for: tradition)
             XCTAssertFalse(entries.isEmpty, "\(tradition) did not decode")
             XCTAssertEqual(entries.map(\.day), Array(1...max(entries.count, 1)), "\(tradition) days must be 1...N")
-            XCTAssertLessThanOrEqual(entries.count, 90, "\(tradition)")
+            XCTAssertLessThanOrEqual(entries.count, 180, "\(tradition)")
         }
     }
 
@@ -49,12 +49,12 @@ final class DevotionalContentTests: XCTestCase {
         XCTAssertNil(store.devotional(id: "nonsense"))
     }
 
-    /// Release gate (spec: 90 entries per tradition). Skipped while draft content is incomplete.
-    func testFullCatalogHasNinetyDays() throws {
+    /// Release gate: 180 entries per tradition. Skipped while draft content is incomplete.
+    func testFullCatalogHasOneHundredEightyDays() throws {
         let count = store.devotionals(for: .christian).count
-        try XCTSkipIf(count < 90, "Draft content: \(count) of 90 days written")
+        try XCTSkipIf(count < 180, "Draft content: \(count) of 180 days written")
         for tradition in Tradition.allCases {
-            XCTAssertEqual(store.devotionals(for: tradition).count, 90, "\(tradition)")
+            XCTAssertEqual(store.devotionals(for: tradition).count, 180, "\(tradition)")
         }
     }
 }
