@@ -39,7 +39,14 @@ Entries live in `Shared/Resources/Devotionals/<tradition>.json` (format in spec 
 
 ## Full source texts
 
-The Study view shows the whole chapter, surah or section from `DutifulDailyDevotional/Resources/Texts/<source>/<work>.json` (spec section 4.3). These files are not generated yet: until they are, the Study view shows the passage on its own and the content-integrity test is skipped. The converters still have to be written in `scripts/` (plan Task 3).
+The Study view shows the whole chapter, surah or section from `DutifulDailyDevotional/Resources/Texts/<source>/<work>.json` (spec section 4.3). These files are generated once, on a computer with Python 3 and internet access, and committed; the app itself never downloads anything.
+
+```
+python -I scripts/build_texts.py      # downloads into scripts/downloads/, writes Texts/
+python -I scripts/check_texts.py      # every devotional reference must match the texts
+```
+
+Sources: World English Bible from eBible.org (`eng-web` VPL, 66 books, no deuterocanon); JPS 1917 from Sefaria (Hebrew verse numbering; `I Samuel` is saved as `1 Samuel`, `Song of Songs` keeps that name); Pickthall from Tanzil, cross-checked word for word against a second copy; Long's Marcus Aurelius and Epictetus from Project Gutenberg (#15877, #10661, via the gutenberg.pglaf.org mirror); Gummere's Seneca from Wikisource, with its section numbers as verses. Run `check_texts.py` again after adding entries: a reference that does not resolve, or a `passageText` that differs from the source, fails it.
 
 ## Known limits
 
