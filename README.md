@@ -20,6 +20,20 @@ open DutifulDailyDevotional.xcodeproj
 
 **From Windows:** push the branch to GitHub. `.github/workflows/ios.yml` generates the project, refuses any networking code, builds, and runs the tests on a macOS runner.
 
+## Android version
+
+`android/` holds an Android app (Kotlin, Jetpack Compose, min Android 8.0) with the same features apart from the lock screen widget: tradition picker, Today, Study with a private note, Favorites, Archive, Settings, Need to talk?, and a home screen widget named "Daily Reflection". It reads the **same** content files as the iPhone app (`Shared/Resources/Devotionals/` and, once they exist, `DutifulDailyDevotional/Resources/Texts/`), so entries are written once, and it uses the same rule to pick the day's entry, so both phones show the same reading on the same date.
+
+It requests no permissions at all (no INTERNET). Favorites and notes are stored privately on the phone and excluded from backups. `.github/workflows/android.yml` runs the tests and lint, and fails if the built app ever asks for INTERNET.
+
+Build on Windows with Android Studio (open the `android` folder), or from a terminal:
+
+```bash
+cd android && ./gradlew testDebugUnitTest assembleDebug
+```
+
+Differences from iOS: Android has no lock screen widgets, so there is no discreet lock screen setting; the widget refreshes every 30 minutes, so it can lag up to half an hour after midnight; the app ID `com.example.dutifuldailydevotional` and the missing app icon must be replaced before Play Store release.
+
 ## App Group and signing
 
 The app and the widget share two settings (`selectedTradition`, `discreetLockScreen`) through the App Group `group.com.example.dutifuldailydevotional`. Before running on a device:

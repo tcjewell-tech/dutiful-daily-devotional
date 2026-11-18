@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dutiful Daily Devotional</string>
+    <string name="app_short_name">Dutiful Devotional</string>
+    <string name="widget_name">Daily Reflection</string>
+    <string name="widget_description">Today\'s theme and passage.</string>
+    <string name="widget_today">Today</string>
+</resources>
