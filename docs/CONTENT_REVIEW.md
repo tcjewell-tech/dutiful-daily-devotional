@@ -14,9 +14,9 @@ Every entry is **DRAFT** until a qualified reviewer from its tradition signs it 
 | Muslim | Pickthall, *The Meaning of the Glorious Koran* (1930) | quran.com translation resource 19 (M. Pickthall) |
 | Humanist | Marcus Aurelius, *Meditations*, tr. George Long; Epictetus, *Enchiridion*, tr. George Long; Seneca, *Moral Letters*, tr. R. M. Gummere | Project Gutenberg #15877 and #10661; Wikisource "Moral letters to Lucilius" |
 
-Days 1–45 were fetched from the sites above. Days 46–180 were read by script from the bundled full texts in `DutifulDailyDevotional/Resources/Texts/`, which `scripts/build_texts.py` builds from the same sources. `python -I scripts/check_texts.py` confirms every passage matches the bundled text (720/720).
+Days 1–45 were fetched from the sites above. Days 46–270 were read by script from the bundled full texts in `DutifulDailyDevotional/Resources/Texts/`, which `scripts/build_texts.py` builds from the same sources. `python -I scripts/check_texts.py` confirms every passage matches the bundled text (1080/1080).
 
-## Days 1–180 (all draft)
+## Days 1–270 (all draft)
 
 | Day | Theme | Christian | Jewish | Muslim | Humanist |
 |---|---|---|---|---|---|
@@ -200,6 +200,96 @@ Days 1–45 were fetched from the sites above. Days 46–180 were read by script
 | 178 | Holidays away from home | Luke 2:7 | Leviticus 23:42-43 | Qur'an 108:1-2 | Seneca, Letters 18.1 |
 | 179 | Transitions | Psalms 16:11 | Deuteronomy 31:8 | Qur'an 84:19 | Meditations 4.42 |
 | 180 | Together | Matthew 18:20 | Psalms 34:4 | Qur'an 4:1 | Meditations 7.9 |
+| 181 | Calling | Ephesians 4:1 | Jeremiah 1:5 | Qur'an 74:1-3 | Meditations 9.12 |
+| 182 | Self-worth | Luke 12:7 | Genesis 1:27 | Qur'an 95:4 | Meditations 12.4 |
+| 183 | Restoration | Joel 2:25 | Psalms 23:3 | Qur'an 11:3 | Meditations 4.16 |
+| 184 | Contemplation | Psalms 119:15 | Psalms 19:15 | Qur'an 38:29 | Meditations 10.17 |
+| 185 | Silence | Ecclesiastes 3:7 | Proverbs 17:28 | Qur'an 7:204 | Seneca, Letters 56.5 |
+| 186 | Forbearance | 2 Timothy 2:24 | Proverbs 14:29 | Qur'an 16:126 | Meditations 7.70 |
+| 187 | Grace | Ephesians 2:8 | Exodus 34:6 | Qur'an 62:4 | Seneca, Letters 95.49 |
+| 188 | Play | Zechariah 8:5 | Proverbs 8:30-31 | Qur'an 12:12 | Meditations 8.20 |
+| 189 | Generations | Psalms 145:4 | Joel 1:3 | Qur'an 14:41 | Seneca, Letters 8.6 |
+| 190 | Self-compassion | Matthew 22:39 | Psalms 103:14 | Qur'an 4:28 | Seneca, Letters 11.6 |
+| 191 | Trustworthiness | 1 Corinthians 4:2 | Proverbs 11:13 | Qur'an 8:27 | Seneca, Letters 3.4 |
+| 192 | Speaking up | Proverbs 31:8 | Proverbs 31:9 | Qur'an 4:148 | Seneca, Letters 10.4 |
+| 193 | Persistence | Luke 18:1 | Genesis 32:27 | Qur'an 29:69 | Seneca, Letters 20.4 |
+| 194 | Sharing | Hebrews 13:16 | Proverbs 22:9 | Qur'an 2:215 | Seneca, Letters 6.4 |
+| 195 | Wants and needs | Philippians 4:19 | Psalms 23:1 | Qur'an 14:34 | Seneca, Letters 1.5 |
+| 196 | The present moment | 2 Corinthians 6:2 | Psalms 95:7 | Qur'an 31:34 | Meditations 8.44 |
+| 197 | Expectation | Romans 8:19 | Psalms 62:6 | Qur'an 21:90 | Seneca, Letters 91.4 |
+| 198 | Rebuilding | Nehemiah 2:18 | Isaiah 58:12 | Qur'an 2:127 | Seneca, Letters 50.5 |
+| 199 | Lament | Psalms 13:1-2 | Psalms 22:2 | Qur'an 28:24 | Meditations 7.14 |
+| 200 | Rejoicing | Philippians 4:4 | Deuteronomy 16:15 | Qur'an 76:11 | Seneca, Letters 23.2 |
+| 201 | Commitment | Luke 9:62 | Psalms 37:5 | Qur'an 33:72 | Seneca, Letters 32.2 |
+| 202 | Self-deception | James 1:22 | Jeremiah 17:9 | Qur'an 18:103-104 | Seneca, Letters 118.7 |
+| 203 | Risk | Matthew 14:29 | Ecclesiastes 11:1 | Qur'an 18:60 | Seneca, Letters 22.6 |
+| 204 | Readiness | 1 Peter 3:15 | Exodus 12:11 | Qur'an 3:133 | Seneca, Letters 31.7 |
+| 205 | Guidance | Psalms 32:8 | Psalms 25:4-5 | Qur'an 1:6-7 | Seneca, Letters 11.9 |
+| 206 | Longing | Psalms 42:1 | Isaiah 26:9 | Qur'an 20:84 | Seneca, Letters 32.1 |
+| 207 | Grit | 2 Timothy 2:3 | Deuteronomy 31:6 | Qur'an 46:35 | Seneca, Letters 31.4 |
+| 208 | Dawn | Malachi 4:2 | Isaiah 60:1 | Qur'an 89:1-2 | Seneca, Letters 122.1 |
+| 209 | Dark times | Psalms 139:11-12 | Isaiah 50:10 | Qur'an 40:44 | Seneca, Letters 66.49 |
+| 210 | Harmony | Romans 12:16 | Amos 3:3 | Qur'an 30:22 | Meditations 4.40 |
+| 211 | Conviction | Romans 14:5 | Psalms 16:8 | Qur'an 6:161 | Meditations 8.13 |
+| 212 | Order | 1 Corinthians 14:40 | Genesis 1:31 | Qur'an 55:5 | Meditations 6.58 |
+| 213 | Confusion | 1 Corinthians 14:33 | Psalms 119:105 | Qur'an 93:7 | Seneca, Letters 16.5 |
+| 214 | Sloth | Proverbs 6:9 | Proverbs 24:33-34 | Qur'an 107:4-5 | Meditations 6.8 |
+| 215 | Greed | Luke 12:15 | Exodus 20:14 | Qur'an 64:16 | Seneca, Letters 69.4 |
+| 216 | Desire | Psalms 37:4 | Psalms 145:16 | Qur'an 3:14 | Meditations 9.7 |
+| 217 | Appetite | 1 Corinthians 10:31 | Proverbs 25:16 | Qur'an 2:172 | Seneca, Letters 60.3 |
+| 218 | Revenge | Romans 12:19 | Proverbs 20:22 | Qur'an 42:40 | Meditations 5.25 |
+| 219 | Deception | Galatians 6:7 | Leviticus 19:11 | Qur'an 83:1-3 | Seneca, Letters 40.6 |
+| 220 | Honest gain | Ephesians 4:28 | Proverbs 16:8 | Qur'an 2:188 | Meditations 7.53 |
+| 221 | Comfort | 2 Corinthians 1:3-4 | Isaiah 40:1 | Qur'an 33:43 | Seneca, Letters 63.10 |
+| 222 | Comforting others | Romans 12:15 | Job 2:11 | Qur'an 4:8 | Seneca, Letters 103.3 |
+| 223 | Caring for the sick | Matthew 25:36 | Psalms 41:4 | Qur'an 2:184 | Meditations 6.55 |
+| 224 | The vulnerable | James 1:27 | Deuteronomy 10:18 | Qur'an 107:1-3 | Seneca, Letters 25.2 |
+| 225 | Poverty | Luke 6:20 | Deuteronomy 15:7 | Qur'an 2:273 | Seneca, Letters 4.10 |
+| 226 | Abundance | Ephesians 3:20 | Psalms 23:5 | Qur'an 16:18 | Seneca, Letters 20.10 |
+| 227 | Day of rest | Exodus 20:8 | Genesis 2:3 | Qur'an 62:9-10 | Seneca, Letters 15.6 |
+| 228 | Sharing a meal | Luke 24:30-31 | Ecclesiastes 9:7 | Qur'an 22:28 | Seneca, Letters 64.2 |
+| 229 | Song | Colossians 3:16 | Psalms 96:1 | Qur'an 17:44 | Seneca, Letters 108.10 |
+| 230 | Rain | Matthew 5:45 | Deuteronomy 11:14 | Qur'an 50:9 | Meditations 5.7 |
+| 231 | Creatures | Matthew 6:26 | Proverbs 12:10 | Qur'an 6:38 | Seneca, Letters 76.8 |
+| 232 | The sea | Psalms 107:23-24 | Psalms 104:25 | Qur'an 16:14 | Seneca, Letters 53.3 |
+| 233 | Mountains | Isaiah 52:7 | Psalms 36:7 | Qur'an 78:6-7 | Seneca, Letters 79.2 |
+| 234 | Growth | 2 Peter 3:18 | Psalms 92:13 | Qur'an 71:17 | Seneca, Letters 94.47 |
+| 235 | Harvest | Matthew 9:37-38 | Leviticus 23:22 | Qur'an 6:141 | Meditations 6.17 |
+| 236 | Sowing | 2 Corinthians 9:6 | Hosea 10:12 | Qur'an 56:63-64 | Meditations 4.36 |
+| 237 | Roots | Colossians 2:6-7 | Jeremiah 17:8 | Qur'an 31:22 | Seneca, Letters 2.2 |
+| 238 | Refining | 1 Peter 1:7 | Malachi 3:3 | Qur'an 89:15-16 | Seneca, Letters 13.15 |
+| 239 | Thirst | John 4:14 | Isaiah 55:1 | Qur'an 56:68-70 | Seneca, Letters 119.3 |
+| 240 | Shelter | Psalms 61:3-4 | Isaiah 32:2 | Qur'an 16:81 | Seneca, Letters 90.10 |
+| 241 | Appearance | 1 Samuel 16:7 | Proverbs 31:30 | Qur'an 7:26 | Meditations 7.60 |
+| 242 | Being known | Psalms 139:1-2 | Isaiah 43:1 | Qur'an 50:16 | Meditations 2.8 |
+| 243 | Dreams | Joel 2:28 | Genesis 28:12 | Qur'an 12:4 | Seneca, Letters 53.7 |
+| 244 | Vision | Habakkuk 2:2-3 | Proverbs 29:18 | Qur'an 6:75 | Meditations 9.31 |
+| 245 | Plans | Proverbs 19:21 | Proverbs 16:3 | Qur'an 53:24-25 | Seneca, Letters 52.1 |
+| 246 | Decisions | 1 Kings 3:9 | Proverbs 4:26 | Qur'an 39:55 | Seneca, Letters 20.6 |
+| 247 | Example | 1 Timothy 4:12 | Proverbs 20:7 | Qur'an 33:21 | Seneca, Letters 11.10 |
+| 248 | Overcoming | Romans 12:21 | Psalms 18:30 | Qur'an 13:22 | Seneca, Letters 9.3 |
+| 249 | Rewards | Hebrews 11:6 | Proverbs 11:18 | Qur'an 16:96 | Seneca, Letters 81.19 |
+| 250 | Letters from home | 3 John 1:13-14 | Proverbs 25:25 | Qur'an 27:28-29 | Seneca, Letters 38.1 |
+| 251 | Reunion | John 16:22 | Genesis 46:29 | Qur'an 12:99 | Seneca, Letters 35.3 |
+| 252 | Guests | Luke 10:38 | Genesis 18:2-3 | Qur'an 15:51-52 | Seneca, Letters 64.1 |
+| 253 | Weakness | Romans 8:26 | Psalms 73:26 | Qur'an 35:15 | Seneca, Letters 11.5 |
+| 254 | Joy in work | Psalms 90:17 | Ecclesiastes 3:22 | Qur'an 9:105 | Meditations 6.33 |
+| 255 | Praise | Proverbs 27:21 | Proverbs 31:31 | Qur'an 3:188 | Seneca, Letters 7.12 |
+| 256 | Blame | Matthew 7:3 | Genesis 3:12 | Qur'an 6:164 | Meditations 7.62 |
+| 257 | Fame | Matthew 6:1 | Jeremiah 9:22-23 | Qur'an 28:83 | Meditations 6.18 |
+| 258 | Rank | Luke 14:10-11 | Proverbs 25:6-7 | Qur'an 58:11 | Seneca, Letters 44.4 |
+| 259 | Equality | Galatians 3:28 | Malachi 2:10 | Qur'an 33:35 | Seneca, Letters 66.34 |
+| 260 | Elders | 1 Timothy 5:1-2 | Job 12:12 | Qur'an 36:68 | Seneca, Letters 33.7 |
+| 261 | Youth | Ecclesiastes 12:1 | Ecclesiastes 11:9 | Qur'an 18:13 | Seneca, Letters 4.2 |
+| 262 | Teachers | Luke 6:40 | Psalms 119:99 | Qur'an 55:1-4 | Meditations 1.4 |
+| 263 | Following | Matthew 4:19 | Deuteronomy 13:5 | Qur'an 3:31 | Seneca, Letters 6.5 |
+| 264 | Interruptions | Mark 6:34 | Exodus 3:3-4 | Qur'an 80:1-4 | Seneca, Letters 56.4 |
+| 265 | Mistakes | James 3:2 | Psalms 19:13 | Qur'an 33:5 | Meditations 9.38 |
+| 266 | Endings | 2 Corinthians 13:11 | Deuteronomy 34:7 | Qur'an 110:1-3 | Meditations 7.69 |
+| 267 | New places | Hebrews 11:8 | Genesis 12:1 | Qur'an 29:20 | Seneca, Letters 104.13 |
+| 268 | Admiration | Philippians 3:17 | Proverbs 13:20 | Qur'an 6:90 | Seneca, Letters 64.6 |
+| 269 | Believing in others | Philemon 1:21 | Judges 6:12 | Qur'an 18:28 | Seneca, Letters 29.4 |
+| 270 | Completion | Philippians 1:6 | Genesis 2:1-2 | Qur'an 6:115 | Meditations 11.5 |
 
 ## Points for reviewers
 
@@ -244,6 +334,13 @@ Days 1–45 were fetched from the sites above. Days 46–180 were read by script
 - **Humanist, themes with weak matches:** Stoic texts say little directly about parents, laughter or celebration. Meditations 6.12 (day 105, Parents) uses mother and step-mother as an image for philosophy and the court; Seneca 23.5 (day 99, Laughter) contrasts shallow pleasure with deep joy; Seneca 73.10 (day 168) quotes Vergil calling a ruler "my god". A humanist reviewer may prefer other sections.
 - **Humanist, Meditations 1.13 and 6.6** include Long's bracketed words. Kept as printed.
 - **Length (days 91–180):** Muslim Qur'an 46:15 (562) and 2:185 (516); Humanist Seneca 49.1 (967), Meditations 2.1 (871), Seneca 41.3 (869), Seneca 115.3 (808), Enchiridion 4 (714) and ten more over 500 characters. These will be truncated in the medium widget.
+- **Source supply (days 181–270):** the Stoic texts are running thin for good thematic matches. The Enchiridion has about 17 short clean sections left and none were used in this batch; the Meditations still has short sections, but many are on death or are fragments. This batch leans on Seneca, and several humanist passages are loose fits for their theme: Meditations 6.58 (Order), 6.8 (Sloth), 6.17 (Harvest), 9.31 (Vision), 11.5 (Completion), Seneca 11.5 (Weakness), 40.6 (Deception), 53.7 (Dreams), 95.49 (Grace), 33.7 (Elders). A humanist reviewer may prefer other sections. A fourth batch would likely need another public-domain Stoic source (for example Epictetus's Discourses or Musonius Rufus) or repeated themes.
+- **Self-harm and polemic screening (days 181–270):** dropped Seneca 17.5 (ends "nothing forbids you to die nobly"), 82.3 ("Leisure without study is death; it is a tomb"), 122.3, Meditations 12.9 and 7.40, 1 Kings 18:21 (Elijah against Baal), Joshua 24:15 (other gods), Qur'an 4:100 ("death overtaketh him"), 21:30 and 30:36. Whole Seneca letters 30, 67 and 71 were avoided (dying, torture, Cato). Seneca letters 66 and 91 were used although they mention torture elsewhere in the abstract; check that this is acceptable for the Study view.
+- **Day 209 (Dark times):** every reflection points to getting help. Day 199 (Lament), 190 (Self-compassion) and 253 (Weakness) are also emotionally heavy; check the tone.
+- **Source typos and artifacts avoided (days 181–270):** Psalms 103:13 and Proverbs 13:11 carry a stray ". ." in the bundled JPS text; Qur'an 11:69 ("cam") and 24:12 ("own own") have typos. Kept as printed: Qur'an 76:11 "Therefor", Psalms 119:105 starts with the letter heading "NUN.".
+- **Muslim, Qur'an 12:12 (day 188, Play)** is spoken by Joseph's brothers as part of their plot; **6:161 (day 211)** ends "who was no idolater"; **74:1-3 (day 181)** is described as an early call. Confirm the framing.
+- **Jewish, Psalms 19:15 (day 184)** is said to close the Amidah; **Exodus 34:6 (day 187)** is called part of the Thirteen Attributes; **day 223** mentions bikur cholim and **day 252** hachnasat orchim. Confirm the wording.
+- **Length (days 181–270):** Christian none; Jewish none; Muslim Qur'an 33:35 (582); Humanist Meditations 12.4 (506), Seneca, Letters 56.5 (619), Seneca, Letters 3.4 (510), Seneca, Letters 6.4 (512), Seneca, Letters 50.5 (507), Seneca, Letters 32.2 (646), Seneca, Letters 11.9 (632), Seneca, Letters 25.2 (726), Seneca, Letters 4.10 (606), Seneca, Letters 108.10 (501), Seneca, Letters 76.8 (539), Seneca, Letters 53.3 (577), Seneca, Letters 79.2 (1025), Seneca, Letters 94.47 (575), Seneca, Letters 2.2 (551), Seneca, Letters 119.3 (513), Seneca, Letters 81.19 (893), Seneca, Letters 38.1 (758), Seneca, Letters 35.3 (510), Seneca, Letters 33.7 (865), Seneca, Letters 4.2 (582), Seneca, Letters 6.5 (562).
 - **Themes 3 (Fear) and 10 (Loneliness):** check that reflections encourage people to reach out, and do not read as a substitute for getting help.
 
 ## Per-tradition checklist
