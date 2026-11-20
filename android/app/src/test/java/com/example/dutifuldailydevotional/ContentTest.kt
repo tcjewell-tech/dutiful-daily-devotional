@@ -6,6 +6,7 @@ import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.json.JSONObject
 import java.io.File
 import java.time.LocalDate
 
@@ -20,12 +21,24 @@ class ContentTest {
     private fun index(y: Int, m: Int, d: Int) = DevotionalProvider.index(LocalDate.of(y, m, d).dayOfYear, 90)
 
     @Test fun dayIndexMatchesSpec() {
-        assertEquals(1, index(2027, 1, 1))
-        assertEquals(365 % 90, index(2026, 12, 31))
-        assertEquals(366 % 90, index(2028, 12, 31))
-        assertEquals(60, index(2028, 2, 29))
-        assertEquals(index(2027, 1, 1), index(2026, 12, 27)) // accepted year-rollover repeat
+        assertEquals(0, index(2027, 1, 1))
+        assertEquals(364 % 90, index(2026, 12, 31))
+        assertEquals(365 % 90, index(2028, 12, 31))
+        assertEquals(59, index(2028, 2, 29))
         assertEquals(0, DevotionalProvider.index(5, 0))
+        assertEquals(0, DevotionalProvider.index(0, 90))
+    }
+
+    /** Same fixture the iOS DevotionalProviderTests read, so both platforms pick the same entry. */
+    @Test fun sharedDaySelectionFixture() {
+        val cases = JSONObject(File(repoRoot, "Shared/TestFixtures/day_selection_cases.json").readText()).getJSONArray("cases")
+        assertTrue(cases.length() > 0)
+        for (i in 0 until cases.length()) {
+            val c = cases.getJSONObject(i)
+            val date = LocalDate.parse(c.getString("date"))
+            assertEquals("${c.getString("date")} with ${c.getInt("count")} entries",
+                c.getInt("index"), DevotionalProvider.index(date.dayOfYear, c.getInt("count")))
+        }
     }
 
     @Test fun archiveDatesRunFromJanuaryFirstThroughToday() {

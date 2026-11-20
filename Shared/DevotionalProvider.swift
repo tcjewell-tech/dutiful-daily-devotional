@@ -2,9 +2,9 @@ import Foundation
 
 /// Picks the day's entry. Shared by app and widget so both always agree.
 enum DevotionalProvider {
-    /// Spec §5: `dayOfYear % count`. The last days of a year repeat the entries of early January (accepted).
+    /// Spec §5: `(dayOfYear - 1) % count`, so January 1 (day 1) shows the first entry.
     static func index(dayOfYear: Int, count: Int) -> Int {
-        count > 0 ? dayOfYear % count : 0
+        count > 0 ? max(dayOfYear - 1, 0) % count : 0
     }
 
     static func index(for date: Date, calendar: Calendar, count: Int) -> Int {

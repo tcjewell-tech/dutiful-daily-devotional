@@ -79,7 +79,7 @@ object DevotionalParser {
 
 /** Same rule as iOS (spec §5), so both platforms show the same entry on the same date. */
 object DevotionalProvider {
-    fun index(dayOfYear: Int, count: Int): Int = if (count > 0) dayOfYear % count else 0
+    fun index(dayOfYear: Int, count: Int): Int = if (count > 0) maxOf(dayOfYear - 1, 0) % count else 0
 
     /** `entries` must be sorted by day, as `DevotionalParser` returns them. */
     fun devotional(entries: List<Devotional>, date: LocalDate): Devotional? =

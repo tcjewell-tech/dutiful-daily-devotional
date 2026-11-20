@@ -1,0 +1,113 @@
+{
+  "rule": "index = (dayOfYear - 1) % count, dayOfYear 1-based in the local calendar; entries[index] sorted by day",
+  "cases": [
+    {
+      "date": "2027-01-01",
+      "count": 90,
+      "index": 0,
+      "note": "January 1 is day 1"
+    },
+    {
+      "date": "2027-01-01",
+      "count": 270,
+      "index": 0,
+      "note": "January 1 is day 1"
+    },
+    {
+      "date": "2027-01-01",
+      "count": 365,
+      "index": 0,
+      "note": "January 1 is day 1"
+    },
+    {
+      "date": "2027-01-02",
+      "count": 90,
+      "index": 1,
+      "note": "January 2"
+    },
+    {
+      "date": "2027-01-02",
+      "count": 270,
+      "index": 1,
+      "note": "January 2"
+    },
+    {
+      "date": "2027-01-02",
+      "count": 365,
+      "index": 1,
+      "note": "January 2"
+    },
+    {
+      "date": "2028-02-29",
+      "count": 90,
+      "index": 59,
+      "note": "leap day"
+    },
+    {
+      "date": "2028-02-29",
+      "count": 270,
+      "index": 59,
+      "note": "leap day"
+    },
+    {
+      "date": "2028-02-29",
+      "count": 365,
+      "index": 59,
+      "note": "leap day"
+    },
+    {
+      "date": "2028-03-01",
+      "count": 90,
+      "index": 60,
+      "note": "day after leap day"
+    },
+    {
+      "date": "2028-03-01",
+      "count": 270,
+      "index": 60,
+      "note": "day after leap day"
+    },
+    {
+      "date": "2028-03-01",
+      "count": 365,
+      "index": 60,
+      "note": "day after leap day"
+    },
+    {
+      "date": "2026-12-31",
+      "count": 90,
+      "index": 4,
+      "note": "December 31, common year (day 365)"
+    },
+    {
+      "date": "2026-12-31",
+      "count": 270,
+      "index": 94,
+      "note": "December 31, common year (day 365)"
+    },
+    {
+      "date": "2026-12-31",
+      "count": 365,
+      "index": 364,
+      "note": "December 31, common year (day 365)"
+    },
+    {
+      "date": "2028-12-31",
+      "count": 90,
+      "index": 5,
+      "note": "December 31, leap year (day 366)"
+    },
+    {
+      "date": "2028-12-31",
+      "count": 270,
+      "index": 95,
+      "note": "December 31, leap year (day 366)"
+    },
+    {
+      "date": "2028-12-31",
+      "count": 365,
+      "index": 0,
+      "note": "December 31, leap year (day 366)"
+    }
+  ]
+}

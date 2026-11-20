@@ -58,6 +58,10 @@ struct JournalEditor: View {
             .accessibilityLabel("Private note")
             .onAppear { text = notes.first?.text ?? "" }
             .onChange(of: text) { save() }
+        if ModelContainerFactory.isUsingInMemoryFallback {
+            Text("Device storage is unavailable, so this note won't be saved after you quit the app.")
+                .font(.footnote).foregroundStyle(.secondary)
+        }
     }
 
     private func save() {

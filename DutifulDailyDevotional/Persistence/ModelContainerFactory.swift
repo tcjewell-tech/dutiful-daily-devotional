@@ -3,6 +3,7 @@ import SwiftData
 
 enum ModelContainerFactory {
     static let shared: ModelContainer = make()
+    static private(set) var isUsingInMemoryFallback = false
 
     static func make() -> ModelContainer {
         let schema = Schema([FavoriteMark.self, JournalNote.self])
@@ -14,9 +15,11 @@ enum ModelContainerFactory {
         }
         // The on-disk store could not open (e.g. disk full). Keep the app usable; notes last until quit.
         do {
-            return try ModelContainer(
+            let container = try ModelContainer(
                 for: schema,
                 configurations: ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none))
+            isUsingInMemoryFallback = true
+            return container
         } catch {
             fatalError("SwiftData schema is invalid: \(error)")
         }
