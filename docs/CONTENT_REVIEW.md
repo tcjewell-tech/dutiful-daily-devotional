@@ -343,6 +343,62 @@ Days 1–45 were fetched from the sites above. Days 46–270 were read by script
 - **Length (days 181–270):** Christian none; Jewish none; Muslim Qur'an 33:35 (582); Humanist Meditations 12.4 (506), Seneca, Letters 56.5 (619), Seneca, Letters 3.4 (510), Seneca, Letters 6.4 (512), Seneca, Letters 50.5 (507), Seneca, Letters 32.2 (646), Seneca, Letters 11.9 (632), Seneca, Letters 25.2 (726), Seneca, Letters 4.10 (606), Seneca, Letters 108.10 (501), Seneca, Letters 76.8 (539), Seneca, Letters 53.3 (577), Seneca, Letters 79.2 (1025), Seneca, Letters 94.47 (575), Seneca, Letters 2.2 (551), Seneca, Letters 119.3 (513), Seneca, Letters 81.19 (893), Seneca, Letters 38.1 (758), Seneca, Letters 35.3 (510), Seneca, Letters 33.7 (865), Seneca, Letters 4.2 (582), Seneca, Letters 6.5 (562).
 - **Themes 3 (Fear) and 10 (Loneliness):** check that reflections encourage people to reach out, and do not read as a substitute for getting help.
 
+## First-pass review: days 1–45 (AI, 2026-11-24)
+
+Claude made a first pass over all 180 entries for days 1–45 before any human review. **This is not a sign-off: every entry stays DRAFT** until a reviewer from its tradition approves it.
+
+For each entry it checked four things: the passage matches the bundled source text (`check_texts.py`, 180/180), the reflection is accurate and respectful, the tone suits service members, and there are no errors in citation, theme or duplication. No reference repeats within a tradition, and no verse ranges overlap.
+
+| Tradition | Checked | Fixed | Flagged (new) |
+|---|---|---|---|
+| Christian | 45 | 4 | 6 |
+| Jewish | 45 | 9 | 6 |
+| Muslim | 45 | 2 | 10 |
+| Humanist | 45 | 9 | 8 |
+| **Total** | **180** | **24** | **30** |
+
+Flags already listed in "Points for reviewers" above (for example days 13, 28, 35 and 41) still stand and are not counted again.
+
+### Fixed (reflections and prompts only; no passage text was changed)
+
+- **Wording that did not match the passage shown:** Christian day 6 said the hope will "overflow"; the WEB text says "abound". Jewish day 31 said justice is "rolling down like waters" (the King James wording); JPS reads "well up as waters".
+- **Attribution:** Jewish day 30 said "Job concludes"; Job 28 is a poem on wisdom whose speaker is debated, so it now reads "The poem on wisdom in Job 28 concludes".
+- **Grammar and repetition:** Christian day 11 prompt ("Who could you let comfort you, or comfort, this week?"), Humanist day 16 ("show them kindly" was missing "their error"), Muslim day 39 (the same sentence was said twice).
+- **Spelling:** the rest of the catalog uses American spelling (124 to 11), so British spellings in days 1–45 reflections and prompts were changed: behavior, fulfill, traveling, neighbor, practice, honoring, skillful, recognizes, judgment, criticize. Christian 33, 41; Jewish 4, 8, 9, 12, 25, 28, 44; Muslim 22; Humanist 2, 19, 20, 22, 28, 39, 43, 44. The Jewish day 8 prompt keeps 'neighbour' because it quotes the JPS text.
+
+### Flagged for a reviewer's judgment
+
+**All traditions**
+- **Day 32 (Mortality):** each passage speaks of death directly (Meditations 4.17: "Death hangs over thee"; Qur'an 3:185 also names the Fire). The theme is deliberate. Check the tone for anyone who has lost comrades, and consider pointing to the Need to talk? screen.
+- **House style:** pronouns for God are capitalized in some reflections and not others (Christian 33 "Him"; also Christian 184, 195, 240, 243, 249). Pick one style for the whole catalog.
+
+**Christian**
+- **Day 21, John 15:13** ("lay down his life for his friends"): the reflection says many in uniform understand this. It is a powerful verse for service members, and a painful one for anyone grieving a friend. Decide whether the wording is gentle enough.
+- **Days 18, 20 and 24** (Luke 15:20, John 14:1, Luke 6:36) open a quotation mark that never closes, because the speech continues past the verse. Kept as printed.
+
+**Jewish**
+- **Day 28, Psalms 78:72** reads "And lead them by the skilfulness of his hands"; "led" is expected. Sefaria and Mechon Mamre both read "lead", so this may be in the 1917 printing. Check a printed copy. If it is a digital error, fix both the passage and the bundled text, because the integrity test compares them.
+- **Day 12, Ecclesiastes 9:10** ends "in the grave, whither thou goest". On a Duty day, for people on deployment, that line may land hard. Consider whether the reflection should acknowledge it.
+- **Days 11 and 38:** Psalms 34:19 and 30:6 use Hebrew numbering (English 34:18 and 30:5). They are not in the numbering list above.
+- **Day 37** uses "teshuvah" without explaining it. Consider adding "(return, repentance)".
+- **General:** the reflections write "God" and "the LORD" in full. Some observant readers prefer "G-d" or "Hashem". This is the reviewer's call.
+
+**Muslim**
+- **Day 15, Qur'an 103:2** reads "Lo! man is a state of loss"; "is in a state of loss" is expected. quran.com and sacred-texts.com both read "is a state", so check the 1930 printing before changing anything.
+- **Day 41, Qur'an 20:29** has Moses ask for "a henchman". This is Pickthall's word for a helper, but today it suggests a criminal's sidekick. Decide whether the passage is still suitable, or add a note.
+- **Day 23, Qur'an 20:131** ("some wedded pairs among them") reads oddly out of context. The reflection explains the meaning, but confirm it is clear.
+- **Passages that start mid-sentence:** days 1 (13:28 "Who have believed"), 3 (65:3 "And will provide for him"), 17 (67:2), 19 (3:134), 29 (76:8-9) and 44 (39:18 "Who hear advice") continue from the verse before. Kept as printed; check that each reads well on its own.
+- **General:** the reflections name the Prophet, Moses and Jacob without an honorific such as "(peace be upon him)". Decide whether to add one.
+
+**Humanist**
+- **Day 39, Enchiridion 5** contains "death is nothing terrible". The days 91–180 screening would have dropped this line, because it could read as dismissing death to someone at risk. **Recommend replacing** it with another passage on Responsibility.
+- **Day 42, Seneca, Letters 9.10** speaks of a friend "for whom I may die" and staking "my own life" against their death. This is the same screening concern, and a heavy one for anyone who has lost comrades. **Recommend replacing it** or adding careful framing.
+- **Day 7, Meditations 5.18** ("Nothing happens to any man which he is not formed by nature to bear"), with a reflection ending "reasoned resolve can as well", could make someone who is struggling feel they are failing. Consider adding a line that getting help is part of bearing hard things.
+- **Day 11 (Grief):** unlike the other three traditions, the prompts do not suggest sharing grief with someone. Consider changing one prompt.
+- **Day 36, Meditations 7.22** ("soon both of you will die") and **day 12, Enchiridion 17** ("if short, of a short one", life as a short play) are mild mentions of death. Check the tone.
+- **Day 18 (Homecoming), Meditations 6.11** is about regaining your balance, not about coming home. It is a loose fit for the theme.
+- **Long's bracketed insertions** not in the list above: Meditations 8.33 (day 14), 6.39 (day 21), 11.4 (day 29), 7.45 (day 35). Kept as printed.
+
 ## Per-tradition checklist
 
 For each entry the reviewer confirms:
