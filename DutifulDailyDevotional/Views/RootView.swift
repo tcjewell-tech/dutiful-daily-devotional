@@ -23,7 +23,7 @@ struct RootView: View {
                     FavoritesView()
                         .tabItem { Label("Favorites", systemImage: "heart") }
                         .tag(AppTab.favorites)
-                    SettingsView()
+                    SettingsView(traditionRaw: $traditionRaw, discreetLockScreen: $discreetLockScreen)
                         .tabItem { Label("Settings", systemImage: "gearshape") }
                         .tag(AppTab.settings)
                 }
