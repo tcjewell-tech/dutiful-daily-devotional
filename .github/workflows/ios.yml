@@ -31,3 +31,29 @@ jobs:
             -scheme DutifulDailyDevotional \
             -destination "platform=iOS Simulator,name=$DEVICE" \
             CODE_SIGNING_ALLOWED=NO
+
+      # Unsigned simulator build for Appetize.io: a zip with the .app at its root.
+      - name: Build simulator app for Appetize
+        run: |
+          xcodebuild build \
+            -project DutifulDailyDevotional.xcodeproj \
+            -scheme DutifulDailyDevotional \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Release \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO
+          cd build/Build/Products/Release-iphonesimulator
+          ditto -c -k --sequesterRsrc --keepParent DutifulDailyDevotional.app "$GITHUB_WORKSPACE/DutifulDailyDevotional-simulator.zip"
+          cd "$GITHUB_WORKSPACE"
+          unzip -l DutifulDailyDevotional-simulator.zip | head -8
+          unzip -Z1 DutifulDailyDevotional-simulator.zip | grep -qx 'DutifulDailyDevotional.app/DutifulDailyDevotional' \
+            || { echo "zip must hold DutifulDailyDevotional.app at its root"; exit 1; }
+
+      - name: Upload simulator app
+        uses: actions/upload-artifact@v7
+        with:
+          path: DutifulDailyDevotional-simulator.zip
+          archive: false
+          retention-days: 30
+          if-no-files-found: error
