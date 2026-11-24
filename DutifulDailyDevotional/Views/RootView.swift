@@ -2,17 +2,15 @@ import SwiftUI
 import WidgetKit
 
 struct RootView: View {
-    @AppStorage(UserPreferences.selectedTraditionKey, store: UserPreferences.defaults)
-    private var traditionRaw = ""
-    @AppStorage(UserPreferences.discreetLockScreenKey, store: UserPreferences.defaults)
-    private var discreetLockScreen = true
+    // The one owner of the preferences; Settings edits this same instance, so Today follows at once.
+    @State private var preferences = AppPreferences()
     @State private var selectedTab = AppTab.today
 
     enum AppTab { case today, archive, favorites, settings }
 
     var body: some View {
         Group {
-            if let tradition = Tradition(rawValue: traditionRaw) {
+            if let tradition = preferences.selectedTradition {
                 TabView(selection: $selectedTab) {
                     TodayView(tradition: tradition)
                         .tabItem { Label("Today", systemImage: "sun.max") }
@@ -23,18 +21,18 @@ struct RootView: View {
                     FavoritesView()
                         .tabItem { Label("Favorites", systemImage: "heart") }
                         .tag(AppTab.favorites)
-                    SettingsView(traditionRaw: $traditionRaw, discreetLockScreen: $discreetLockScreen)
+                    SettingsView(preferences: preferences)
                         .tabItem { Label("Settings", systemImage: "gearshape") }
                         .tag(AppTab.settings)
                 }
             } else {
-                OnboardingView { traditionRaw = $0.rawValue }
+                OnboardingView { preferences.selectedTradition = $0 }
             }
         }
         .onOpenURL { url in
             if DeepLink(url: url) == .today { selectedTab = .today }
         }
-        .onChange(of: traditionRaw) { WidgetCenter.shared.reloadAllTimelines() }
-        .onChange(of: discreetLockScreen) { WidgetCenter.shared.reloadAllTimelines() }
+        .onChange(of: preferences.selectedTradition) { WidgetCenter.shared.reloadAllTimelines() }
+        .onChange(of: preferences.discreetLockScreen) { WidgetCenter.shared.reloadAllTimelines() }
     }
 }
