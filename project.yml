@@ -94,6 +94,17 @@ targets:
         TEST_HOST: "$(BUILT_PRODUCTS_DIR)/DutifulDailyDevotional.app/DutifulDailyDevotional"
         BUNDLE_LOADER: "$(TEST_HOST)"
 
+  DutifulDailyDevotionalUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: DutifulDailyDevotionalUITests
+    dependencies:
+      - target: DutifulDailyDevotional
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: "YES"
+
 schemes:
   DutifulDailyDevotional:
     build:
@@ -102,3 +113,4 @@ schemes:
     test:
       targets:
         - DutifulDailyDevotionalTests
+        - DutifulDailyDevotionalUITests

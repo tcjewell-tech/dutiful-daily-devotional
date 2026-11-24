@@ -1,10 +1,9 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @AppStorage(UserPreferences.selectedTraditionKey, store: UserPreferences.defaults)
-    private var traditionRaw = ""
-    @AppStorage(UserPreferences.discreetLockScreenKey, store: UserPreferences.defaults)
-    private var discreetLockScreen = true
+    // Bound to RootView's @AppStorage: a second @AppStorage here didn't reliably update RootView (and so Today and widgets).
+    @Binding var traditionRaw: String
+    @Binding var discreetLockScreen: Bool
 
     var body: some View {
         NavigationStack {

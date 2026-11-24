@@ -14,6 +14,7 @@ struct DevotionalCardView: View {
                 Text(devotional.reference).font(.subheadline).foregroundStyle(.secondary)
             }
             .accessibilityElement(children: .combine)
+            .accessibilityIdentifier("devotionalPassage")
             Divider()
             Text(devotional.reflection)
         }
