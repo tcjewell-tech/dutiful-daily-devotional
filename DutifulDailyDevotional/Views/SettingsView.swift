@@ -1,20 +1,19 @@
 import SwiftUI
 
 struct SettingsView: View {
-    // Bound to RootView's @AppStorage: a second @AppStorage here didn't reliably update RootView (and so Today and widgets).
-    @Binding var traditionRaw: String
-    @Binding var discreetLockScreen: Bool
+    // RootView's instance: a second copy here (it used to be @AppStorage) didn't reliably update Today and widgets.
+    @Bindable var preferences: AppPreferences
 
     var body: some View {
         NavigationStack {
             Form {
                 Section("Tradition") {
-                    Picker("Tradition", selection: $traditionRaw) {
-                        ForEach(Tradition.allCases) { Text($0.displayName).tag($0.rawValue) }
+                    Picker("Tradition", selection: $preferences.selectedTradition) {
+                        ForEach(Tradition.allCases) { Text($0.displayName).tag(Optional($0)) }
                     }
                 }
                 Section {
-                    Toggle("Discreet lock screen", isOn: $discreetLockScreen)
+                    Toggle("Discreet lock screen", isOn: $preferences.discreetLockScreen)
                 } footer: {
                     Text("When on, the lock screen widget shows only the day's theme, with no reference or tradition.")
                 }

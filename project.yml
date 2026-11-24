@@ -113,4 +113,11 @@ schemes:
     test:
       targets:
         - DutifulDailyDevotionalTests
+  # UI tests take over a minute of macOS time each, so CI's default scheme leaves them out; run this scheme by hand.
+  DutifulDailyDevotionalUITests:
+    build:
+      targets:
+        DutifulDailyDevotional: all
+    test:
+      targets:
         - DutifulDailyDevotionalUITests
