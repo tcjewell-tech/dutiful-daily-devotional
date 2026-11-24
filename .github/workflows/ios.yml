@@ -1,8 +1,24 @@
 name: iOS
 
+# macOS minutes are expensive: run on main, on PRs that touch the iOS app, and by hand.
 on:
   push:
+    branches: [main]
   pull_request:
+    paths:
+      - "DutifulDailyDevotional/**"
+      - "DutifulDailyDevotionalTests/**"
+      - "DutifulDailyDevotionalUITests/**"
+      - "DutifulDailyDevotionalWidget/**"
+      - "Shared/**"
+      - "project.yml"
+      - ".github/workflows/ios.yml"
+  workflow_dispatch:
+
+# A newer run on the same branch or PR cancels the older one.
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-and-test:
