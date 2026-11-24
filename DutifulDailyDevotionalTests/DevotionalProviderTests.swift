@@ -16,26 +16,25 @@ final class DevotionalProviderTests: XCTestCase {
         DevotionalProvider.index(for: date, calendar: calendar, count: 90)
     }
 
-    func testJanuaryFirstIsIndexOne() throws {
-        XCTAssertEqual(index(try date(2027, 1, 1)), 1)
+    func testJanuaryFirstIsIndexZero() throws {
+        XCTAssertEqual(index(try date(2027, 1, 1)), 0)
     }
 
     func testDecember31InCommonYear() throws {
-        XCTAssertEqual(index(try date(2026, 12, 31)), 365 % 90)
+        XCTAssertEqual(index(try date(2026, 12, 31)), 364 % 90)
     }
 
     func testDecember31InLeapYear() throws {
-        XCTAssertEqual(index(try date(2028, 12, 31)), 366 % 90)
+        XCTAssertEqual(index(try date(2028, 12, 31)), 365 % 90)
     }
 
     func testFebruary29() throws {
-        XCTAssertEqual(index(try date(2028, 2, 29)), 60)
+        XCTAssertEqual(index(try date(2028, 2, 29)), 59)
     }
 
-    func testYearRolloverRepeatsEarlyEntries() throws {
-        // Known, accepted: Dec 27–31 show the same entries as Jan 1–5.
-        XCTAssertEqual(index(try date(2026, 12, 27)), index(try date(2027, 1, 1)))
-        XCTAssertEqual(index(try date(2026, 12, 31)), index(try date(2027, 1, 5)))
+    func testNoEntriesOrBadDayGivesIndexZero() {
+        XCTAssertEqual(DevotionalProvider.index(dayOfYear: 5, count: 0), 0)
+        XCTAssertEqual(DevotionalProvider.index(dayOfYear: 0, count: 90), 0)
     }
 
     func testLocalMidnightBoundary() throws {
@@ -44,8 +43,27 @@ final class DevotionalProviderTests: XCTestCase {
         // 08:00 UTC on Jan 1 is midnight in Los Angeles (PST, UTC-8).
         let beforeMidnight = try XCTUnwrap(utc.date(from: DateComponents(year: 2027, month: 1, day: 1, hour: 7, minute: 59, second: 59)))
         let atMidnight = try XCTUnwrap(utc.date(from: DateComponents(year: 2027, month: 1, day: 1, hour: 8)))
-        XCTAssertEqual(index(beforeMidnight), 365 % 90)
-        XCTAssertEqual(index(atMidnight), 1)
+        XCTAssertEqual(index(beforeMidnight), 364 % 90)
+        XCTAssertEqual(index(atMidnight), 0)
+    }
+
+    /// `Shared/TestFixtures/day_selection_cases.json` is also checked by the Android ContentTest.
+    func testSharedDaySelectionFixture() throws {
+        struct Fixture: Decodable {
+            struct Case: Decodable { let date: String; let count: Int; let index: Int }
+            let cases: [Case]
+        }
+        let url = try XCTUnwrap(Bundle(for: Self.self).url(forResource: "day_selection_cases", withExtension: "json"))
+        let fixture = try JSONDecoder().decode(Fixture.self, from: Data(contentsOf: url))
+        XCTAssertFalse(fixture.cases.isEmpty)
+        for testCase in fixture.cases {
+            let parts = testCase.date.split(separator: "-").compactMap { Int($0) }
+            XCTAssertEqual(parts.count, 3, testCase.date)
+            guard parts.count == 3 else { continue }
+            let day = try date(parts[0], parts[1], parts[2])
+            XCTAssertEqual(DevotionalProvider.index(for: day, calendar: calendar, count: testCase.count), testCase.index,
+                           "\(testCase.date) with \(testCase.count) entries")
+        }
     }
 
     func testPicksEntryAtIndexFromSortedEntries() throws {
@@ -53,8 +71,8 @@ final class DevotionalProviderTests: XCTestCase {
             Devotional(tradition: .christian, day: $0, theme: "T\($0)", reference: "", passageText: "",
                        reflection: "", studyPrompts: [])
         }
-        // Jan 3 → day of year 3 → 3 % 10 = index 3 → day 4.
-        XCTAssertEqual(DevotionalProvider.devotional(from: entries, on: try date(2027, 1, 3), calendar: calendar)?.day, 4)
+        // Jan 3 → day of year 3 → (3 - 1) % 10 = index 2 → day 3.
+        XCTAssertEqual(DevotionalProvider.devotional(from: entries, on: try date(2027, 1, 3), calendar: calendar)?.day, 3)
     }
 
     func testNoEntriesGivesNil() throws {

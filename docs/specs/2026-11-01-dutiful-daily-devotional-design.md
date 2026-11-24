@@ -86,9 +86,9 @@ Estimated ~9 MB uncompressed total.
 
 ## 5. Daily selection
 
-`index = dayOfYear % entries.count` (dayOfYear is 1-based, local calendar), computed in `DevotionalProvider`, shared by app and widget so they always agree. Entry chosen is `entries[index]` sorted by `day`.
+`index = (dayOfYear - 1) % entries.count` (dayOfYear is 1-based, local calendar), computed in `DevotionalProvider`, shared by app and widget so they always agree. Entry chosen is `entries[index]` sorted by `day`, so January 1 shows day 1.
 
-Known, accepted behavior: at year rollover the last 5 days (6 in leap years) repeat entries that reappear on Jan 1–6. Covered by tests.
+Known, accepted behavior: when the catalog is shorter than the year, the dates after it runs out repeat entries from the start (with 270 entries, days 1–95 or 96 show twice a year). Changing `entries.count` changes which entry later dates show. `Shared/TestFixtures/day_selection_cases.json` holds the expected index for edge dates, and both the iOS and Android tests check against it.
 
 ## 6. Features (P0)
 
@@ -162,7 +162,7 @@ Dependencies flow one way: Views → Provider/Store/LocalTextStore → models. `
 ## 9. Testing
 
 XCTest, run on the macOS CI runner on every push:
-- **DevotionalProvider:** index for Jan 1, Dec 31 (365 and 366), Feb 29, year rollover, local-midnight boundary in a non-UTC time zone; app and widget code paths return the same entry.
+- **DevotionalProvider:** index for Jan 1, Dec 31 (365 and 366), Feb 29, the shared `day_selection_cases.json` fixture (also run by the Android tests), local-midnight boundary in a non-UTC time zone; app and widget code paths return the same entry.
 - **Decoding:** all four devotional files decode; each has exactly 90 entries with days 1…90; themes for the same day match across traditions; every entry has 3 non-empty prompts.
 - **SourceReference:** parsing for all four formats, ranges, numbered books (`1 John 4:19`), invalid input.
 - **LocalTextStore:** loads a division, highlights the right verses, handles missing files.

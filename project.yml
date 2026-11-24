@@ -16,6 +16,9 @@ targets:
     platform: iOS
     sources:
       - path: Shared
+        excludes:
+          - "TestFixtures"
+          - "TestFixtures/**"
       - path: DutifulDailyDevotional
         excludes:
           - "Resources/Texts"
@@ -51,6 +54,9 @@ targets:
     platform: iOS
     sources:
       - path: Shared
+        excludes:
+          - "TestFixtures"
+          - "TestFixtures/**"
       - path: DutifulDailyDevotionalWidget
     info:
       path: DutifulDailyDevotionalWidget/Info.plist
@@ -77,6 +83,9 @@ targets:
           - "Fixtures/**"
       - path: DutifulDailyDevotionalTests/Fixtures/Texts
         type: folder
+      # Shared with the Android ContentTest, which reads it from the repository.
+      - path: Shared/TestFixtures/day_selection_cases.json
+        buildPhase: resources
     dependencies:
       - target: DutifulDailyDevotional
     settings:
