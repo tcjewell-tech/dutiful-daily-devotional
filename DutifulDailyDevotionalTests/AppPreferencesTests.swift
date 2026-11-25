@@ -45,6 +45,13 @@ final class AppPreferencesTests: XCTestCase {
         XCTAssertFalse(AppPreferences(store: store).discreetLockScreen)
     }
 
+    func testOrientationShowsOnceThenStaysDismissed() {
+        let preferences = AppPreferences(store: store)
+        XCTAssertFalse(preferences.hasSeenOrientation, "a new user must get the walkthrough")
+        preferences.hasSeenOrientation = true
+        XCTAssertTrue(AppPreferences(store: store).hasSeenOrientation, "a relaunch would show it again")
+    }
+
     func testUnknownStoredTraditionReadsAsNone() {
         store.set("unknown", forKey: UserPreferences.selectedTraditionKey)
         XCTAssertNil(AppPreferences(store: store).selectedTradition)

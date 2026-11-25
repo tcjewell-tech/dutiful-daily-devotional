@@ -25,6 +25,15 @@ struct RootView: View {
                         .tabItem { Label("Settings", systemImage: "gearshape") }
                         .tag(AppTab.settings)
                 }
+                .environment(preferences)
+                .overlay {
+                    if !preferences.hasSeenOrientation {
+                        OrientationOverlay(selectedTab: $selectedTab) {
+                            preferences.hasSeenOrientation = true
+                            selectedTab = .today
+                        }
+                    }
+                }
             } else {
                 OnboardingView { preferences.selectedTradition = $0 }
             }

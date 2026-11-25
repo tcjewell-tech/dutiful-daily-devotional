@@ -45,8 +45,14 @@ final class AppPreferences {
         didSet { store.set(discreetLockScreen, forKey: UserPreferences.discreetLockScreenKey) }
     }
 
+    /// App-only (the widget never reads it). Setting it back to false replays the walkthrough.
+    var hasSeenOrientation: Bool {
+        didSet { store.set(hasSeenOrientation, forKey: "hasSeenOrientation") }
+    }
+
     init(store: UserDefaults = UserPreferences.defaults) {
         self.store = store
+        hasSeenOrientation = store.bool(forKey: "hasSeenOrientation")
         selectedTradition = store.string(forKey: UserPreferences.selectedTraditionKey).flatMap(Tradition.init(rawValue:))
         discreetLockScreen = store.object(forKey: UserPreferences.discreetLockScreenKey) as? Bool ?? true
     }

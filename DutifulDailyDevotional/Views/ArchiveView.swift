@@ -26,6 +26,7 @@ struct ArchiveView: View {
                 }
             }
             .navigationTitle("Archive")
+            .toolbar { SupportToolbar() }
         }
     }
 }
