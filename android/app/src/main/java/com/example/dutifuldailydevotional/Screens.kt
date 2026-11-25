@@ -46,8 +46,14 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -63,15 +69,16 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 
-private enum class Tab(val label: String) { TODAY("Today"), ARCHIVE("Archive"), FAVORITES("Favorites"), SETTINGS("Settings") }
+internal enum class Tab(val label: String) { TODAY("Today"), ARCHIVE("Archive"), FAVORITES("Favorites"), SETTINGS("Settings") }
 
-/** Screens pushed over the tabs, saved as strings so they survive rotation: "detail:<id>", "study:<id>", "talk", "about". */
+/** Screens pushed over the tabs, saved as strings so they survive rotation: "detail:<id>", "study:<id>", "talk", "help", "about". */
 @Composable
 fun App(userData: UserData) {
     val context = LocalContext.current
     var tradition by remember { mutableStateOf(userData.tradition) }
     var stack by rememberSaveable { mutableStateOf(listOf<String>()) }
     var tab by rememberSaveable { mutableStateOf(Tab.TODAY) }
+    var seenOrientation by remember { mutableStateOf(userData.hasSeenOrientation) }
     val push: (String) -> Unit = { stack = stack + it }
     val back: () -> Unit = { stack = stack.dropLast(1) }
     BackHandler(enabled = stack.isNotEmpty(), onBack = back)
@@ -86,63 +93,116 @@ fun App(userData: UserData) {
         return
     }
 
-    val top = stack.lastOrNull()
-    when {
-        top == "talk" -> PushedScreen("Need to talk?", back) { NeedToTalkContent() }
-        top == "about" -> PushedScreen("Sources and privacy", back) { AboutContent() }
-        top != null && top.startsWith("detail:") -> {
-            val d = ContentRepository.byId(context, top.removePrefix("detail:"))
-            PushedScreen(d?.theme ?: "", back) {
-                if (d == null) Unavailable() else DevotionalContent(d, userData) { push("study:${d.id}") }
-            }
-        }
-        top != null && top.startsWith("study:") -> {
-            val d = ContentRepository.byId(context, top.removePrefix("study:"))
-            PushedScreen("Study", back) { if (d == null) Unavailable() else StudyContent(d, userData) }
-        }
-        else -> Scaffold(
-            topBar = {
-                TopAppBar(
-                    title = { Text(tab.label) },
-                    actions = {
-                        if (tab == Tab.TODAY) {
-                            IconButton(onClick = { push("talk") }) { Icon(Icons.Filled.Phone, "Need to talk?") }
+    // Non-null only while the first-run walkthrough is showing.
+    val orientation = remember(seenOrientation) { if (seenOrientation) null else OrientationState() }
+    val setSeenOrientation: (Boolean) -> Unit = {
+        userData.hasSeenOrientation = it
+        seenOrientation = it
+        stack = emptyList()
+        tab = Tab.TODAY
+    }
+
+    Box {
+        CompositionLocalProvider(LocalOrientation provides orientation) {
+            // Hidden from TalkBack while the walkthrough covers it, so the reader stays on the card.
+            Box(if (orientation != null) Modifier.clearAndSetSemantics { } else Modifier) {
+                // A new key when the walkthrough starts or ends puts every screen back at the top.
+                key(seenOrientation) {
+                    val top = stack.lastOrNull()
+                    when {
+                        top == "talk" -> PushedScreen("Need to talk?", back) { NeedToTalkContent() }
+                        top == "about" -> PushedScreen("Sources and privacy", back) { AboutContent() }
+                        top == "help" -> PushedScreen("Help", back) {
+                            HelpContent(
+                                onReplay = { setSeenOrientation(false) },
+                                onNeedToTalk = { push("talk") },
+                                onAbout = { push("about") },
+                            )
                         }
-                    },
-                )
-            },
-            bottomBar = {
-                NavigationBar {
-                    Tab.entries.forEach { t ->
-                        NavigationBarItem(
-                            selected = t == tab,
-                            onClick = { tab = t },
-                            icon = { Icon(t.icon(), null) },
-                            label = { Text(t.label) },
-                        )
+                        top != null && top.startsWith("detail:") -> {
+                            val d = ContentRepository.byId(context, top.removePrefix("detail:"))
+                            PushedScreen(d?.theme ?: "", back) {
+                                if (d == null) Unavailable() else DevotionalContent(d, userData) { push("study:${d.id}") }
+                            }
+                        }
+                        top != null && top.startsWith("study:") -> {
+                            val d = ContentRepository.byId(context, top.removePrefix("study:"))
+                            PushedScreen("Study", back) { if (d == null) Unavailable() else StudyContent(d, userData) }
+                        }
+                        else -> Scaffold(
+                            topBar = {
+                                TopAppBar(
+                                    title = { Text(tab.label) },
+                                    navigationIcon = {
+                                        TextButton(
+                                            onClick = { push("help") },
+                                            modifier = Modifier.orientationTarget(orientation, OrientationTarget.HELP),
+                                        ) {
+                                            Text("?", fontWeight = FontWeight.Bold, modifier = Modifier.semantics { contentDescription = "Help" })
+                                        }
+                                    },
+                                    actions = {
+                                        TextButton(
+                                            onClick = { push("talk") },
+                                            modifier = Modifier.orientationTarget(orientation, OrientationTarget.SOS),
+                                        ) {
+                                            Text(
+                                                "SOS",
+                                                fontWeight = FontWeight.Bold,
+                                                color = MaterialTheme.colorScheme.error,
+                                                modifier = Modifier.semantics { contentDescription = "SOS, crisis and support lines" },
+                                            )
+                                        }
+                                    },
+                                )
+                            },
+                            bottomBar = {
+                                NavigationBar {
+                                    Tab.entries.forEach { t ->
+                                        NavigationBarItem(
+                                            selected = t == tab,
+                                            onClick = { tab = t },
+                                            icon = { Icon(t.icon(), null) },
+                                            label = { Text(t.label) },
+                                            modifier = Modifier.orientationTarget(orientation, t.orientationTarget()),
+                                        )
+                                    }
+                                }
+                            },
+                        ) { padding ->
+                            Box(Modifier.padding(padding)) {
+                                when (tab) {
+                                    Tab.TODAY -> TodayContent(current, userData) { push("study:$it") }
+                                    Tab.ARCHIVE -> ArchiveContent(current) { push("detail:$it") }
+                                    Tab.FAVORITES -> FavoritesContent(userData) { push("detail:$it") }
+                                    Tab.SETTINGS -> SettingsContent(
+                                        selected = current,
+                                        onSelect = {
+                                            userData.tradition = it
+                                            tradition = it
+                                            DevotionalWidget.updateAll(context)
+                                        },
+                                        onNeedToTalk = { push("talk") },
+                                        onAbout = { push("about") },
+                                    )
+                                }
+                            }
+                        }
                     }
                 }
-            },
-        ) { padding ->
-            Box(Modifier.padding(padding)) {
-                when (tab) {
-                    Tab.TODAY -> TodayContent(current, userData) { push("study:$it") }
-                    Tab.ARCHIVE -> ArchiveContent(current) { push("detail:$it") }
-                    Tab.FAVORITES -> FavoritesContent(userData) { push("detail:$it") }
-                    Tab.SETTINGS -> SettingsContent(
-                        selected = current,
-                        onSelect = {
-                            userData.tradition = it
-                            tradition = it
-                            DevotionalWidget.updateAll(context)
-                        },
-                        onNeedToTalk = { push("talk") },
-                        onAbout = { push("about") },
-                    )
-                }
             }
         }
+        if (orientation != null) {
+            OrientationOverlay(orientation, onStep = { tab = it }, finish = { setSeenOrientation(true) })
+        }
     }
+}
+
+private fun Tab.orientationTarget() = when (this) {
+    Tab.TODAY -> null
+    Tab.ARCHIVE -> OrientationTarget.ARCHIVE_TAB
+    Tab.FAVORITES -> OrientationTarget.FAVORITES_TAB
+    Tab.SETTINGS -> OrientationTarget.SETTINGS_TAB
 }
 
 private fun Tab.icon() = when (this) {
@@ -222,24 +282,40 @@ private fun Unavailable() {
 private fun DevotionalContent(devotional: Devotional, userData: UserData, onStudy: () -> Unit) {
     val context = LocalContext.current
     var favorite by remember(devotional.id) { mutableStateOf(userData.isFavorite(devotional.id)) }
+    val orientation = LocalOrientation.current
+    val scroll = rememberScrollState()
+    // The buttons sit below a long reading, so the walkthrough scrolls to whatever its current step lights up.
+    LaunchedEffect(orientation?.targets) {
+        val targets = orientation?.targets ?: return@LaunchedEffect
+        val buttons = OrientationTarget.STUDY in targets || OrientationTarget.ACTIONS in targets
+        scroll.scrollTo(if (buttons) scroll.maxValue else 0)
+    }
     Column(
-        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp),
+        Modifier.fillMaxSize().verticalScroll(scroll).padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(
-            devotional.theme,
-            style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.semantics { heading() },
-        )
-        Column(Modifier.semantics(mergeDescendants = true) {}, verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(devotional.passageText, style = MaterialTheme.typography.titleLarge)
-            Text(devotional.reference, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Column(
+            Modifier.orientationTarget(orientation, OrientationTarget.READING),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+        ) {
+            Text(
+                devotional.theme,
+                style = MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.semantics { heading() },
+            )
+            Column(Modifier.semantics(mergeDescendants = true) {}, verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(devotional.passageText, style = MaterialTheme.typography.titleLarge)
+                Text(devotional.reference, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            HorizontalDivider()
+            Text(devotional.reflection, style = MaterialTheme.typography.bodyLarge)
         }
-        HorizontalDivider()
-        Text(devotional.reflection, style = MaterialTheme.typography.bodyLarge)
-        Button(onClick = onStudy) { Text("Study this") }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Button(onClick = onStudy, modifier = Modifier.orientationTarget(orientation, OrientationTarget.STUDY)) { Text("Study this") }
+        Row(
+            Modifier.orientationTarget(orientation, OrientationTarget.ACTIONS),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
             OutlinedButton(onClick = {
                 favorite = !favorite
                 userData.setFavorite(devotional.id, favorite)
@@ -375,23 +451,66 @@ private fun SettingsContent(
     }
 }
 
-/** Static and offline. The only action opens the phone dialer; the user places the call. */
+/**
+ * Static and offline. The only action opens the phone dialer; the user places the call.
+ * Same numbers as the iPhone app's NeedToTalkView; recheck all of them before each release.
+ */
 @Composable
 private fun NeedToTalkContent() {
-    val context = LocalContext.current
     Column(
         Modifier.verticalScroll(rememberScrollState()).padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Text("If you are struggling or thinking about harming yourself, you don't have to face it alone. Help is available 24 hours a day.")
         Heading("Military/Veterans Crisis Line")
-        Button(onClick = { context.startActivity(Intent(Intent.ACTION_DIAL, Uri.parse("tel:988"))) }) {
-            Icon(Icons.Filled.Phone, null)
-            Text("  Call 988, then press 1")
-        }
+        CallButton("Call 988, then press 1", "988")
         Text("Or text 838255.")
+        Text("Free and confidential. For thoughts of suicide or any crisis.", style = MaterialTheme.typography.bodySmall)
+        Heading("Crisis line from overseas")
+        CallButton("Europe: +1 844-702-5495", "+18447025495")
+        CallButton("Pacific: +1 844-702-5493", "+18447025493")
+        CallButton("Middle East: +1 855-422-7719", "+18554227719")
+        CallButton("Africa: +1 888-482-6054", "+18884826054")
+        CallButton("Central and South America: +1 866-989-9599", "+18669899599")
+        Text("On base, dial DSN 988. Off base, call the number for your region.", style = MaterialTheme.typography.bodySmall)
+        Heading("Stress, anxiety or worry")
+        CallButton("Military OneSource: 800-342-9647", "+18003429647")
+        Text("Crisis Text Line: text HOME to 741741.")
+        Text(
+            "Military OneSource offers free, confidential counseling for service members and families, day or night. You don't need to be in crisis to call.",
+            style = MaterialTheme.typography.bodySmall,
+        )
+        Heading("Sexual assault")
+        CallButton("DoD Safe Helpline: 877-995-5247", "+18779955247")
         Heading("Chaplain")
         Text("You can also talk with your unit chaplain, whatever your faith or none.")
+    }
+}
+
+@Composable
+private fun CallButton(label: String, number: String) {
+    val context = LocalContext.current
+    Button(onClick = { context.startActivity(Intent(Intent.ACTION_DIAL, Uri.parse("tel:$number"))) }) {
+        Icon(Icons.Filled.Phone, null)
+        Text("  $label")
+    }
+}
+
+@Composable
+private fun HelpContent(onReplay: () -> Unit, onNeedToTalk: () -> Unit, onAbout: () -> Unit) {
+    Column(Modifier.verticalScroll(rememberScrollState()).padding(vertical = 8.dp)) {
+        Text(
+            "What everything does",
+            style = MaterialTheme.typography.titleSmall,
+            modifier = Modifier.padding(horizontal = 16.dp).semantics { heading() },
+        )
+        OrientationStep.all.forEach { step ->
+            ListItem(headlineContent = { Text(step.title) }, supportingContent = { Text(step.text) })
+        }
+        HorizontalDivider()
+        ListItem(headlineContent = { Text("Show the walkthrough again") }, modifier = Modifier.clickable(onClick = onReplay))
+        ListItem(headlineContent = { Text("Need to talk?") }, modifier = Modifier.clickable(onClick = onNeedToTalk))
+        ListItem(headlineContent = { Text("Sources and privacy") }, modifier = Modifier.clickable(onClick = onAbout))
     }
 }
 
