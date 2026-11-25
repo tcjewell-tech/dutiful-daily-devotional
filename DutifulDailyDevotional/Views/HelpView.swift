@@ -5,12 +5,12 @@ struct SupportToolbar: ToolbarContent {
     var body: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
             NavigationLink { HelpView() } label: {
-                Label("Help", systemImage: "questionmark.circle")
+                Label("Help", systemImage: "questionmark.circle").orientationTarget(.help)
             }
         }
         ToolbarItem(placement: .topBarTrailing) {
             NavigationLink { NeedToTalkView() } label: {
-                Text("SOS").fontWeight(.bold).foregroundStyle(.red)
+                Text("SOS").fontWeight(.bold).foregroundStyle(.red).orientationTarget(.sos)
             }
             .accessibilityHint("Crisis and support lines")
         }
