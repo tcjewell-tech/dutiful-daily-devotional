@@ -15,11 +15,7 @@ struct TodayView: View {
                 }
             }
             .navigationTitle("Today")
-            .toolbar {
-                NavigationLink { NeedToTalkView() } label: {
-                    Label("Need to talk?", systemImage: "phone")
-                }
-            }
+            .toolbar { SupportToolbar() }
         }
         // Posted at local midnight (queued while suspended), so Today moves on without a relaunch.
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in
@@ -36,10 +32,12 @@ struct DevotionalDetailView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 DevotionalCardView(devotional: devotional)
+                    .orientationTarget(.reading)
                 NavigationLink { StudyView(devotional: devotional) } label: {
                     Label("Study this", systemImage: "book")
                 }
                 .buttonStyle(.borderedProminent)
+                .orientationTarget(.study)
                 HStack {
                     FavoriteButton(devotionalID: devotional.id)
                     ShareLink(item: devotional.shareText) {
@@ -47,6 +45,7 @@ struct DevotionalDetailView: View {
                     }
                     .buttonStyle(.bordered)
                 }
+                .orientationTarget(.actions)
             }
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)

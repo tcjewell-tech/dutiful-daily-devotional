@@ -13,6 +13,9 @@ final class TraditionSwitchUITests: XCTestCase {
         // A fresh simulator starts on onboarding; a reused one may already have a tradition.
         let onboardingChoice = app.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Christian'")).firstMatch
         if onboardingChoice.waitForExistence(timeout: 5) { onboardingChoice.tap() }
+        // The first-run walkthrough covers the tab bar until it is dismissed.
+        let skip = app.buttons["Skip"]
+        if skip.waitForExistence(timeout: 5) { skip.tap() }
 
         choose("Christian")
         let christian = todayPassage()

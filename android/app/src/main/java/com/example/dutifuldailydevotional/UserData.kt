@@ -14,6 +14,11 @@ class UserData(context: Context) {
         get() = Tradition.fromKey(settings.getString(KEY_TRADITION, null))
         set(value) = settings.edit().putString(KEY_TRADITION, value?.key).apply()
 
+    /** Setting it back to false replays the walkthrough. */
+    var hasSeenOrientation: Boolean
+        get() = settings.getBoolean("hasSeenOrientation", false)
+        set(value) = settings.edit().putBoolean("hasSeenOrientation", value).apply()
+
     fun isFavorite(id: String): Boolean = data.contains(FAVORITE + id)
 
     fun setFavorite(id: String, favorite: Boolean) {

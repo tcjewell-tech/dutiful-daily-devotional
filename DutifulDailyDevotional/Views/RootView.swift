@@ -5,6 +5,7 @@ struct RootView: View {
     // The one owner of the preferences; Settings edits this same instance, so Today follows at once.
     @State private var preferences = AppPreferences()
     @State private var selectedTab = AppTab.today
+    @State private var orientationFrames = OrientationFrames()
 
     enum AppTab { case today, archive, favorites, settings }
 
@@ -24,6 +25,19 @@ struct RootView: View {
                     SettingsView(preferences: preferences)
                         .tabItem { Label("Settings", systemImage: "gearshape") }
                         .tag(AppTab.settings)
+                }
+                // A new identity when the walkthrough starts or ends: every tab goes back to its first screen,
+                // scrolled to the top, so the spotlight lands on what is actually showing.
+                .id(preferences.hasSeenOrientation)
+                .environment(preferences)
+                .environment(orientationFrames)
+                .overlay {
+                    if !preferences.hasSeenOrientation {
+                        OrientationOverlay(selectedTab: $selectedTab, frames: orientationFrames.rects) {
+                            preferences.hasSeenOrientation = true
+                            selectedTab = .today
+                        }
+                    }
                 }
             } else {
                 OnboardingView { preferences.selectedTradition = $0 }

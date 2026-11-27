@@ -24,6 +24,7 @@ struct FavoritesView: View {
                 }
             }
             .navigationTitle("Favorites")
+            .toolbar { SupportToolbar() }
         }
     }
 }
